@@ -1,0 +1,28 @@
+$ ./busybox.exe
+BusyBox v1.18.1_17_0-453-gd9c358b.git (2010-09-23 12:21:30 EST) multi-call binary.
+Copyright (C) 1998-2009 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+
+Usage: busybox [function] [arguments]...
+   or: busybox --list[-full]
+   or: function [arguments]...
+
+        BusyBox is a multi-call binary that combines many common Unix
+        utilities into a single executable.  Most people will create a
+        link to busybox for each function they wish to use and BusyBox
+        will act like whatever it was invoked as.
+
+Currently defined functions:
+        [, [[, ar, ash, awk, base64, basename, bash, bbconfig, bunzip2, bzcat,
+        bzip2, cal, cat, catv, cksum, cmp, comm, cp, cut, date, dc, dd, diff,
+        dirname, dos2unix, echo, ed, egrep, env, expand, expr, false, fgrep,
+        find, fold, getopt, grep, gunzip, gzip, hd, head, hexdump, kill,
+        killall, length, ls, lzcat, md5sum, mkdir, mv, od, pgrep, pidof,
+        printenv, printf, ps, pwd, rm, rmdir, sed, seq, sh, sleep, sort, split,
+        strings, sum, tac, tail, tar, tee, test, touch, tr, true, uncompress,
+        unexpand, uniq, unix2dos, unlzma, unzip, usleep, uudecode, uuencode,
+        vi, wc, wget, which, whoami, xargs, yes, zcat
+
+
+$

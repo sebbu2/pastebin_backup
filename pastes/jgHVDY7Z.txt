@@ -1,0 +1,526 @@
+PC-lint for C/C++ (NT) Vers. 9.00i, Copyright Gimpel Software 1985-2012
+
+      _________________________ MESSAGE GROUP _________________________
+
+                 ----- Error Inhibition Options -----
+                (- inhibits and + enables error messages)
+        (# and Symbol may include wild-card characters '?' and '*')
+
+-e#   Inhibit message number #          !e#   Inhibit message # this line
+-e(#) Inhibit for next expression       --e(#) For entire current expression
+-e{#} Inhibit for next {region}         --e{#} For entire current {region}
+-eai  Args differ sub-integer           -ean  Args differ nominally
+-eas  Args same size                    -eau  Args differ signed-unsigned
+-ecall(#,<Func>) By number, fnc call    -efile(#,<File>) By number, file
+-efunc(#,<Func>) By number, function    +efreeze  disable Message inhibition
++efreeze(w<lvl>)  Freeze for <lvl>      ++efreeze[(w<lvl>)]  Deep-freeze <lvl>
+-elib(#)  Within library headers        -elibcall(#) Calls to library fnctns
+-elibmacro(#) For all library macros    -elibsym(#) For all library symbols
+-emacro(#,Symbol) Within macro          -emacro((#),Symbol) Within expr macro
+--emacro((#),Symbol) Within expr macro  -emacro({#},Symbol) Next stmt macro
+--emacro({#},Symbol) Within stmt macro  -epn  Pointers to nominal
+-epnc Pointers to nominal chars         -epp  Pointers are pointers
+-eps  Pointers to same size             -epu  Pointers to signed-unsigned
+-epuc Pointers to sgnd-unsgnd chars     -estring(#,String)  By number, string
+------> quit (q), previous (p), or next [n] n
+-esym(#,Symbol)  By number, symbol      +esym(#,Symbol) Enable by no. symbol
+-etd(<TypeDiff>) Ignore type diff.      -etemplate(#) In template expansion
+-etype(#,<TypeName>) By number, type    -limit(n) Limits number of messages
+++limit(n) Locks in limit of n          -save Saves error inhibitions
+-restore Resets error inhibitions       -restore_at_end Restores at module end
+-w<lvl> Set warning level (0,1,2,3,4)   -wlib(<lvl>) Library warning level
+-zero Sets exit code to 0               -zero(#) like -zero unless msg no. < #
+
+                    ------ Verbosity Options ------
+
+                  Format: -/+v[aceh-iostw#]{mf<int>*}
+     -v...  Output to stdout only
+     -v     Turn off verbosity (note absence of option letters)
+     +v...  Output to stderr and also to stdout
+     +v     Don't change options but output to stderr and stdout
+Zero or more of:                         a  Attempts to open
+ c  Unique Calls                         e  Function templates
+ h  Dump strong type hierarchy           h- Compressed form of h
+ i  Indirect files                       o  Display options
+ s  Storage consumed                     t  Template expansions
+ w  Specific Walks                       #  Append file ID nos.
+One of:                                         
+ m  Module names (the default)           f  Header Files (implies m)
+ <int>  Every <int> lines (implies f)    *  All verbosity
+------> quit (q), previous (p), or next [n] n
+
+                ----- Message Presentation Options -----
+
+-h[abefFrsSm/<M>/<I>]<ht>  message height (default = -ha_3)
+   a  Position indicator Above line        b  Indicator Below line
+   f  Frequent file information            F  Always produce file info
+   e  Place source line @ End of msg       r  Repeat source line each msg
+   s  Space after each non-wrapup msg      S  space after each msg
+   m/<M>/ Macro indicator is <M>           mn Turn off macro indication
+   <I> The position Indicator              <ht> Height of messages
+-width(<Width>,<Indent>)   Message width (default = -width(79,4))
+-append(errno,msg)     Appends msg for message errno
+-format=...            Specifies message format
+-format4a=,  -format4b=    Specifies format if msg. ht. = 4
+-format_specific=...   Prologue to specific Walk messages
+-format_stack=...      Format for output of stack information
+-format_template=...   Format for prologue to template instantiation
+-format_verbosity=...  Format for verbosity under +html
+    format codes (%...)                            format escapes (\...)
+    %c  column no.           %l  Line no.          \t   Tab
+    %C  Column no. + 1       %m  Msg text          \s   Space
+    %f  Filename             %n  msg Number        \a   Alarm
+    %i  FunctIon name        %t  msg Type          \q   Quote
+    %(...%) Use ... if '%f' or '%i' are non null   \\   Backslash
+------> quit (q), previous (p), or next [n] n
+                                                   \n   Newline
++source(suboptions)     Echos entire source files(s); suboptions:
+  -number     Do not number lines         -indent     Do not indent hdr lines
+  -m(files)   Ignore given modules        +h(hdrs)    Echo given hdrs
+  -h(hdrs)    Do not echo hdrs            +dir(dirs)  Echo hdrs from these
+  -dir(dirs)  Do not echo hdrs from       +class(all) Echo all hdrs
+  +class(project) Echo project hdrs
++html(options)    Output in html format (example in env-html.lnt)
+    version(...) Can be used to specify the version of html
+    head(file)   Includes file just after <html>
++xml([name])     Activate escapes for xml  (example in env-xml.lnt)
+    If name is provided, output appears within <name> ... </name>
+-message(String)       Output String as an informational message
+-summary([out-file])   Issues or appends a summary of error messages
+-t#                    Sets tab size to #   
++typename(#)           Includes types of Symbols in message #
++xml(name)             Format output messages in xml
+                 .... message presentation flags ....
+ffn  use Full file Names (OFF)          ffo  Flush Output each msg (ON)
+flm  Lock Message format (OFF)          frl  Reference Location info (ON)
+fsn  treat Strings as Names (OFF)
+
+------> quit (q), previous (p), or next [n] n
+     ___________________________ DATA GROUP ___________________________
+
+      --- Scalar Data Size and Alignment Options (default value(s)) ---
+
+-sb#   bits in a byte (8)               -sbo#  sizeof(bool) (1)
+-sc#   sizeof(char) (1)                 -slc#  sizeof(long char) (2)
+-ss#   sizeof(short) (2)                -si#   sizeof(int) (4)
+-sl#   sizeof(long) (4)                 -sll#  sizeof(long long) (8)
+-sf#   sizeof(float) (4)                -sd#   sizeof(double) (8)
+-sld#  sizeof(long double) (16)         -smp#  size of all member ptrs (4)
+-smpD# size of mem ptr (data) (4)       -smpFP# size, mem ptr (Far Prog) (4)
+-smpNP# size, mem ptr (Near Prog) (4)   -smpP# size of mem ptrs (prog) (4)
+-sp#   sizeof(all pointers) (4 6)       -spD#  size of both data ptrs (4 6)
+-spF#  size of both far ptrs (6)        -spFD# size of far data pointer (6)
+-spFP# size of far prog pointer (6)     -spN#  size of both near ptrs (4)
+-spND# size of near data pointer (4)    -spNP# size of near prog pointer (4)
+-spP#  size of both program ptrs (4 6)  -sw#   size of wide char (2)
+
+-a<code># Specifies alignment, <code> is any code used above in -s<code>#
+   # = 1, no alignment; # = 2, 2-byte boundary; etc.  By default, a type's 
+   alignment is the largest power of 2 that divides the size of the type
+ 
+-align_max(n)    Set the maximum alignment to n
+-align_max(push) Saves the current maximum alignment
+------> quit (q), previous (p), or next [n] n
+-align_max(pop)  Restores previously pushed maximum alignment
+
+                     .... scalar data flags ....
+fba  Bit Addressability (OFF)           fbc  Binary Constants 0b... (OFF)
+fbo  Activate bool, true, false (ON)    fcu  char-is-unsigned (OFF)
+fdc  (C++) Distinguish plain Char (ON)  fdl  pointer-diff.-is-long (OFF)
+fis  Integral consts. are Signed (OFF)  flc  allow long char (OFF)
+fll  allow long long int (OFF)          fmd  multiple definitions (OFF)
+fpd  Pointers Differ in size (OFF)      fsc  strings are const char * (OFF)
+fsu  string unsigned (OFF)              fwc  internal wchar_t for C (ON)
+fwm  MS wprintf conventions (OFF)       fwu  wchar_t is unsigned (OFF)
+
+                 ------- Data Modifier Options -------
+
+-mS  Small model                        -mD  large Data model
+-mP  large Program model                -mL  Large program and data
+                    .... data modifier flags ....
+f@m  @ is a modifier (OFF)              fat  Parse .net ATtributes (ON)
+fcd  cdecl is significant (OFF)         fem  allow Early Modifiers (OFF)
+fiq  Ignore default Qualifier (OFF)     fqb  Qualifiers Before types (ON)
+
+------> quit (q), previous (p), or next [n] n
+         ------ struct, union, class, enum, namespace Flags ------
+
+fab  ABbreviated structures (OFF)       fan  ANonymous unions (OFF)
+fas  Anonymous Structures (OFF)         fbu  force Bit fields Unsigned (OFF)
+fct  Create Tags (OFF)                  feb  enum's can be Bitfields (ON)
+fie  Integer-model-for-Enums (OFF)      fld  Label Designator (OFF)
+fns  Nested Struct (ON)                 fnt  (C++) Nested Tags (ON)
+fsg  std is Global (OFF)                fss  regard Sub-Struct as base (ON)
+fus  Using namespace std (OFF)          fvl  Variable Length arrays (OFF)
+
+     ________________________ PROCESSING GROUP ________________________
+
+                 ------- Preprocessor Options -------
+
+-d<name>[=<value>]     Defines preprocessor symbol
+-d<name>{definition}   For use with -scavenge
+-D<nm>[=<val>][;<nm>[=<val>]]... Define set of symbols
++d... or +D...         Same as -d or -D except it locks in a definition
+-d<name>()[=<value>]   Define function-like macro 
+-#d<name>[=<value>]    Defines symbol (for #include only)
+-header(file)          Auto-includes file in each module
+-i<directory>          Search directory for #include
+-incvar(name)          Change name of INCLUDE environment variable
+-/+macros              Halve/double the maximum macro size
+------> quit (q), previous (p), or next [n] n
+                 ------- Preprocessor Options -------
+
+-d<name>[=<value>]     Defines preprocessor symbol
+-d<name>{definition}   For use with -scavenge
+-D<nm>[=<val>][;<nm>[=<val>]]... Define set of symbols
++d... or +D...         Same as -d or -D except it locks in a definition
+-d<name>()[=<value>]   Define function-like macro 
+-#d<name>[=<value>]    Defines symbol (for #include only)
+-header(file)          Auto-includes file in each module
+-i<directory>          Search directory for #include
+-incvar(name)          Change name of INCLUDE environment variable
+-/+macros              Halve/double the maximum macro size
+-pch(hdr)              Designates hdr as the pre-compiled header
+-ppw(word[,...])       Disables(-) or enables(+) pre-processor words
++ppw(word[,...])            eg: +ppw(ident) enables #ident
+--ppw(word[,...])      Removes built-in meaning of word
+-ppw_asgn(w1,w2)       Assigns pre-proc meaning of w2 to w1
++pragma(name,action)   Associates action with name; action is one of
+     off               Turns processing off (as with assembly code)
+     on                Turns processing back on
+     once              Physically include this file just once
+     message           Issue a message
+     macro             pragma_name becomes a macro
+     fmacro            pragma_name becomes a function-like macro
+------> quit (q), previous (p), or next [n] n
+     options           pragma_name_suboption becomes a function macro
+     ppw               The pragma becomes a preprocessor command
+     push_macro        push_macro("nm") saves the current definition of nm
+     pop_macro         pop_macro("nm") restores a pushed definition 
+-pragma(name)          Disables pragma        
+-u<name>               Undefines <name>
+--u<name>              Ignore past and future defines of <name>
+                    .... preprocessor flags ....
+fce  continue-on-error (OFF)            fep  Extended Preprocessor exps. (OFF)
+fim  -i can have multiple dirs. (ON)    fln  activate #line (ON)
+fps  Parameters within Strings (OFF)
+
+                --------- Tokenizing Options ---------
+                (see also Compiler Adaptation Keywords)
+
+-$                     Permits $ in identifiers
+-ident(<chars>)        Add identifier characters
+-ident1(<char>)        Define a 1-char identifier
++linebuf               Doubles size of line buffer
+-rw(word[,...])        Disables(-) or enables(+) reserved words ...
++rw(word[,...])        word = '*ms' implies all MS keywords
+--rw(word[,...])       Removes built-in meaning of word
+-rw_asgn(w1,w2)        Assigns reserved word meaning of w2 to w1
+                .... flags affecting tokenization ....
+------> quit (q), previous (p), or next [n] n
+                --------- Tokenizing Options ---------
+                (see also Compiler Adaptation Keywords)
+
+-$                     Permits $ in identifiers
+-ident(<chars>)        Add identifier characters
+-ident1(<char>)        Define a 1-char identifier
++linebuf               Doubles size of line buffer
+-rw(word[,...])        Disables(-) or enables(+) reserved words ...
++rw(word[,...])        word = '*ms' implies all MS keywords
+--rw(word[,...])       Removes built-in meaning of word
+-rw_asgn(w1,w2)        Assigns reserved word meaning of w2 to w1
+                .... flags affecting tokenization ....
+fnc  nested comments (OFF)              ftg  permit Tri Graphs (ON)
+
+                  --------- Parsing Options ---------
+
+-fallthrough           A switch case allowing flow from above
+-unreachable           A point in a program is unreachable
+                       .... parsing flags ....
+ffb  for clause creates Block (ON)      flf  (C++) process lib func defs (OFF)
+fna  (C++) allow 'operator new[]' (ON)  fpc  Pointer Casts retain lvalue(OFF)
+fpm  Precision is Max of args (OFF)
+
+------> quit (q), previous (p), or next [n] n
+                  -------- Template Options --------
+
+-tr_limit(n)           Sets a template recursion limit
+-template(X)           Hex constant X sets esoteric template flags
+                      .... template flags ....
+ftf  raw template functions (OFF)
+
+                 ---- Compiler-adaptation Options ----
+
+-A                     Specifies strict ANSI
+-A(Cyear)              Specifies the year of the assumed C standard
+-A(C++year)            Specifies the year of the assumed C++ standard
+-c<code>               Identifies the compiler
+-a#<predicate>(tokens) Assert the truth of #<predicate> for tokens (Unix)
++/-compiler(flag[,...]) Sets/resets flag;   default value shown by (ON/OFF)
+   std_digraphs        (OFF) Enables '<:' and ':>' with standard meaning
+   base_op             (OFF) Enables digraph ':>' with ancient meaning
+   std_alt_keywords    (OFF) Enables keywords: and, and_eq, bitand, bitor,
+                             compl, not, not_eq, or, or_eq, xor, xor_eq
+-overload(X)           Hex constant X sets esoteric overload resolution flags
+-plus(Char)            Identifies Char as an alternate option char equiv to +
+-scavenge(filename-pat[,...])              
+                       Turns lint into a scavenger of macro names within
+                       files matching filename-patterns
+------> quit (q), previous (p), or next [n] n
+-scavenge(clean,file)  Used subsequently to clean up file which bears
+                       the results of compiler macro replacement
+-template(X)           Hex constant X sets esoteric template flags
+          .... compiler-adaptation reserved words (keywords) ....
+@                      Ignore expression to the right
+__assert               'Ideal' assert function      
+___assert              Like _assert but it always returns
+_bit                   1 bit wide type          
+_gobble                Ignore next token    
+_ignore_init           Ignore initializer for data and ...
+                       ignore function body for functions
+_to_brackets           Ignore next parenthesized (or bracketed) expression 
+_to_semi               Ignore until ;      
+_to_eol                Ignore until end-of-line   
+_up_to_brackets        Ignore up to and including a bracketed expression 
+__packed               struct data members are packed
+__typeof__(e)          Like sizeof but returns the type of e
+
+                  ----------- Old C Flags -----------
+
+fdr  deduce-return-mode (OFF)           ffd  promote floats to double (OFF)
+fkp  K&R preprocessor (OFF)             fmc  macro concatenation (OFF)
+fsa  structure-assignment (ON)          ful  unsigned long (ON)
+fva  variable arguments (OFF)           fvo  void data type (ON)
+------> quit (q), previous (p), or next [n] n
+                  ----------- Old C Flags -----------
+
+fdr  deduce-return-mode (OFF)           ffd  promote floats to double (OFF)
+fkp  K&R preprocessor (OFF)             fmc  macro concatenation (OFF)
+fsa  structure-assignment (ON)          ful  unsigned long (ON)
+fva  variable arguments (OFF)           fvo  void data type (ON)
+fvr  varying-return-mode (OFF)          fxa  eXact array arg. (OFF)
+fxc  eXact char arg. (OFF)              fxf  eXact float arg. (OFF)
+fxs  eXact short arg. (OFF)             fzl  sizeof-is-long (OFF)
+fzu  sizeof-is-unsigned (ON)
+
+      ____________________ SPECIAL DETECTION GROUP ____________________
+
+                  ------- Strong Type Options -------
+
+-strong(Flags,Type(s)) Check strong types ..., Flags are:
+    A[irpacz] == on Asgn to (except Init, Ret, Param, Asgn op, Consts, Zero);
+    J[erocz] == on Joining (except Eqlty, Rel, Other ops, Constants, Zero);
+    X == on eXtraction;   l == allow library;    B[f] or b[f] == strong and
+    weak Boolean (f == length-1 bit fields are NOT Boolean)
+-index(flags,ixtype,type(s)) Establish ixtype as index type
+    flags: c == allow Constants, d == allow Dimensions
+-parent(Parent,Children) Augment strong type hierarchy
+-father(Parent,Children) A stricter verson of parent
+------> quit (q), previous (p), or next [n] n
+                  ------- Strong Type Options -------
+
+-strong(Flags,Type(s)) Check strong types ..., Flags are:
+    A[irpacz] == on Asgn to (except Init, Ret, Param, Asgn op, Consts, Zero);
+    J[erocz] == on Joining (except Eqlty, Rel, Other ops, Constants, Zero);
+    X == on eXtraction;   l == allow library;    B[f] or b[f] == strong and
+    weak Boolean (f == length-1 bit fields are NOT Boolean)
+-index(flags,ixtype,type(s)) Establish ixtype as index type
+    flags: c == allow Constants, d == allow Dimensions
+-parent(Parent,Children) Augment strong type hierarchy
+-father(Parent,Children) A stricter verson of parent
+                     .... strong type flags ....
+fhd  hierarchy down warning (ON)        fhg  hierarchy uses graph. chars (ON)
+fhs  hierarchy of strong types (ON)     fhx  Hierarchy of indeX types (ON)
+
+                  -------- Semantic Options --------
+
+-function(f0,f1, ...)  Assign semantics of f0 to f1, ...
+-printf(#,f1, ...)     f1, ... are printf-like, # is arg. no. of format
+-scanf(#,f1, ...)      f1, ... are scanf-like, # is arg. no. of format
+-printf_code(Code[,Type]) Allows user-defined printf codes
+-scanf_code(Code[,Type])  Allows user-defined scanf codes
+-sem(fnc,sem1, ...)   Associates a set of semantics with a function
+-wprintf(#,f1, ...)    Wide char version of -printf
+------> quit (q), previous (p), or next [n] n
+                  -------- Semantic Options --------
+
+-function(f0,f1, ...)  Assign semantics of f0 to f1, ...
+-printf(#,f1, ...)     f1, ... are printf-like, # is arg. no. of format
+-scanf(#,f1, ...)      f1, ... are scanf-like, # is arg. no. of format
+-printf_code(Code[,Type]) Allows user-defined printf codes
+-scanf_code(Code[,Type])  Allows user-defined scanf codes
+-sem(fnc,sem1, ...)   Associates a set of semantics with a function
+-wprintf(#,f1, ...)    Wide char version of -printf
+-wscanf(#,f1, ...)     Wide char version of -scanf
+ 
+          .... semantics (i.e. arguments to the -sem option) ....
+4 kinds of semantics: 0 == overall, a == argument, r == return, f == flag
+kind:  semantic:       meaning:
+ r     r_null          function may return NULL
+ r     r_no            function does not return
+ f     initializer     function initializes all data members
+ f     cleanup         function that clears all pointer data members
+ a     #p              #th argument must not be NULL
+ a     custodial(#)    #th argument takes custody
+ a     type(#)         #th argument is reflected into the return type
+ a     pod(#)          #th argument must be POD
+ a     nulterm(#)      #th argument is nul-terminated
+ a     inout(#)        #th argument is read and written
+------> quit (q), previous (p), or next [n] n
+ f     pure            the function is a pure function
+ r     expression (see 'expression components' below) containing the @
+       operator is assumed true with @ representing the return value
+ 0     any other expression is considered a function requirement
+
+                   .... expression components: .... 
+Parentheses: ()        Unary operators: + - | ~ 
+Binary operators: + - * / % < <= == != > >= | & ^ << >> || && 
+Ternary operator:  ?:                  
+#n = integer value of #th arg           #p = item count of #th arg
+#P = byte count of #th arg              integer = itself
+name of macro, enum, const = current value of same
+malloc(exp) = malloc'ed area of size exp
+new(exp) = new'ed area of size exp      new[](exp) = new[]ed area of size exp
+
+                     .... thread semantics ....
+thread = the function is a thread       thread_mono = a single-instance thread
+no_thread = function is not a thread    thread_lock = function locks a mutex
+thread_unlock = ftn unlocks a mutex
+thread_create(#) = #th argument is a thread
+thread_unsafe = unsafe to call by multiple threads
+thread_unsafe(groupid) = group can't be called by multiple threads
+thread_safe = not thread_unsafe
+thread_protected = function is protected by critical section
+------> quit (q), previous (p), or next [n] n
+thread_not(list) = lists threads that may not invoke function
+thread_only(list) = lists the only threads that may invoke function
+
+                      .... semantic flags ....
+ffc  Function takes Custody (ON)
+
+                     ----- Thread Options -----
+                     (see also thread semantics)
+prefix '+' designates a property and '-' reverses it
++/-thread_unsafe_h(hdr[,...])    ftns in headers are thread_unsafe
++/-thread_unsafe_group_h(hdr[,...]) ftns in hdrs form a thread_unsafe group
++/-thread_unsafe_dir(dir[,...]) hdrs in dirs house thread_unsafe ftns
++/-thread_unsafe_group_dir(dir[,...]) hdrs in dirs form a thread_unsafe group
+
+                  ----- Value Tracking Options -----
+
+-passes(k[,Opt1[,Opt2]]) Requests k passes
+-specific(op1[,op2])   Options op1 before and op2 after every specific walk
+-specific_climit(n)    Per function Limit on the no. of recorded calls
+-specific_wlimit(n)    Walk limit on the number of recursively generated calls
+-specific_retry(n)     n== 0 implies inhibiting rewalking with same parameters
+-static_depth(n)       Adjusts the depth of static variable analysis
+                    .... value tracking flags ....
+fai  pointed-to Arg is Initialized(ON)  fii  Inhibit Inference (OFF)
+------> quit (q), previous (p), or next [n] n
+                  ----- Value Tracking Options -----
+
+-passes(k[,Opt1[,Opt2]]) Requests k passes
+-specific(op1[,op2])   Options op1 before and op2 after every specific walk
+-specific_climit(n)    Per function Limit on the no. of recorded calls
+-specific_wlimit(n)    Walk limit on the number of recursively generated calls
+-specific_retry(n)     n== 0 implies inhibiting rewalking with same parameters
+-static_depth(n)       Adjusts the depth of static variable analysis
+                    .... value tracking flags ....
+fai  pointed-to Arg is Initialized(ON)  fii  Inhibit Inference (OFF)
+fiw  Initialization is a Write (ON)     fiz  Init'n by Zero is a Write (ON)
+fnn  (C++) new can return NULL (OFF)    fnr  Null ptr may be Returned (OFF)
+fpn  pointer param may be NULL (OFF)    fsp  SPecific function calls (ON)
+fsv  track Static Variables (ON)
+
+                ---- Miscellaneous Detection Options ----
+
+-deprecate(category,name,commentary) Deprecates use of a name
+                       categories:  function, keyword, macro, variable 
++headerwarn(file)      Causes Msg 829 to be issued for a given file
+-idlen(<n>[,opt])      Report identifier clashes in <n> chars
+                       opt: x=external, p=preprocessor, c=compiler
+-size(flags,amount)    Report large aggregates; flags: a auto, s static
+                   .... special detection flags ....
+------> quit (q), previous (p), or next [n] n
+                ---- Miscellaneous Detection Options ----
+
+-deprecate(category,name,commentary) Deprecates use of a name
+                       categories:  function, keyword, macro, variable 
++headerwarn(file)      Causes Msg 829 to be issued for a given file
+-idlen(<n>[,opt])      Report identifier clashes in <n> chars
+                       opt: x=external, p=preprocessor, c=compiler
+-size(flags,amount)    Report large aggregates; flags: a auto, s static
+                   .... special detection flags ....
+fet  requires Explicit Throws (OFF)     fil  Indentation check of Labels (OFF)
+
+      __________________________ MISC. GROUP __________________________
+
+                 ---------- Global Options ----------
+
+-background            Reduces task priority
+-/+/++b                No/Redirect/Produce Banner line
+-p[(n)]                Just preprocess, n == max output width
+-setenv(name=val)      Sets an environment variable
+-u                     Unit checkout
+
+                       .... global flags ....
+fpa  PAuse before exiting (OFF)
+
+------> quit (q), previous (p), or next [n] n
+                 ----------- File Options -----------
+
++bypclass([all,angle,ansi,foreign]...) Default bypass headers
+-/+bypdir(directory[,...])  Deny or specify bypass directory
+-/+byph(header[,...])  Deny or specify bypass header by name
+-/+cpp(extension)      Remove/add .ext for C++ files
++ext(ext[,ext]...)     Extensions attempted for extensionless files
+                       defaults to +ext(vac,lnt,cpp,cxx,c)
+-indirect(file)        Process indirect (.lnt) file
++libclass([all,angle,ansi,foreign]...) Default library headers
+-/+libdir(directory[,...])  Deny or specify library directory
+-/+libh(header[,...])  Deny or specify library header by name
+-/+libm(module[,...])  Deny or specify library module by name
+-library               Sets library flag
++lnt(ext)              File.ext is treated like File.lnt
+-maxfiles(<n>)         Sets an upper limit on the number of files
+-maxopen(<n>)          Assumed number of openable files
+-pch(hdr)              Designates hdr as the pre-compiled header
+-subfile( indirect-file, options|modules )  Process just 'options'
+                       or just 'modules' from indirect-file
+--u                    -u and ignore modules at lower .lnt level
+                        .... file flags ....
+fcp  (C++) Force C++ processing (OFF)   fda  dbl-qts to Angle brackets (OFF)
+fdh  append '.h' to header names (OFF)  fdi  Directory of Including file(OFF)
+------> quit (q), previous (p), or next [n] n
+flb  library (OFF)                      frb  Files fopen'ed with "rb" (OFF)
+frn  Treat CR as new-line (OFF)         fsh  shared file open (OFF)
+ftr  truncate filenames to 8x3 (OFF)
+
+                  --------- Output Options ---------
+
+-od[options](filename) Output declarations of defined external
+    objects and functions including prototypes,
+    options: f=only functions, i=internal functions, s=structs
+             <width>=specify break width
+-oe(filename)          Redirect to standard Error (+oe appends)
+-ol(filename)          Output library file   
+-oo[(filename)]        Output to lint object file
+  -lobbase(filename)   Establish a lob base file
+-os(filename)          Redirect to standard out (+os appends)
++program_info(output_prefix=<path>, suboptions ) Dumps information into
+    <path>file.txt     information about files
+    <path>symbol.txt   information about symbols
+    <path>type.txt     information about types
+    <path>macro.txt    information about macros
++stack(sub-options)    Issue report on function stack usage
+    &file=filename     Designates name of file to receive stack report
+    &overhead(n)       Sets the overhead of each function call
+    &external(n)       Sets assumed stack usage by each external function
+------> quit (q), previous (p), or next [n] n
+    name(n)            Sets stack usage (n) explicitly for named function
+    &summary           Requests just a summary of stack info report.
+                    .... output option flags ....
+fod  Output Declared to object (OFF)    fol  Output Library to object (OFF)
+
+-------------------------- END OF OPTIONS -----------------------------
+------> quit (q), previous (p), or next [n] n
