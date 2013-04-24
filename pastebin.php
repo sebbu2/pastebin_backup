@@ -31,9 +31,11 @@ if(!file_exists('user_key.txt')) {
 else {
 	$api_user_key=file_get_contents('user_key.txt');
 }
-var_dump($api_user_key);
-if(strlen($api_user_key)==0) die();
-//die();
+
+if(strlen($api_user_key)==0) {
+	var_dump($api_user_key);
+	die();
+}
 
 if(!file_exists('user_info.txt')) {
 	$url 			= 'http://pastebin.com/api/api_post.php';
@@ -61,7 +63,11 @@ if(!file_exists('user_info.txt')) {
 else {
 	$user_info=file_get_contents('user_info.txt');
 }
-//die();
+
+if(strlen($user_info)==0) {
+	var_dump($user_info);
+	die();
+}
 
 if(!file_exists('user_pastes.txt')) {
 	$api_results_limit 	= '100';
@@ -92,23 +98,31 @@ else {
 	$user_pastes=file_get_contents('user_pastes.txt');
 }
 
+if(strlen($user_pastes)==0) {
+	var_dump($user_pastes);
+	die();
+}
+
 $format=array();
 
 if($res=preg_match_all('#<paste_format_short>([^<]+)</paste_format_short>#is', $user_pastes, $matches)) {
 	$format=$matches[1];
-	/*echo '<pre>';var_dump($matches[1]);echo '</pre>';
-	die();//*/
 }
 else {
 	print('No pastes found.');
+	var_dump($user_pastes);
 	die();
+}
+
+$titles=array();
+if($res=preg_match_all('#<paste_title>([^<]+)</paste_title>#is', $user_pastes, $matches)) {
+	$titles=$matches[1];
 }
 
 $pastes=array();
 
 if($res=preg_match_all('#<paste_key>([^<]+)</paste_key>#is', $user_pastes, $matches)) {
 	$pastes=$matches[1];
-	//echo '<pre>';var_dump($matches[1]);echo '</pre>';
 }
 else {
 	print('No pastes found.');
@@ -116,8 +130,6 @@ else {
 }
 
 assert(count($format)==count($pastes)) or die('Invalid pastes list.');
-
-//var_dump($format);die();
 
 foreach($format as $k=>$v) {
 	if($v=='text') $format[$k]='txt';
@@ -140,9 +152,10 @@ foreach($pastes as $i=>$paste) {
 			var_dump($paste);var_dump($data);
 			file_put_contents($filename, $data);
 		}
+		else {
+			echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> ('.$format[$i].')<br/>'."\r\n";
+		}
 	}
 }
-
-var_dump('done');
 
 ?>
