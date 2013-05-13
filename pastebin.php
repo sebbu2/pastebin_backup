@@ -114,6 +114,24 @@ else {
 	die();
 }
 
+echo <<<EOF
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>My Pastes</title>
+<base href="https://github.com/sebbu2/pastebin_backup/blob/master/"/>
+</head>
+<body>
+
+
+EOF;
+
+$dates=array();
+if($res=preg_match_all('#<paste_date>([^<]+)</paste_date>#is', $user_pastes, $matches)) {
+	$dates=$matches[1];
+}
+
 $titles=array();
 if($res=preg_match_all('#<paste_title>([^<]+)</paste_title>#is', $user_pastes, $matches)) {
 	$titles=$matches[1];
@@ -153,9 +171,15 @@ foreach($pastes as $i=>$paste) {
 			file_put_contents($filename, $data);
 		}
 		else {
-			echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> ('.$format[$i].')<br/>'."\r\n";
+			echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> '.date('Y-m-d H:i:s',$dates[$i]).' <b>('.$format[$i].')</b><br/>'."\r\n";
+			//echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> ('.$format[$i].')<br/>'."\r\n";
 		}
 	}
 }
 
+echo <<<EOF
+
+</body>
+</html>
+EOF;
 ?>
