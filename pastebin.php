@@ -171,8 +171,8 @@ foreach($pastes as $i=>$paste) {
 			file_put_contents($filename, $data);
 		}
 		else {
-			echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> '.date('Y-m-d H:i:s',$dates[$i]).' <b>('.$format[$i].')</b><br/>'."\r\n";
-			//echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> ('.$format[$i].')<br/>'."\r\n";
+			echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> '.date('Y-m-d H:i:s',$dates[$i]).' <b>('.$format[$i].')</b><br/>'."\n";
+			//echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> ('.$format[$i].')<br/>'."\n";
 		}
 	}
 }
