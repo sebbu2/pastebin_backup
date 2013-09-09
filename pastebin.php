@@ -133,7 +133,7 @@ if($res=preg_match_all('#<paste_date>([^<]+)</paste_date>#is', $user_pastes, $ma
 }
 
 $titles=array();
-if($res=preg_match_all('#<paste_title>([^<]+)</paste_title>#is', $user_pastes, $matches)) {
+if($res=preg_match_all('#<paste_title>([^<]*)</paste_title>#is', $user_pastes, $matches)) {
 	$titles=$matches[1];
 }
 
@@ -157,6 +157,7 @@ foreach($format as $k=>$v) {
 }
 
 foreach($pastes as $i=>$paste) {
+	if(in_array($paste,$pastes_skip)) continue;
 	$filename='pastes/'.$paste.'.'.$format[$i];
 	if(!file_exists($filename)) {
 		$data=file_get_contents('http://pastebin.com/raw.php?i='.$paste);
@@ -171,8 +172,8 @@ foreach($pastes as $i=>$paste) {
 			file_put_contents($filename, $data);
 		}
 		else {
-			echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> '.date('Y-m-d H:i:s',$dates[$i]).' <b>('.$format[$i].')</b><br/>'."\n";
-			//echo '<a href="'.$filename.'" target="_blank">'.$titles[$i].'</a> ('.$format[$i].')<br/>'."\n";
+			echo '<a href="'.$filename.'" target="_blank">'.((strlen($titles[$i])>0)?$titles[$i]:'Untitled').'</a> '.date('Y-m-d H:i:s',$dates[$i]).' <b>('.$format[$i].')</b><br/>'."\n";
+			//echo '<a href="'.$filename.'" target="_blank">'.((strlen($titles[$i])>0)?$titles[$i]:'Untitled').'</a> ('.$format[$i].')<br/>'."\n";
 		}
 	}
 }
