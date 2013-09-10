@@ -1,0 +1,1340 @@
+c:\jeux\CatchChallenger-single-player-win32>catchchallenger-single-player.exe
+QGraphicsScene::addItem: item has already been added to this scene
+Connected to sqlite at  (1)
+"38 items(s) loaded"
+"2 trap(s) loaded"
+"7 plant(s) loaded"
+"4 crafting recipe(s) loaded"
+"3 monster buff(s) loaded"
+"5 monster skill(s) loaded"
+"10 monster(s) loaded"
+"2 reputation(s) loaded"
+"2 quest(s) loaded"
+"33 bot fight(s) loaded"
+"Industry id for factory is not found: c:/jeux/CatchChallenger-single-player-win
+32/datapack/industries/list.xml, child.tagName(): link (at line: 9)"
+"8 industries(s) loaded"
+"8 industries(s) link loaded"
+385 file(s) list for datapack cached
+8 skin(s) loaded
+2 shops(s) loaded
+10 monster drop(s) loaded
+map link not resolved: ../world/-1.6.tmx
+map link not resolved: ../world/0.1.tmx
+map link not resolved: ../world/3.5.tmx
+map link not resolved: ../cave/3.5b.tmx
+map link not resolved: ../world/3.4.tmx
+map link not resolved: ../cave/3.5a.tmx
+map link not resolved: ../world/-1.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../indoor/0.0a2.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.5.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/2.4.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/2.6.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/-3.3.tmx
+map link not resolved: ../world/-3.3.tmx
+map link not resolved: -2.13.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: -2.2.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: -2.6.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../cave/-1.6.tmx
+map link not resolved: -1.9.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: -1.8.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: -3.13.tmx
+map link not resolved: -1.13.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: -1.2.tmx
+map link not resolved: -2.4.tmx
+map link not resolved: -2.2.tmx
+map link not resolved: -3.3.tmx
+map link not resolved: ../indoor/-2.3a.tmx
+map link not resolved: ../indoor/-2.3b.tmx
+map link not resolved: ../indoor/-2.3c.tmx
+map link not resolved: ../indoor/-2.3d.tmx
+map link not resolved: -2.5.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: -2.6.tmx
+map link not resolved: -2.4.tmx
+map link not resolved: -2.5.tmx
+map link not resolved: -1.6.tmx
+map link not resolved: -4.13.tmx
+map link not resolved: -2.13.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: ../wood/-3.3a.tmx
+map link not resolved: ../wood/-3.3a.tmx
+map link not resolved: -5.13.tmx
+map link not resolved: -3.13.tmx
+map link not resolved: -6.13.tmx
+map link not resolved: -4.13.tmx
+map link not resolved: -5.13.tmx
+map link not resolved: 0.1.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../indoor/0.0b.tmx
+map link not resolved: ../indoor/0.0d.tmx
+map link not resolved: ../indoor/0.0c.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: 0.0.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: 0.10.tmx
+map link not resolved: 1.11.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: -1.13.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 0.3.tmx
+map link not resolved: 0.1.tmx
+map link not resolved: -1.2.tmx
+map link not resolved: ../indoor/0.2a.tmx
+map link not resolved: ../indoor/0.2b.tmx
+map link not resolved: ../indoor/0.2c.tmx
+map link not resolved: ../indoor/0.2d.tmx
+map link not resolved: 0.4.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: 0.5.tmx
+map link not resolved: 0.3.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 0.4.tmx
+map link not resolved: ../indoor/0.5.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: 0.5.tmx
+map link not resolved: -1.6.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../indoor/0.5.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../indoor/0.6a.tmx
+map link not resolved: ../indoor/0.6b.tmx
+map link not resolved: ../indoor/0.6d.tmx
+map link not resolved: ../indoor/0.6c.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 1.7.tmx
+map link not resolved: ../indoor/0.7.tmx
+map link not resolved: ../indoor/0.7.tmx
+map link not resolved: ../indoor/0.7b.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: -1.8.tmx
+map link not resolved: 0.10.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: -1.9.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 1.11.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: 2.13.tmx
+map link not resolved: 1.7.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 2.6.tmx
+map link not resolved: ../indoor/2.6.tmx
+map link not resolved: ../indoor/1.6a.tmx
+map link not resolved: ../indoor/1.6b.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 2.4.tmx
+map link not resolved: 3.3.tmx
+map link not resolved: 2.3.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: ../indoor/2.4.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: 3.6.tmx
+map link not resolved: ../indoor/2.6.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: 2.3.tmx
+map link not resolved: ../indoor/3.3b.tmx
+map link not resolved: ../indoor/3.3a.tmx
+map link not resolved: ../indoor/3.3c.tmx
+map link not resolved: 3.5.tmx
+map link not resolved: 3.3.tmx
+map link not resolved: 2.4.tmx
+map link not resolved: ../cave/3.5b.tmx
+map link not resolved: 3.6.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: ../cave/3.5a.tmx
+map link not resolved: 3.5.tmx
+map link not resolved: 2.6.tmx
+wrong teleporter on the map: cave/-1.6.tmx(14,27), to ../world/-1.6.tmx (8,7) be
+cause the map is not found
+wrong teleporter on the map: cave/0.1.tmx(19,20), to ../world/0.1.tmx (15,26) be
+cause the map is not found
+wrong teleporter on the map: cave/3.5a.tmx(17,7), to ../world/3.5.tmx (8,17) bec
+ause the map is not found
+wrong teleporter on the map: cave/3.5a.tmx(18,21), to ../cave/3.5b.tmx (6,4) bec
+ause the map is not found
+wrong teleporter on the map: cave/3.5b.tmx(16,29), to ../world/3.4.tmx (14,9) be
+cause the map is not found
+wrong teleporter on the map: cave/3.5b.tmx(6,4), to ../cave/3.5a.tmx (18,21) bec
+ause the map is not found
+wrong teleporter on the map: indoor/-1.6.tmx(0,5), to ../world/-1.6.tmx (25,11)
+because the map is not found
+wrong teleporter on the map: indoor/-1.6.tmx(10,5), to ../world/0.6.tmx (4,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/-2.1a.tmx(5,11), to ../world/0.0.tmx (15,15)
+ because the map is not found
+wrong teleporter on the map: indoor/-2.3a.tmx(2,11), to ../world/-2.3.tmx (18,7)
+ because the map is not found
+wrong teleporter on the map: indoor/-2.3b.tmx(5,11), to ../world/-2.3.tmx (10,17
+) because the map is not found
+wrong teleporter on the map: indoor/-2.3c.tmx(5,11), to ../world/-2.3.tmx (23,17
+) because the map is not found
+wrong teleporter on the map: indoor/-2.3d.tmx(5,11), to ../world/-2.3.tmx (10,24
+) because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(5,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(6,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(10,2), to ../indoor/0.0a2.tmx (9,2)
+ because the map is not found
+wrong teleporter on the map: indoor/0.0a2.tmx(10,2), to ../indoor/0.0a.tmx (9,2)
+ because the map is not found
+wrong teleporter on the map: indoor/0.0b.tmx(5,11), to ../world/0.0.tmx (18,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0b.tmx(6,11), to ../world/0.0.tmx (18,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0c.tmx(5,11), to ../world/0.0.tmx (9,23) b
+ecause the map is not found
+wrong teleporter on the map: indoor/0.0d.tmx(5,11), to ../world/0.0.tmx (19,23)
+because the map is not found
+wrong teleporter on the map: indoor/0.0d.tmx(6,11), to ../world/0.0.tmx (19,23)
+because the map is not found
+wrong teleporter on the map: indoor/0.2a.tmx(5,11), to ../world/0.2.tmx (11,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2a.tmx(6,11), to ../world/0.2.tmx (11,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2b.tmx(5,11), to ../world/0.2.tmx (20,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2c.tmx(5,11), to ../world/0.2.tmx (11,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.2d.tmx(5,11), to ../world/0.2.tmx (19,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.2d.tmx(6,11), to ../world/0.2.tmx (19,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.5.tmx(5,10), to ../world/0.5.tmx (17,4) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.5.tmx(5,2), to ../world/0.6.tmx (17,27) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.6a.tmx(16,19), to ../world/0.6.tmx (11,8)
+because the map is not found
+wrong teleporter on the map: indoor/0.6b.tmx(5,11), to ../world/0.6.tmx (23,19)
+because the map is not found
+wrong teleporter on the map: indoor/0.6c.tmx(16,19), to ../world/0.6.tmx (24,8)
+because the map is not found
+wrong teleporter on the map: indoor/0.6d.tmx(5,11), to ../world/0.6.tmx (12,26)
+because the map is not found
+wrong teleporter on the map: indoor/0.7.tmx(6,10), to ../world/0.7.tmx (26,19) b
+ecause the map is not found
+wrong teleporter on the map: indoor/0.7.tmx(6,2), to ../world/0.7.tmx (26,10) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.7b.tmx(5,11), to ../world/0.7.tmx (9,28) b
+ecause the map is not found
+wrong teleporter on the map: indoor/1.6a.tmx(5,11), to ../world/1.6.tmx (9,9) be
+cause the map is not found
+wrong teleporter on the map: indoor/1.6b.tmx(5,11), to ../world/1.6.tmx (7,19) b
+ecause the map is not found
+wrong teleporter on the map: indoor/2.4.tmx(7,14), to ../world/2.4.tmx (21,17) b
+ecause the map is not found
+wrong teleporter on the map: indoor/2.6.tmx(0,5), to ../world/1.6.tmx (23,21) be
+cause the map is not found
+wrong teleporter on the map: indoor/2.6.tmx(10,5), to ../world/2.6.tmx (2,21) be
+cause the map is not found
+wrong teleporter on the map: indoor/3.3a.tmx(5,11), to ../world/3.3.tmx (3,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/3.3b.tmx(5,11), to ../world/3.3.tmx (8,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/3.3c.tmx(5,11), to ../world/3.3.tmx (5,3) be
+cause the map is not found
+wrong teleporter on the map: indoor/heal.tmx(5,11), to ../world/0.2.tmx (10,25)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(5,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(6,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(10,0), to ../indoor/0.0a.tmx (8,2)
+because the map is not found
+wrong teleporter on the map: indoor/shop.tmx(5,11), to ../world/0.2.tmx (20,18)
+because the map is not found
+wrong teleporter on the map: wood/-3.3a.tmx(25,14), to ../world/-3.3.tmx (9,18)
+because the map is not found
+wrong teleporter on the map: wood/-3.3a.tmx(25,15), to ../world/-3.3.tmx (9,19)
+because the map is not found
+wrong teleporter on the map: world/-1.6.tmx(26,10), to ../indoor/-1.6.tmx (1,5)
+because the map is not found
+wrong teleporter on the map: world/-1.6.tmx(8,6), to ../cave/-1.6.tmx (14,26) be
+cause the map is not found
+wrong teleporter on the map: world/-2.3.tmx(18,6), to ../indoor/-2.3a.tmx (2,10)
+ because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(10,16), to ../indoor/-2.3b.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(23,16), to ../indoor/-2.3c.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(10,23), to ../indoor/-2.3d.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-3.3.tmx(8,19), to ../wood/-3.3a.tmx (24,15)
+because the map is not found
+wrong teleporter on the map: world/-3.3.tmx(8,18), to ../wood/-3.3a.tmx (24,14)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(10,14), to ../indoor/0.0a.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(18,14), to ../indoor/0.0b.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(19,22), to ../indoor/0.0d.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(9,22), to ../indoor/0.0c.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/0.2.tmx(12,17), to ../indoor/0.2a.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(20,17), to ../indoor/0.2b.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(11,24), to ../indoor/0.2c.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(19,24), to ../indoor/0.2d.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.5.tmx(17,3), to ../indoor/0.5.tmx (5,9) bec
+ause the map is not found
+wrong teleporter on the map: world/0.6.tmx(3,11), to ../indoor/-1.6.tmx (9,5) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(17,28), to ../indoor/0.5.tmx (5,3) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(3,10), to ../indoor/-1.6.tmx (9,5) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(11,7), to ../indoor/0.6a.tmx (16,18)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(23,18), to ../indoor/0.6b.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(12,25), to ../indoor/0.6d.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(24,7), to ../indoor/0.6c.tmx (16,18)
+because the map is not found
+wrong teleporter on the map: world/0.7.tmx(26,18), to ../indoor/0.7.tmx (6,9) be
+cause the map is not found
+wrong teleporter on the map: world/0.7.tmx(26,11), to ../indoor/0.7.tmx (6,3) be
+cause the map is not found
+wrong teleporter on the map: world/0.7.tmx(9,27), to ../indoor/0.7b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/1.6.tmx(25,20), to ../indoor/2.6.tmx (1,5) be
+cause the map is not found
+wrong teleporter on the map: world/1.6.tmx(9,8), to ../indoor/1.6a.tmx (5,10) be
+cause the map is not found
+wrong teleporter on the map: world/1.6.tmx(7,18), to ../indoor/1.6b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/2.4.tmx(21,16), to ../indoor/2.4.tmx (7,13) b
+ecause the map is not found
+wrong teleporter on the map: world/2.6.tmx(1,20), to ../indoor/2.6.tmx (9,5) bec
+ause the map is not found
+wrong teleporter on the map: world/3.3.tmx(8,10), to ../indoor/3.3b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/3.3.tmx(3,10), to ../indoor/3.3a.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/3.3.tmx(5,2), to ../indoor/3.3c.tmx (5,10) be
+cause the map is not found
+wrong teleporter on the map: world/3.4.tmx(14,8), to ../cave/3.5b.tmx (16,28) be
+cause the map is not found
+wrong teleporter on the map: world/3.5.tmx(8,16), to ../cave/3.5a.tmx (17,6) bec
+ause the map is not found
+"C:/jeux/CatchChallenger-single-player-win32/datapack/map/bots.xml: No such file
+ or directory"
+3 learn point(s) on map loaded
+4 zonecapture point(s) on map loaded
+5 heal point(s) on map loaded
+16 market point(s) on map loaded
+52 bot fight(s) on map loaded
+197 bot fights tigger(s) on map loaded
+4 shop(s) on map loaded
+122 bots(s) on map loaded
+80 map(s) loaded
+0 plant(s) on the map loaded
+94 monster(s) into 33 zone(s) for 80 map(s) checked
+"0 zone(s) loaded"
+"0 industrie(s) status loaded"
+newConnection(): new client connected by fake socket
+localhost:15000: creating object time: 0
+localhost:15000: connecting object time: 0
+localhost:15000: Protocol sended and replied
+sebbu: Logged: sebbu on the map: world/0.0.tmx (10,15)
+sebbu: load the normal player id: 19505, simplified id: 0
+sebbu is logged with id: 0, cash: 100
+"For parse item: Have not image attribute: child.tagName(): item (c:/jeux/CatchC
+hallenger-single-player-win32/datapack/items/items.xml at line: 148)"
+"English description not found for the item with id: 2010"
+"Unable to open the items image: c:/jeux/CatchChallenger-single-player-win32/dat
+apack/items/other/dust tusk.png: child.tagName(): item (at line: 218)"
+"38 item(s) extra loaded"
+"80 map(s) extra loaded"
+"80 skin(s) loaded"
+"10 monster(s) extra loaded"
+"3 buff(s) extra loaded"
+"5 skill(s) extra loaded"
+"2 bot linked with quest(s) loaded"
+"2 quest(s) extra loaded"
+"2 quest(s) text loaded"
+"80 bot fight extra(s) loaded"
+"7 plant(s) extra loaded"
+"3 audio ambiance(s) link loaded"
+"2 zone(s) extra loaded"
+BaseWindow::currentMapLoaded(): map:  "C:/jeux/CatchChallenger-single-player-win
+32/datapack/map/world/0.0.tmx"  with type:  "outdoor"
+"received: 761B/s, transmited: 153B/s"
+"transmited: 2B/s"
+"transmited: 8B/s"
+"transmited: 2B/s"
+"transmited: 5B/s"
+"transmited: 5B/s"
+"transmited: 2B/s"
+sebbu: Disconnected client
+sebbu: Do mysql query: UPDATE player SET map_name="world/0.0.tmx",position_x=15,
+position_y=17,orientation="right",rescue_map="world/0.0.tmx",rescue_x=10,rescue_
+y=15,rescue_orientation="bottom",unvalidated_rescue_map="world/0.0.tmx",unvalida
+ted_rescue_x=10,unvalidated_rescue_y=15,unvalidated_rescue_orientation="bottom"
+WHERE id=19505
+Try stop
+Fully stopped
+Disconnected to sqlite at  (1)
+sebbu: Destroyed client
+Connected to sqlite at  (1)
+"38 items(s) loaded"
+"2 trap(s) loaded"
+"7 plant(s) loaded"
+"4 crafting recipe(s) loaded"
+"3 monster buff(s) loaded"
+"5 monster skill(s) loaded"
+"10 monster(s) loaded"
+"2 reputation(s) loaded"
+"2 quest(s) loaded"
+"33 bot fight(s) loaded"
+"Industry id for factory is not found: c:/jeux/CatchChallenger-single-player-win
+32/datapack/industries/list.xml, child.tagName(): link (at line: 9)"
+"8 industries(s) loaded"
+"8 industries(s) link loaded"
+385 file(s) list for datapack cached
+8 skin(s) loaded
+2 shops(s) loaded
+10 monster drop(s) loaded
+map link not resolved: ../world/-1.6.tmx
+map link not resolved: ../world/0.1.tmx
+map link not resolved: ../world/3.5.tmx
+map link not resolved: ../cave/3.5b.tmx
+map link not resolved: ../world/3.4.tmx
+map link not resolved: ../cave/3.5a.tmx
+map link not resolved: ../world/-1.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../indoor/0.0a2.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.5.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/2.4.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/2.6.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/-3.3.tmx
+map link not resolved: ../world/-3.3.tmx
+map link not resolved: -2.13.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: -2.2.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: -2.6.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../cave/-1.6.tmx
+map link not resolved: -1.9.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: -1.8.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: -3.13.tmx
+map link not resolved: -1.13.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: -1.2.tmx
+map link not resolved: -2.4.tmx
+map link not resolved: -2.2.tmx
+map link not resolved: -3.3.tmx
+map link not resolved: ../indoor/-2.3a.tmx
+map link not resolved: ../indoor/-2.3b.tmx
+map link not resolved: ../indoor/-2.3c.tmx
+map link not resolved: ../indoor/-2.3d.tmx
+map link not resolved: -2.5.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: -2.6.tmx
+map link not resolved: -2.4.tmx
+map link not resolved: -2.5.tmx
+map link not resolved: -1.6.tmx
+map link not resolved: -4.13.tmx
+map link not resolved: -2.13.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: ../wood/-3.3a.tmx
+map link not resolved: ../wood/-3.3a.tmx
+map link not resolved: -5.13.tmx
+map link not resolved: -3.13.tmx
+map link not resolved: -6.13.tmx
+map link not resolved: -4.13.tmx
+map link not resolved: -5.13.tmx
+map link not resolved: 0.1.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../indoor/0.0b.tmx
+map link not resolved: ../indoor/0.0d.tmx
+map link not resolved: ../indoor/0.0c.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: 0.0.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: 0.10.tmx
+map link not resolved: 1.11.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: -1.13.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 0.3.tmx
+map link not resolved: 0.1.tmx
+map link not resolved: -1.2.tmx
+map link not resolved: ../indoor/0.2a.tmx
+map link not resolved: ../indoor/0.2b.tmx
+map link not resolved: ../indoor/0.2c.tmx
+map link not resolved: ../indoor/0.2d.tmx
+map link not resolved: 0.4.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: 0.5.tmx
+map link not resolved: 0.3.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 0.4.tmx
+map link not resolved: ../indoor/0.5.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: 0.5.tmx
+map link not resolved: -1.6.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../indoor/0.5.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../indoor/0.6a.tmx
+map link not resolved: ../indoor/0.6b.tmx
+map link not resolved: ../indoor/0.6d.tmx
+map link not resolved: ../indoor/0.6c.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 1.7.tmx
+map link not resolved: ../indoor/0.7.tmx
+map link not resolved: ../indoor/0.7.tmx
+map link not resolved: ../indoor/0.7b.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: -1.8.tmx
+map link not resolved: 0.10.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: -1.9.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 1.11.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: 2.13.tmx
+map link not resolved: 1.7.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 2.6.tmx
+map link not resolved: ../indoor/2.6.tmx
+map link not resolved: ../indoor/1.6a.tmx
+map link not resolved: ../indoor/1.6b.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 2.4.tmx
+map link not resolved: 3.3.tmx
+map link not resolved: 2.3.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: ../indoor/2.4.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: 3.6.tmx
+map link not resolved: ../indoor/2.6.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: 2.3.tmx
+map link not resolved: ../indoor/3.3b.tmx
+map link not resolved: ../indoor/3.3a.tmx
+map link not resolved: ../indoor/3.3c.tmx
+map link not resolved: 3.5.tmx
+map link not resolved: 3.3.tmx
+map link not resolved: 2.4.tmx
+map link not resolved: ../cave/3.5b.tmx
+map link not resolved: 3.6.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: ../cave/3.5a.tmx
+map link not resolved: 3.5.tmx
+map link not resolved: 2.6.tmx
+wrong teleporter on the map: cave/-1.6.tmx(14,27), to ../world/-1.6.tmx (8,7) be
+cause the map is not found
+wrong teleporter on the map: cave/0.1.tmx(19,20), to ../world/0.1.tmx (15,26) be
+cause the map is not found
+wrong teleporter on the map: cave/3.5a.tmx(17,7), to ../world/3.5.tmx (8,17) bec
+ause the map is not found
+wrong teleporter on the map: cave/3.5a.tmx(18,21), to ../cave/3.5b.tmx (6,4) bec
+ause the map is not found
+wrong teleporter on the map: cave/3.5b.tmx(16,29), to ../world/3.4.tmx (14,9) be
+cause the map is not found
+wrong teleporter on the map: cave/3.5b.tmx(6,4), to ../cave/3.5a.tmx (18,21) bec
+ause the map is not found
+wrong teleporter on the map: indoor/-1.6.tmx(0,5), to ../world/-1.6.tmx (25,11)
+because the map is not found
+wrong teleporter on the map: indoor/-1.6.tmx(10,5), to ../world/0.6.tmx (4,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/-2.1a.tmx(5,11), to ../world/0.0.tmx (15,15)
+ because the map is not found
+wrong teleporter on the map: indoor/-2.3a.tmx(2,11), to ../world/-2.3.tmx (18,7)
+ because the map is not found
+wrong teleporter on the map: indoor/-2.3b.tmx(5,11), to ../world/-2.3.tmx (10,17
+) because the map is not found
+wrong teleporter on the map: indoor/-2.3c.tmx(5,11), to ../world/-2.3.tmx (23,17
+) because the map is not found
+wrong teleporter on the map: indoor/-2.3d.tmx(5,11), to ../world/-2.3.tmx (10,24
+) because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(5,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(6,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(10,2), to ../indoor/0.0a2.tmx (9,2)
+ because the map is not found
+wrong teleporter on the map: indoor/0.0a2.tmx(10,2), to ../indoor/0.0a.tmx (9,2)
+ because the map is not found
+wrong teleporter on the map: indoor/0.0b.tmx(5,11), to ../world/0.0.tmx (18,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0b.tmx(6,11), to ../world/0.0.tmx (18,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0c.tmx(5,11), to ../world/0.0.tmx (9,23) b
+ecause the map is not found
+wrong teleporter on the map: indoor/0.0d.tmx(5,11), to ../world/0.0.tmx (19,23)
+because the map is not found
+wrong teleporter on the map: indoor/0.0d.tmx(6,11), to ../world/0.0.tmx (19,23)
+because the map is not found
+wrong teleporter on the map: indoor/0.2a.tmx(5,11), to ../world/0.2.tmx (11,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2a.tmx(6,11), to ../world/0.2.tmx (11,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2b.tmx(5,11), to ../world/0.2.tmx (20,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2c.tmx(5,11), to ../world/0.2.tmx (11,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.2d.tmx(5,11), to ../world/0.2.tmx (19,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.2d.tmx(6,11), to ../world/0.2.tmx (19,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.5.tmx(5,10), to ../world/0.5.tmx (17,4) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.5.tmx(5,2), to ../world/0.6.tmx (17,27) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.6a.tmx(16,19), to ../world/0.6.tmx (11,8)
+because the map is not found
+wrong teleporter on the map: indoor/0.6b.tmx(5,11), to ../world/0.6.tmx (23,19)
+because the map is not found
+wrong teleporter on the map: indoor/0.6c.tmx(16,19), to ../world/0.6.tmx (24,8)
+because the map is not found
+wrong teleporter on the map: indoor/0.6d.tmx(5,11), to ../world/0.6.tmx (12,26)
+because the map is not found
+wrong teleporter on the map: indoor/0.7.tmx(6,10), to ../world/0.7.tmx (26,19) b
+ecause the map is not found
+wrong teleporter on the map: indoor/0.7.tmx(6,2), to ../world/0.7.tmx (26,10) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.7b.tmx(5,11), to ../world/0.7.tmx (9,28) b
+ecause the map is not found
+wrong teleporter on the map: indoor/1.6a.tmx(5,11), to ../world/1.6.tmx (9,9) be
+cause the map is not found
+wrong teleporter on the map: indoor/1.6b.tmx(5,11), to ../world/1.6.tmx (7,19) b
+ecause the map is not found
+wrong teleporter on the map: indoor/2.4.tmx(7,14), to ../world/2.4.tmx (21,17) b
+ecause the map is not found
+wrong teleporter on the map: indoor/2.6.tmx(0,5), to ../world/1.6.tmx (23,21) be
+cause the map is not found
+wrong teleporter on the map: indoor/2.6.tmx(10,5), to ../world/2.6.tmx (2,21) be
+cause the map is not found
+wrong teleporter on the map: indoor/3.3a.tmx(5,11), to ../world/3.3.tmx (3,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/3.3b.tmx(5,11), to ../world/3.3.tmx (8,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/3.3c.tmx(5,11), to ../world/3.3.tmx (5,3) be
+cause the map is not found
+wrong teleporter on the map: indoor/heal.tmx(5,11), to ../world/0.2.tmx (10,25)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(5,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(6,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(10,0), to ../indoor/0.0a.tmx (8,2)
+because the map is not found
+wrong teleporter on the map: indoor/shop.tmx(5,11), to ../world/0.2.tmx (20,18)
+because the map is not found
+wrong teleporter on the map: wood/-3.3a.tmx(25,14), to ../world/-3.3.tmx (9,18)
+because the map is not found
+wrong teleporter on the map: wood/-3.3a.tmx(25,15), to ../world/-3.3.tmx (9,19)
+because the map is not found
+wrong teleporter on the map: world/-1.6.tmx(26,10), to ../indoor/-1.6.tmx (1,5)
+because the map is not found
+wrong teleporter on the map: world/-1.6.tmx(8,6), to ../cave/-1.6.tmx (14,26) be
+cause the map is not found
+wrong teleporter on the map: world/-2.3.tmx(18,6), to ../indoor/-2.3a.tmx (2,10)
+ because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(10,16), to ../indoor/-2.3b.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(23,16), to ../indoor/-2.3c.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(10,23), to ../indoor/-2.3d.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-3.3.tmx(8,19), to ../wood/-3.3a.tmx (24,15)
+because the map is not found
+wrong teleporter on the map: world/-3.3.tmx(8,18), to ../wood/-3.3a.tmx (24,14)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(10,14), to ../indoor/0.0a.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(18,14), to ../indoor/0.0b.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(19,22), to ../indoor/0.0d.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(9,22), to ../indoor/0.0c.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/0.2.tmx(12,17), to ../indoor/0.2a.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(20,17), to ../indoor/0.2b.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(11,24), to ../indoor/0.2c.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(19,24), to ../indoor/0.2d.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.5.tmx(17,3), to ../indoor/0.5.tmx (5,9) bec
+ause the map is not found
+wrong teleporter on the map: world/0.6.tmx(3,11), to ../indoor/-1.6.tmx (9,5) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(17,28), to ../indoor/0.5.tmx (5,3) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(3,10), to ../indoor/-1.6.tmx (9,5) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(11,7), to ../indoor/0.6a.tmx (16,18)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(23,18), to ../indoor/0.6b.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(12,25), to ../indoor/0.6d.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(24,7), to ../indoor/0.6c.tmx (16,18)
+because the map is not found
+wrong teleporter on the map: world/0.7.tmx(26,18), to ../indoor/0.7.tmx (6,9) be
+cause the map is not found
+wrong teleporter on the map: world/0.7.tmx(26,11), to ../indoor/0.7.tmx (6,3) be
+cause the map is not found
+wrong teleporter on the map: world/0.7.tmx(9,27), to ../indoor/0.7b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/1.6.tmx(25,20), to ../indoor/2.6.tmx (1,5) be
+cause the map is not found
+wrong teleporter on the map: world/1.6.tmx(9,8), to ../indoor/1.6a.tmx (5,10) be
+cause the map is not found
+wrong teleporter on the map: world/1.6.tmx(7,18), to ../indoor/1.6b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/2.4.tmx(21,16), to ../indoor/2.4.tmx (7,13) b
+ecause the map is not found
+wrong teleporter on the map: world/2.6.tmx(1,20), to ../indoor/2.6.tmx (9,5) bec
+ause the map is not found
+wrong teleporter on the map: world/3.3.tmx(8,10), to ../indoor/3.3b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/3.3.tmx(3,10), to ../indoor/3.3a.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/3.3.tmx(5,2), to ../indoor/3.3c.tmx (5,10) be
+cause the map is not found
+wrong teleporter on the map: world/3.4.tmx(14,8), to ../cave/3.5b.tmx (16,28) be
+cause the map is not found
+wrong teleporter on the map: world/3.5.tmx(8,16), to ../cave/3.5a.tmx (17,6) bec
+ause the map is not found
+"C:/jeux/CatchChallenger-single-player-win32/datapack/map/bots.xml: No such file
+ or directory"
+3 learn point(s) on map loaded
+4 zonecapture point(s) on map loaded
+5 heal point(s) on map loaded
+16 market point(s) on map loaded
+52 bot fight(s) on map loaded
+197 bot fights tigger(s) on map loaded
+4 shop(s) on map loaded
+122 bots(s) on map loaded
+80 map(s) loaded
+0 plant(s) on the map loaded
+94 monster(s) into 33 zone(s) for 80 map(s) checked
+"0 zone(s) loaded"
+"0 industrie(s) status loaded"
+"transmited: 18B/s"
+newConnection(): new client connected by fake socket
+localhost:15000: creating object time: 0
+localhost:15000: connecting object time: 0
+localhost:15000: Protocol sended and replied
+sebbu: Logged: sebbu on the map: world/0.0.tmx (15,17)
+sebbu: load the normal player id: 19505, simplified id: 0
+sebbu is logged with id: 0, cash: 100
+"For parse item: Have not image attribute: child.tagName(): item (c:/jeux/CatchC
+hallenger-single-player-win32/datapack/items/items.xml at line: 148)"
+"English description not found for the item with id: 2010"
+"Unable to open the items image: c:/jeux/CatchChallenger-single-player-win32/dat
+apack/items/other/dust tusk.png: child.tagName(): item (at line: 218)"
+"38 item(s) extra loaded"
+"80 map(s) extra loaded"
+"80 skin(s) loaded"
+"10 monster(s) extra loaded"
+"3 buff(s) extra loaded"
+"5 skill(s) extra loaded"
+"2 bot linked with quest(s) loaded"
+"2 quest(s) extra loaded"
+"2 quest(s) text loaded"
+"80 bot fight extra(s) loaded"
+"7 plant(s) extra loaded"
+"3 audio ambiance(s) link loaded"
+"2 zone(s) extra loaded"
+"received: 2740B/s, transmited: 332B/s"
+BaseWindow::currentMapLoaded(): map:  "C:/jeux/CatchChallenger-single-player-win
+32/datapack/map/world/0.0.tmx"  with type:  "outdoor"
+"transmited: 2B/s"
+"transmited: 8B/s"
+"transmited: 5B/s"
+"transmited: 5B/s"
+"transmited: 2B/s"
+BaseWindow::currentMapLoaded(): map:  "C:/jeux/CatchChallenger-single-player-win
+32/datapack/map/indoor/0.0a.tmx"  with type:  ""
+sebbu: Kicked by: LocalClientHandler::singleMove(), can't go into this direction
+: move at top with map: world/0.0.tmx(10,14)
+sebbu: Disconnected client
+sebbu: Kicked by: ClientLocalBroadcast::singleMove(), can go into this direction
+: move at top with map: world/0.0.tmx(10,14)
+Try stop
+sebbu: Do mysql query: UPDATE player SET map_name="world/0.0.tmx",position_x=10,
+position_y=14,orientation="top",rescue_map="world/0.0.tmx",rescue_x=10,rescue_y=
+15,rescue_orientation="bottom",unvalidated_rescue_map="world/0.0.tmx",unvalidate
+d_rescue_x=10,unvalidated_rescue_y=15,unvalidated_rescue_orientation="bottom" WH
+ERE id=19505
+Fully stopped
+Disconnected to sqlite at  (1)
+sebbu: Destroyed client
+Connected to sqlite at  (1)
+"38 items(s) loaded"
+"2 trap(s) loaded"
+"7 plant(s) loaded"
+"4 crafting recipe(s) loaded"
+"3 monster buff(s) loaded"
+"5 monster skill(s) loaded"
+"10 monster(s) loaded"
+"2 reputation(s) loaded"
+"2 quest(s) loaded"
+"33 bot fight(s) loaded"
+"Industry id for factory is not found: c:/jeux/CatchChallenger-single-player-win
+32/datapack/industries/list.xml, child.tagName(): link (at line: 9)"
+"8 industries(s) loaded"
+"8 industries(s) link loaded"
+385 file(s) list for datapack cached
+8 skin(s) loaded
+2 shops(s) loaded
+10 monster drop(s) loaded
+map link not resolved: ../world/-1.6.tmx
+map link not resolved: ../world/0.1.tmx
+map link not resolved: ../world/3.5.tmx
+map link not resolved: ../cave/3.5b.tmx
+map link not resolved: ../world/3.4.tmx
+map link not resolved: ../cave/3.5a.tmx
+map link not resolved: ../world/-1.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/-2.3.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../indoor/0.0a2.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.5.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.6.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/0.7.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/2.4.tmx
+map link not resolved: ../world/1.6.tmx
+map link not resolved: ../world/2.6.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/3.3.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../world/0.0.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../world/0.2.tmx
+map link not resolved: ../world/-3.3.tmx
+map link not resolved: ../world/-3.3.tmx
+map link not resolved: -2.13.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: -2.2.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: -2.6.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../cave/-1.6.tmx
+map link not resolved: -1.9.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: -1.8.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: -3.13.tmx
+map link not resolved: -1.13.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: -1.2.tmx
+map link not resolved: -2.4.tmx
+map link not resolved: -2.2.tmx
+map link not resolved: -3.3.tmx
+map link not resolved: ../indoor/-2.3a.tmx
+map link not resolved: ../indoor/-2.3b.tmx
+map link not resolved: ../indoor/-2.3c.tmx
+map link not resolved: ../indoor/-2.3d.tmx
+map link not resolved: -2.5.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: -2.6.tmx
+map link not resolved: -2.4.tmx
+map link not resolved: -2.5.tmx
+map link not resolved: -1.6.tmx
+map link not resolved: -4.13.tmx
+map link not resolved: -2.13.tmx
+map link not resolved: -2.3.tmx
+map link not resolved: ../wood/-3.3a.tmx
+map link not resolved: ../wood/-3.3a.tmx
+map link not resolved: -5.13.tmx
+map link not resolved: -3.13.tmx
+map link not resolved: -6.13.tmx
+map link not resolved: -4.13.tmx
+map link not resolved: -5.13.tmx
+map link not resolved: 0.1.tmx
+map link not resolved: ../indoor/0.0a.tmx
+map link not resolved: ../indoor/0.0b.tmx
+map link not resolved: ../indoor/0.0d.tmx
+map link not resolved: ../indoor/0.0c.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: 0.0.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: 0.10.tmx
+map link not resolved: 1.11.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: -1.13.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 0.3.tmx
+map link not resolved: 0.1.tmx
+map link not resolved: -1.2.tmx
+map link not resolved: ../indoor/0.2a.tmx
+map link not resolved: ../indoor/0.2b.tmx
+map link not resolved: ../indoor/0.2c.tmx
+map link not resolved: ../indoor/0.2d.tmx
+map link not resolved: 0.4.tmx
+map link not resolved: 0.2.tmx
+map link not resolved: 0.5.tmx
+map link not resolved: 0.3.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 0.4.tmx
+map link not resolved: ../indoor/0.5.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: 0.5.tmx
+map link not resolved: -1.6.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../indoor/0.5.tmx
+map link not resolved: ../indoor/-1.6.tmx
+map link not resolved: ../indoor/0.6a.tmx
+map link not resolved: ../indoor/0.6b.tmx
+map link not resolved: ../indoor/0.6d.tmx
+map link not resolved: ../indoor/0.6c.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 1.7.tmx
+map link not resolved: ../indoor/0.7.tmx
+map link not resolved: ../indoor/0.7.tmx
+map link not resolved: ../indoor/0.7b.tmx
+map link not resolved: 0.9.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: -1.8.tmx
+map link not resolved: 0.10.tmx
+map link not resolved: 0.8.tmx
+map link not resolved: -1.9.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.11.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 1.11.tmx
+map link not resolved: 0.12.tmx
+map link not resolved: 1.12.tmx
+map link not resolved: 0.13.tmx
+map link not resolved: 2.13.tmx
+map link not resolved: 1.7.tmx
+map link not resolved: 0.6.tmx
+map link not resolved: 2.6.tmx
+map link not resolved: ../indoor/2.6.tmx
+map link not resolved: ../indoor/1.6a.tmx
+map link not resolved: ../indoor/1.6b.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: 0.7.tmx
+map link not resolved: 1.13.tmx
+map link not resolved: 2.4.tmx
+map link not resolved: 3.3.tmx
+map link not resolved: 2.3.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: ../indoor/2.4.tmx
+map link not resolved: 1.6.tmx
+map link not resolved: 3.6.tmx
+map link not resolved: ../indoor/2.6.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: 2.3.tmx
+map link not resolved: ../indoor/3.3b.tmx
+map link not resolved: ../indoor/3.3a.tmx
+map link not resolved: ../indoor/3.3c.tmx
+map link not resolved: 3.5.tmx
+map link not resolved: 3.3.tmx
+map link not resolved: 2.4.tmx
+map link not resolved: ../cave/3.5b.tmx
+map link not resolved: 3.6.tmx
+map link not resolved: 3.4.tmx
+map link not resolved: ../cave/3.5a.tmx
+map link not resolved: 3.5.tmx
+map link not resolved: 2.6.tmx
+wrong teleporter on the map: cave/-1.6.tmx(14,27), to ../world/-1.6.tmx (8,7) be
+cause the map is not found
+wrong teleporter on the map: cave/0.1.tmx(19,20), to ../world/0.1.tmx (15,26) be
+cause the map is not found
+wrong teleporter on the map: cave/3.5a.tmx(17,7), to ../world/3.5.tmx (8,17) bec
+ause the map is not found
+wrong teleporter on the map: cave/3.5a.tmx(18,21), to ../cave/3.5b.tmx (6,4) bec
+ause the map is not found
+wrong teleporter on the map: cave/3.5b.tmx(16,29), to ../world/3.4.tmx (14,9) be
+cause the map is not found
+wrong teleporter on the map: cave/3.5b.tmx(6,4), to ../cave/3.5a.tmx (18,21) bec
+ause the map is not found
+wrong teleporter on the map: indoor/-1.6.tmx(0,5), to ../world/-1.6.tmx (25,11)
+because the map is not found
+wrong teleporter on the map: indoor/-1.6.tmx(10,5), to ../world/0.6.tmx (4,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/-2.1a.tmx(5,11), to ../world/0.0.tmx (15,15)
+ because the map is not found
+wrong teleporter on the map: indoor/-2.3a.tmx(2,11), to ../world/-2.3.tmx (18,7)
+ because the map is not found
+wrong teleporter on the map: indoor/-2.3b.tmx(5,11), to ../world/-2.3.tmx (10,17
+) because the map is not found
+wrong teleporter on the map: indoor/-2.3c.tmx(5,11), to ../world/-2.3.tmx (23,17
+) because the map is not found
+wrong teleporter on the map: indoor/-2.3d.tmx(5,11), to ../world/-2.3.tmx (10,24
+) because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(5,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(6,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0a.tmx(10,2), to ../indoor/0.0a2.tmx (9,2)
+ because the map is not found
+wrong teleporter on the map: indoor/0.0a2.tmx(10,2), to ../indoor/0.0a.tmx (9,2)
+ because the map is not found
+wrong teleporter on the map: indoor/0.0b.tmx(5,11), to ../world/0.0.tmx (18,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0b.tmx(6,11), to ../world/0.0.tmx (18,15)
+because the map is not found
+wrong teleporter on the map: indoor/0.0c.tmx(5,11), to ../world/0.0.tmx (9,23) b
+ecause the map is not found
+wrong teleporter on the map: indoor/0.0d.tmx(5,11), to ../world/0.0.tmx (19,23)
+because the map is not found
+wrong teleporter on the map: indoor/0.0d.tmx(6,11), to ../world/0.0.tmx (19,23)
+because the map is not found
+wrong teleporter on the map: indoor/0.2a.tmx(5,11), to ../world/0.2.tmx (11,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2a.tmx(6,11), to ../world/0.2.tmx (11,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2b.tmx(5,11), to ../world/0.2.tmx (20,18)
+because the map is not found
+wrong teleporter on the map: indoor/0.2c.tmx(5,11), to ../world/0.2.tmx (11,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.2d.tmx(5,11), to ../world/0.2.tmx (19,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.2d.tmx(6,11), to ../world/0.2.tmx (19,25)
+because the map is not found
+wrong teleporter on the map: indoor/0.5.tmx(5,10), to ../world/0.5.tmx (17,4) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.5.tmx(5,2), to ../world/0.6.tmx (17,27) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.6a.tmx(16,19), to ../world/0.6.tmx (11,8)
+because the map is not found
+wrong teleporter on the map: indoor/0.6b.tmx(5,11), to ../world/0.6.tmx (23,19)
+because the map is not found
+wrong teleporter on the map: indoor/0.6c.tmx(16,19), to ../world/0.6.tmx (24,8)
+because the map is not found
+wrong teleporter on the map: indoor/0.6d.tmx(5,11), to ../world/0.6.tmx (12,26)
+because the map is not found
+wrong teleporter on the map: indoor/0.7.tmx(6,10), to ../world/0.7.tmx (26,19) b
+ecause the map is not found
+wrong teleporter on the map: indoor/0.7.tmx(6,2), to ../world/0.7.tmx (26,10) be
+cause the map is not found
+wrong teleporter on the map: indoor/0.7b.tmx(5,11), to ../world/0.7.tmx (9,28) b
+ecause the map is not found
+wrong teleporter on the map: indoor/1.6a.tmx(5,11), to ../world/1.6.tmx (9,9) be
+cause the map is not found
+wrong teleporter on the map: indoor/1.6b.tmx(5,11), to ../world/1.6.tmx (7,19) b
+ecause the map is not found
+wrong teleporter on the map: indoor/2.4.tmx(7,14), to ../world/2.4.tmx (21,17) b
+ecause the map is not found
+wrong teleporter on the map: indoor/2.6.tmx(0,5), to ../world/1.6.tmx (23,21) be
+cause the map is not found
+wrong teleporter on the map: indoor/2.6.tmx(10,5), to ../world/2.6.tmx (2,21) be
+cause the map is not found
+wrong teleporter on the map: indoor/3.3a.tmx(5,11), to ../world/3.3.tmx (3,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/3.3b.tmx(5,11), to ../world/3.3.tmx (8,11) b
+ecause the map is not found
+wrong teleporter on the map: indoor/3.3c.tmx(5,11), to ../world/3.3.tmx (5,3) be
+cause the map is not found
+wrong teleporter on the map: indoor/heal.tmx(5,11), to ../world/0.2.tmx (10,25)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(5,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(6,11), to ../world/0.0.tmx (10,15)
+because the map is not found
+wrong teleporter on the map: indoor/home.tmx(10,0), to ../indoor/0.0a.tmx (8,2)
+because the map is not found
+wrong teleporter on the map: indoor/shop.tmx(5,11), to ../world/0.2.tmx (20,18)
+because the map is not found
+wrong teleporter on the map: wood/-3.3a.tmx(25,14), to ../world/-3.3.tmx (9,18)
+because the map is not found
+wrong teleporter on the map: wood/-3.3a.tmx(25,15), to ../world/-3.3.tmx (9,19)
+because the map is not found
+wrong teleporter on the map: world/-1.6.tmx(26,10), to ../indoor/-1.6.tmx (1,5)
+because the map is not found
+wrong teleporter on the map: world/-1.6.tmx(8,6), to ../cave/-1.6.tmx (14,26) be
+cause the map is not found
+wrong teleporter on the map: world/-2.3.tmx(18,6), to ../indoor/-2.3a.tmx (2,10)
+ because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(10,16), to ../indoor/-2.3b.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(23,16), to ../indoor/-2.3c.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-2.3.tmx(10,23), to ../indoor/-2.3d.tmx (5,10
+) because the map is not found
+wrong teleporter on the map: world/-3.3.tmx(8,19), to ../wood/-3.3a.tmx (24,15)
+because the map is not found
+wrong teleporter on the map: world/-3.3.tmx(8,18), to ../wood/-3.3a.tmx (24,14)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(10,14), to ../indoor/0.0a.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(18,14), to ../indoor/0.0b.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(19,22), to ../indoor/0.0d.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.0.tmx(9,22), to ../indoor/0.0c.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/0.2.tmx(12,17), to ../indoor/0.2a.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(20,17), to ../indoor/0.2b.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(11,24), to ../indoor/0.2c.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.2.tmx(19,24), to ../indoor/0.2d.tmx (6,10)
+because the map is not found
+wrong teleporter on the map: world/0.5.tmx(17,3), to ../indoor/0.5.tmx (5,9) bec
+ause the map is not found
+wrong teleporter on the map: world/0.6.tmx(3,11), to ../indoor/-1.6.tmx (9,5) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(17,28), to ../indoor/0.5.tmx (5,3) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(3,10), to ../indoor/-1.6.tmx (9,5) be
+cause the map is not found
+wrong teleporter on the map: world/0.6.tmx(11,7), to ../indoor/0.6a.tmx (16,18)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(23,18), to ../indoor/0.6b.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(12,25), to ../indoor/0.6d.tmx (5,10)
+because the map is not found
+wrong teleporter on the map: world/0.6.tmx(24,7), to ../indoor/0.6c.tmx (16,18)
+because the map is not found
+wrong teleporter on the map: world/0.7.tmx(26,18), to ../indoor/0.7.tmx (6,9) be
+cause the map is not found
+wrong teleporter on the map: world/0.7.tmx(26,11), to ../indoor/0.7.tmx (6,3) be
+cause the map is not found
+wrong teleporter on the map: world/0.7.tmx(9,27), to ../indoor/0.7b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/1.6.tmx(25,20), to ../indoor/2.6.tmx (1,5) be
+cause the map is not found
+wrong teleporter on the map: world/1.6.tmx(9,8), to ../indoor/1.6a.tmx (5,10) be
+cause the map is not found
+wrong teleporter on the map: world/1.6.tmx(7,18), to ../indoor/1.6b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/2.4.tmx(21,16), to ../indoor/2.4.tmx (7,13) b
+ecause the map is not found
+wrong teleporter on the map: world/2.6.tmx(1,20), to ../indoor/2.6.tmx (9,5) bec
+ause the map is not found
+wrong teleporter on the map: world/3.3.tmx(8,10), to ../indoor/3.3b.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/3.3.tmx(3,10), to ../indoor/3.3a.tmx (5,10) b
+ecause the map is not found
+wrong teleporter on the map: world/3.3.tmx(5,2), to ../indoor/3.3c.tmx (5,10) be
+cause the map is not found
+wrong teleporter on the map: world/3.4.tmx(14,8), to ../cave/3.5b.tmx (16,28) be
+cause the map is not found
+wrong teleporter on the map: world/3.5.tmx(8,16), to ../cave/3.5a.tmx (17,6) bec
+ause the map is not found
+"C:/jeux/CatchChallenger-single-player-win32/datapack/map/bots.xml: No such file
+ or directory"
+3 learn point(s) on map loaded
+4 zonecapture point(s) on map loaded
+5 heal point(s) on map loaded
+16 market point(s) on map loaded
+52 bot fight(s) on map loaded
+197 bot fights tigger(s) on map loaded
+4 shop(s) on map loaded
+122 bots(s) on map loaded
+80 map(s) loaded
+0 plant(s) on the map loaded
+94 monster(s) into 33 zone(s) for 80 map(s) checked
+"0 zone(s) loaded"
+"0 industrie(s) status loaded"
+"transmited: 17B/s"
+newConnection(): new client connected by fake socket
+localhost:15000: creating object time: 0
+localhost:15000: connecting object time: 1
+localhost:15000: Protocol sended and replied
+sebbu: Logged: sebbu on the map: world/0.0.tmx (10,14)
+sebbu: load the normal player id: 19505, simplified id: 0
+sebbu is logged with id: 0, cash: 100
+"The skin id: 1, into a list of: 0 item(s) into BaseWindow::updatePlayerImage()"
+
+"The skin id: 1, into a list of: 0 item(s) into BaseWindow::updatePlayerImage()"
+
+"For parse item: Have not image attribute: child.tagName(): item (c:/jeux/CatchC
+hallenger-single-player-win32/datapack/items/items.xml at line: 148)"
+"English description not found for the item with id: 2010"
+"Unable to open the items image: c:/jeux/CatchChallenger-single-player-win32/dat
+apack/items/other/dust tusk.png: child.tagName(): item (at line: 218)"
+"38 item(s) extra loaded"
+"80 map(s) extra loaded"
+"80 skin(s) loaded"
+"10 monster(s) extra loaded"
+"3 buff(s) extra loaded"
+"5 skill(s) extra loaded"
+"2 bot linked with quest(s) loaded"
+"2 quest(s) extra loaded"
+"2 quest(s) text loaded"
+"80 bot fight extra(s) loaded"
+"7 plant(s) extra loaded"
+"3 audio ambiance(s) link loaded"
+"2 zone(s) extra loaded"
+BaseWindow::currentMapLoaded(): map:  "C:/jeux/CatchChallenger-single-player-win
+32/datapack/map/world/0.0.tmx"  with type:  "outdoor"
+"received: 562B/s, transmited: 68B/s"
+"transmited: 4B/s"
+"transmited: 5B/s"
+"transmited: 2B/s"
+BaseWindow::currentMapLoaded(): map:  "C:/jeux/CatchChallenger-single-player-win
+32/datapack/map/indoor/0.0b.tmx"  with type:  ""
+"transmited: 5B/s"
+sebbu: Kicked by: LocalClientHandler::singleMove(), can't go into this direction
+: move at top with map: world/0.0.tmx(18,14)
+sebbu: Disconnected client
+sebbu: Kicked by: ClientLocalBroadcast::singleMove(), can go into this direction
+: move at top with map: world/0.0.tmx(18,14)
+Try stop
+sebbu: Do mysql query: UPDATE player SET map_name="world/0.0.tmx",position_x=18,
+position_y=14,orientation="top",rescue_map="world/0.0.tmx",rescue_x=10,rescue_y=
+15,rescue_orientation="bottom",unvalidated_rescue_map="world/0.0.tmx",unvalidate
+d_rescue_x=10,unvalidated_rescue_y=15,unvalidated_rescue_orientation="bottom" WH
+ERE id=19505
+Fully stopped
+Disconnected to sqlite at  (1)
+sebbu: Destroyed client

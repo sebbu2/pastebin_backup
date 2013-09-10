@@ -1,0 +1,9 @@
+BaseWindow::currentMapLoaded(): map:  "C:/jeux/CatchChallenger-single-player-win32/datapack/map/indoor/0.0a.tmx"  with type:  ""
+sebbu: Kicked by: LocalClientHandler::singleMove(), can't go into this direction: move at top with map: world/0.0.tmx(10,14)
+sebbu: Disconnected client
+sebbu: Kicked by: ClientLocalBroadcast::singleMove(), can go into this direction: move at top with map: world/0.0.tmx(10,14)
+Try stop
+sebbu: Do mysql query: UPDATE player SET map_name="world/0.0.tmx",position_x=10,position_y=14,orientation="top",rescue_map="world/0.0.tmx",rescue_x=10,rescue_y=15,rescue_orientation="bottom",unvalidated_rescue_map="world0.0.tmx",unvalidated_rescue_x=10,unvalidated_rescue_y=15,unvalidated_rescue_orientation="bottom" WHERE id=19505
+Fully stopped
+Disconnected to sqlite at  (1)
+sebbu: Destroyed client

@@ -1,0 +1,23 @@
+[13:54:18] * Looking up irc.geeknode.net
+[13:54:20] * Connecting to irc.geeknode.net (80.248.214.54:6697)
+[13:54:25] * * Subject: /O=CAcert Inc./OU=http://www.CAcert.org/CN=CAcert Class 3 Root
+[13:54:25] * * Issuer: /O=Root CA/OU=http://www.cacert.org/CN=CA Cert Signing Authority/emailAddress=support@cacert.org
+[13:54:25] * * Subject: /O=CAcert Inc./OU=http://www.CAcert.org/CN=CAcert Class 3 Root
+[13:54:25] * * Issuer: /O=Root CA/OU=http://www.cacert.org/CN=CA Cert Signing Authority/emailAddress=support@cacert.org
+[13:54:25] * * Subject: /CN=*.geeknode.org
+[13:54:25] * * Issuer: /O=CAcert Inc./OU=http://www.CAcert.org/CN=CAcert Class 3 Root
+[13:54:26] * * Certification info:
+[13:54:26] *   Subject:
+[13:54:26] *     CN=*.geeknode.org
+[13:54:26] *   Issuer:
+[13:54:26] *     O=CAcert Inc.
+[13:54:26] *     OU=http:
+[13:54:26] *     
+[13:54:26] *     www.CAcert.org
+[13:54:26] *     CN=CAcert Class 3 Root
+[13:54:26] *   Public key algorithm: rsaEncryption (2048 bits)
+[13:54:26] *   Sign algorithm sha1WithRSAEncryption
+[13:54:26] *   Valid since Dec 22 18:45:35 2013 GMT to Dec 22 18:45:35 2015 GMT
+[13:54:26] * * Cipher info:
+[13:54:26] *   Version: TLSv1/SSLv3, cipher AES256-SHA (256 bits)
+[13:54:26] * Connection failed (certificate not trusted.? (27))

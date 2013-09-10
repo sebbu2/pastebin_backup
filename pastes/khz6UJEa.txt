@@ -1,0 +1,14 @@
+[ 55%] Building C object CMakeFiles/chck.dir/fs/fs.c.o
+/Users/sebbu/chck/fs/fs.c:64:54: warning: incompatible integer to pointer
+      conversion passing 'size_t' (aka 'unsigned long') to parameter of type
+      'uint32_t *' (aka 'unsigned int *') [-Wint-conversion]
+   while ((size_t)(rsize = _NSGetExecutablePath(buf, size)) > size) {
+                                                     ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/mach-o/dyld.h:92:54: note: 
+      passing argument to parameter 'bufsize' here
+extern int _NSGetExecutablePath(char* buf, uint32_t* bufsize...
+                                                     ^
+/Users/sebbu/chck/fs/fs.c:126:4: error: insert your OS here
+#  error insert your OS here
+   ^
+1 warning and 1 error generated.

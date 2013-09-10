@@ -1,0 +1,50 @@
+(gdb) bt
+#0  0x6c6e13fe in Tiled::Tileset::tileOffset (this=0xfeeefeee)
+    at tileset.h:134
+#1  0x6c6d1bf4 in Tiled::OrthogonalRenderer::drawTileLayer (this=0x4021e30,
+    painter=0x22c99c, layer=0x41388b8, exposed=...)
+    at orthogonalrenderer.cpp:235
+#2  0x0040c13c in Tiled::Internal::BrushItem::paint (this=0x33bfc50,
+    painter=0x22c99c, option=0x4012308) at brushitem.cpp:113
+#3  0x69535ddb in ZN14QGraphicsScene14drawForegroundEP8QPainterRK6QRectF ()
+   from k:\tiled-qt\QtGuid4.dll
+#4  0x69535775 in ZN14QGraphicsScene14drawForegroundEP8QPainterRK6QRectF ()
+   from k:\tiled-qt\QtGuid4.dll
+#5  0x69534cf5 in ZN14QGraphicsScene14drawForegroundEP8QPainterRK6QRectF ()
+   from k:\tiled-qt\QtGuid4.dll
+#6  0x695525fc in ZN13QGraphicsView10paintEventEP11QPaintEvent ()
+   from k:\tiled-qt\QtGuid4.dll
+#7  0x68fb6b6b in ZN7QWidget5eventEP6QEvent () from k:\tiled-qt\QtGuid4.dll
+#8  0x6934a5b8 in ZN6QFrame5eventEP6QEvent () from k:\tiled-qt\QtGuid4.dll
+#9  0x693d950f in ZN19QAbstractScrollArea13viewportEventEP6QEvent ()
+   from k:\tiled-qt\QtGuid4.dll
+#10 0x6954fc6e in ZN13QGraphicsView13viewportEventEP6QEvent ()
+   from k:\tiled-qt\QtGuid4.dll
+#11 0x6963bd23 in ZN26QAbstractScrollAreaPrivate13viewportEventEP6QEvent ()
+   from k:\tiled-qt\QtGuid4.dll
+#12 0x6963a0e4 in ZN24QStyleOptionGraphicsItemC1ERKS_ ()
+   from k:\tiled-qt\QtGuid4.dll
+#13 0x6a213483 in ZN23QCoreApplicationPrivate29sendThroughObjectEventFiltersEP7Q
+ObjectP6QEvent () from k:\tiled-qt\QtCored4.dll
+#14 0x68f6bfff in ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent ()
+   from k:\tiled-qt\QtGuid4.dll
+#15 0x68f6bea1 in ZN12QApplication6notifyEP7QObjectP6QEvent ()
+   from k:\tiled-qt\QtGuid4.dll
+#16 0x6a213252 in ZN16QCoreApplication14notifyInternalEP7QObjectP6QEvent ()
+   from k:\tiled-qt\QtCored4.dll
+#17 0x69600246 in ZN16QAccessibleEvent8setValueERK7QString ()
+   from k:\tiled-qt\QtGuid4.dll
+#18 0x68faf6bc in ZN14QWidgetPrivate10drawWidgetEP12QPaintDeviceRK7QRegionRK6QPo
+intiP8QPainterP19QWidgetBackingStore () from k:\tiled-qt\QtGuid4.dll
+#19 0x69147ff6 in ZN14QWidgetPrivate11repaint_sysERK7QRegion ()
+   from k:\tiled-qt\QtGuid4.dll
+#20 0x68fa71ad in ZN14QWidgetPrivate16syncBackingStoreERK7QRegion ()
+   from k:\tiled-qt\QtGuid4.dll
+#21 0x68fd43e2 in ZN12QApplication16winMouseButtonUpEv ()
+   from k:\tiled-qt\QtGuid4.dll
+#22 0x68fceff5 in ZN12QApplication8winFocusEP7QWidgetb ()
+   from k:\tiled-qt\QtGuid4.dll
+#23 0x766dfd72 in USER32!GetWindowMinimizeRect ()
+   from C:\Windows\system32\user32.dll
+#24 0x00000000 in ?? ()
+(gdb)
