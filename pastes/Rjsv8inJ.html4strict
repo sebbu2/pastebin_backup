@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>test HTML > TABLE</title>
+<style type="text/css">
+TABLE
+{
+	border: 1px black solid;
+	border-collapse: collapse;
+}
+TR
+{
+	height: 32px;
+}
+TD
+{
+	width: 32px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<table border="1">
+	<tr>
+		<td>a</td>
+		<td>b</td>
+		<td colspan="2">c</td>
+		<!--skip 1 cell-->
+		<td>d</td>
+		<td>e</td>
+	</tr>
+	<tr>
+		<td>f</td>
+		<td>g</td>
+		<td>h</td>
+		<td>i</td>
+		<td>j</td>
+		<td>k</td>
+	</tr>
+	<tr>
+		<td rowspan="2">l</td>
+		<td>m</td>
+		<td colspan="2" rowspan="2">n</td>
+		<td>o</td>
+		<td rowspan="2">p</td>
+	</tr>
+	<tr>
+		<!--skip 1 cell-->
+		<td>q</td>
+		<!--skip 1 cell-->
+		<!--skip 1 cell-->
+		<td>r</td>
+		<!--skip 1 cell-->
+	</tr>
+	<tr>
+		<td>s</td>
+		<td>t</td>
+		<td>u</td>
+		<td>v</td>
+		<td>w</td>
+		<td>x</td>
+	</tr>
+	<tr>
+		<td>y</td>
+		<td>z</td>
+		<td colspan="2">1</td>
+		<!--skip 1 cell-->
+		<td>2</td>
+		<td>3</td>
+	</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+List Installed Applications
+
+1043/1040
+
+List Installed Patches
+
+3/2
+
+List Installed Components
+
+197633/181195
+
+times : ap 00:00:00.068 / 00:00:00.350 / 00:00:00.000
+times : ap2 00:00:00.127 / 00:00:00.102 / 00:00:00.000
+times : ac 00:01:21.887 / 00:13:38.271 / 00:00:00.000

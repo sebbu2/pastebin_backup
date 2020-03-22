@@ -1,0 +1,55 @@
+Those games work like a charm (input for 2P, and exit working):
+
+Aquapazza Aquaplus Dream Match - 301906
+Arcana Heart 2 v2.1 - 402000
+Arcana Heart 3 - LOVE MAX SIX STARS!!!!!![302707]
+BlazBlue ChronoPhantasma[302508]
+Chaos Code -  New Sign of Catastrophe[402603]
+Crimzon Clover - 302403
+Daemon Bride - Additional Gain[401901]
+Elevator Action - 401600
+En-Eins Perfektewelt - 401700
+Homura[401200]
+Hyper Street Fighter II - The Anniversary Edition[303502]
+Ikaruga - 302603
+King of Fighters '98 Ultimate Match Final Edition - 300301
+King of Fighters 2002 Unlimited Match - 300202
+Persona 4 - The Ultimax Ultra Suplex Hold[303107]
+Puzzle Bobble - 301200
+Raiden III - 401401
+Raiden IV - 401801
+Rastan Saga[401500]
+Senko no Ronde DUO v2.35 - 301801
+SkullGirl [303801]
+Strania - The Stella Machina[v1.1][302003]
+Street Fighter III 3rd Strike - Fight for the Future[303401]
+Street Fighter Zero 3[303700]
+Suggoi! Arcana Heart 2 v2.6 - 402100
+Tottemo E Mahjong - 402700
+
+Those games work but exit input is not working, so the process need to be kill through task manager:
+
+Akai Katana Shin - 302201 
+Do Not Fall - Run for Your Drink[302801]
+Nitroplus Blasterz [303908]
+Vampire Savior - The Lord of Vampire[303600]
+
+Those games start but there is NO input working with jconfig:
+
+3D Cosplay Mahjong - 401300
+Battle Fantasia - 400502
+Magical Beat - 302303
+Rumble Fish 2 - 402301
+Spica Adventure - 400602
+Trouble Witches AC - Amalgam no Joutachi[v1.12][400702]
+
+Those games do not work:
+
+Dragon Dance - 400902 ==> game_liong.exe has crashed
+Exception - 300901 ==> game.exe has crashed
+Goketsuji Ichizoku - Matsuri Senzo Kuyo[400801] ==> only intro and sound but no video after intro
+Psychic Force 2012 - 402401 ==> closed himself just after black screen
+Space Invaders - 401102 ==> dic32.dll is missing
+Yatagarasu [302901] ==> game start, but there is some graphic glitch (no background) and input are not set correclty
+
+All tests have been done on Windows 8.1

@@ -1,0 +1,21 @@
+#netgear
+
+deb http://www.readynas.com/packages 4.2.30/
+deb-src http://www.readynas.com/packages 4.2.30/
+
+deb http://www.readynas.com/packages readynas-x86/
+deb-src http://www.readynas.com/packages readynas-x86/
+
+#debian
+
+deb http://archive.debian.org/debian etch main contrib non-free
+deb-src http://archive.debian.org/debian etch main contrib non-free
+
+deb http://archive.debian.org/debian-backports etch-backports main contrib non-free
+deb-src http://archive.debian.org/debian-backports etch-backports main contrib non-free
+
+deb http://archive.debian.org/debian-security/ etch/updates main non-free contrib
+deb-src http://archive.debian.org/debian-security/ etch/updates main non-free contrib
+
+deb http://archive.debian.org/debian-volatile/ etch/volatile main contrib non-free
+deb-src http://archive.debian.org/debian-volatile/ etch/volatile main contrib non-free

@@ -1,0 +1,10 @@
+$sql='SELECT p2.`fid`, p2.`titre`, p2.`description`, p1.`uid`, p4.`username`,'.
+' p1.`tid`, p1.`time` AS `timestamp`, p3.`sujet`, p2.`nb_topics`, p2.`nb_posts`, p2.`p_fid`'.
+' FROM `forums_title` AS p2'.
+' LEFT JOIN `forums` AS p1 ON p1.`pid`=p2.`last_pid`'.
+' LEFT JOIN `forums_topics` AS p3 ON p1.`tid`=p3.`tid`'.
+' LEFT JOIN `users` AS p4 ON p1.`uid`=p4.`uid`'.
+' ORDER BY p2.`fid` ASC;';
+//' p5.`fid` AS `fid2`, p5.`titre` AS `titre2`'. /* <-- select | from --> */' LEFT JOIN `forums_title` AS p5 On p2.`fid`=p5.`p_fid`'.
+//' WHERE p2.`p_fid`='0''.
+//$sql2='SELECT `fid`, `titre`, `description`, `nb_topics`, `nb_posts` FROM `forums_title` ORDER BY `fid` ASC;';

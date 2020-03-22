@@ -1,0 +1,44 @@
+@echo off
+set PATH=%PATH%;D:\Downloads\SysinternalsSuite
+C:
+cd \
+cd "\Program Files"
+junction -nobanner -d dotnet
+junction -nobanner dotnet "D:\Program Files\dotnet"
+junction -nobanner -d "Microsoft SDKs"
+junction -nobanner "Microsoft SDKs" "D:\Program Files\Microsoft SDKs"
+cd "\Program Files (x86)"
+junction -nobanner -d Android
+junction -nobanner Android "D:\Program Files (x86)\Android"
+junction -nobanner -d "Microsoft SDKs"
+junction -nobanner "Microsoft SDKs" "D:\Program Files (x86)\Microsoft SDKs"
+junction -nobanner -d "Microsoft Visual Studio"
+junction -nobanner "Microsoft Visual Studio" "D:\Program Files (x86)\Microsoft Visual Studio"
+junction -nobanner -d "Microsoft Visual Studio 10.0"
+junction -nobanner "Microsoft Visual Studio 10.0" "D:\Program Files (x86)\Microsoft Visual Studio 10.0"
+junction -nobanner -d "Microsoft Visual Studio 11.0"
+junction -nobanner "Microsoft Visual Studio 11.0" "D:\Program Files (x86)\Microsoft Visual Studio 11.0"
+junction -nobanner -d "Microsoft Visual Studio 12.0"
+junction -nobanner "Microsoft Visual Studio 12.0" "D:\Program Files (x86)\Microsoft Visual Studio 12.0"
+rem junction -nobanner -d "Microsoft Visual Studio 13.0"
+rem junction -nobanner "Microsoft Visual Studio 13.0" "D:\Program Files (x86)\Microsoft Visual Studio 13.0"
+junction -nobanner -d "Microsoft Visual Studio 14.0"
+junction -nobanner "Microsoft Visual Studio 14.0" "D:\Program Files (x86)\Microsoft Visual Studio 14.0"
+junction -nobanner -d "Microsoft Visual Studio 15.0"
+junction -nobanner "Microsoft Visual Studio 15.0" "D:\Program Files (x86)\Microsoft Visual Studio 15.0"
+junction -nobanner -d "Windows Kits"
+junction -nobanner "Windows Kits" "D:\Program Files (x86)\Windows Kits"
+cd \ProgramData
+junction -nobanner -d Desura
+junction -nobanner Desura D:\ProgramData\Desura
+junction -nobanner -d "Package Cache"
+junction -nobanner "Package Cache" "D:\ProgramData\Package Cache"
+junction -nobanner -d "High-Logic FontService"
+junction -nobanner "High-Logic FontService" "D:\ProgramData\High-Logic FontService"
+cd Microsoft
+junction -nobanner -d VisualStudio
+junction -nobanner VisualStudio D:\ProgramData\Microsoft\VisualStudio
+junction -nobanner -d AndroidNDK
+junction -nobanner AndroidNDK D:\ProgramData\Microsoft\AndroidNDK
+cd ..
+cd \Users\sebbu

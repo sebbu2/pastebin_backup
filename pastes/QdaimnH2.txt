@@ -1,0 +1,67 @@
+Package files:
+ 100 /var/lib/dpkg/status
+     release a=now
+ 500 http://archive.debian.org etch/volatile/non-free Packages
+     release o=volatile.debian.org,a=oldstable,l=debian-volatile,c=non-free
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/volatile/contrib Packages
+     release o=volatile.debian.org,a=oldstable,l=debian-volatile,c=contrib
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/volatile/main Packages
+     release o=volatile.debian.org,a=oldstable,l=debian-volatile,c=main
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/updates/contrib Packages
+     release v=4.0,o=Debian,a=oldstable,l=Debian-Security,c=contrib
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/updates/non-free Packages
+     release v=4.0,o=Debian,a=oldstable,l=Debian-Security,c=non-free
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/updates/main Packages
+     release v=4.0,o=Debian,a=oldstable,l=Debian-Security,c=main
+     origin archive.debian.org
+   1 http://archive.debian.org etch-backports/non-free Packages
+     release v=None,o=Backports.org archive,a=etch-backports,l=Backports.org archive,c=non-free
+     origin archive.debian.org
+   1 http://archive.debian.org etch-backports/contrib Packages
+     release v=None,o=Backports.org archive,a=etch-backports,l=Backports.org archive,c=contrib
+     origin archive.debian.org
+   1 http://archive.debian.org etch-backports/main Packages
+     release v=None,o=Backports.org archive,a=etch-backports,l=Backports.org archive,c=main
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/non-free Packages
+     release v=4.0r9,o=Debian,a=oldstable,l=Debian,c=non-free
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/contrib Packages
+     release v=4.0r9,o=Debian,a=oldstable,l=Debian,c=contrib
+     origin archive.debian.org
+ 500 http://archive.debian.org etch/main Packages
+     release v=4.0r9,o=Debian,a=oldstable,l=Debian,c=main
+     origin archive.debian.org
+ 500 http://www.readynas.com readynas-x86/ Packages
+     release a=readynas-x86,c=
+     origin www.readynas.com
+ 500 http://www.readynas.com 4.2.30/ Packages
+     release a=4.2.30,c=
+     origin www.readynas.com
+Pinned packages:
+     apache2-utils -> 2.2.6-2.netgear2
+     gphoto2 -> 2.2.0-3.netgear2
+     lvm2 -> 2.02.06-4etch1.netgear1
+     perl -> 5.8.8-7etch3
+     mysql-server-5.0 -> 5.0.32-7etch5
+     perl-base -> 5.8.8-7etch3
+     mysql-client-5.0 -> 5.0.32-7etch8
+     mysql-common -> 5.0.32-7etch8
+     apache2-mpm-prefork -> 2.2.6-2.netgear2
+     libmysqlclient15off -> 5.0.32-7etch8
+     apache2 -> 2.2.6-2.netgear2
+     noflushd -> 2.7.5-2.netgear18
+     snmpd -> (not found)
+     snmp -> (not found)
+     apache2.2-common -> 2.2.6-2.netgear2
+     mysql-server -> 5.0.32-7etch5
+     nut -> 2.0.5-0.netgear12
+     perl-modules -> 5.8.8-7etch3
+     libcupsys2 -> 1.1.14-5woody12.netgear1
+     cupsys -> 1.1.14-5woody12.netgear1
+     libcupsys2-dev -> 1.1.14-5woody12.netgear1

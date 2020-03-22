@@ -1,0 +1,23 @@
+$sql1='SELECT p2.`fid`, p2.`titre`, p2.`description`, p1.`uid`, p4.`username`,'.
+' p1.`tid`, p1.`time` AS `timestamp`, p3.`sujet`, p2.`nb_topics`, p2.`nb_posts`, p2.`p_fid`'.
+' FROM `forums_title` AS p2'.
+' LEFT JOIN `forums` AS p1 ON p1.`pid`=p2.`last_pid`'.
+' LEFT JOIN `forums_topics` AS p3 ON p1.`tid`=p3.`tid`'.
+' LEFT JOIN `users` AS p4 ON p1.`uid`=p4.`uid`'.
+' ORDER BY p2.`fid` ASC;';
+
+
+sql='SELECT p2.`titre`, p2.`description`, p2.`moderator`, p2.`nb_topics`, p2.`nb_posts`,'.
+' p2.`p_fid`,'.// p7.`titre` AS `titre2`, p7.`p_fid` AS `p_fid2`, p8.`titre` AS `titre3`, p8.`p_fid` AS `p_fid3`,'.
+' p3.`sujet`, p1.`tid`, p4.`uid`, p4.`username` , p3.`status`, p1.`time` AS `timestamp`, p3.`posts`, p6.`uid` AS `luid`, p6.`username` AS `lusername`,'.
+' p5.`time` AS `ltimestamp`'.
+' FROM `forums_title` AS p2'.
+' LEFT JOIN `forums_topics` AS p3 ON p2.`fid`=p3.`fid`'.//' LEFT JOIN `forums_topics` AS p3 ON ( p1.`tid`=p3.`tid` AND p1.`fid`=p3.`fid` )'.
+' LEFT JOIN `forums` AS p1 ON ( p1.`status` <> "R%" AND p1.`status` <> "R" AND p1.`tid`=p3.`tid` )'.
+' LEFT JOIN `users` AS p4 ON p1.`uid`=p4.`uid`'.
+' LEFT JOIN `forums` AS p5 ON p3.`last_pid`=p5.`pid`'.
+' LEFT JOIN `users` AS p6 ON p5.`uid`=p6.`uid`'.
+//' LEFT JOIN `forums_title` AS p7 ON p2.`p_fid`=p7.`fid`'.
+//' LEFT JOIN `forums_title` AS p8 ON p7.`p_fid`=p8.`fid`'.
+' WHERE p2.`fid`="'.$id.'"'.
+' ORDER BY p3.`last_pid` DESC;';

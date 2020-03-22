@@ -1,0 +1,7 @@
+Input #0, matroska,webm, from '******.mkv':
+  Metadata:
+    CREATION_TIME   : 2012-03-24 09:13:15
+    ENCODER         : Lavf54.29.105
+  Duration: 00:37:10.59, start: 0.000000, bitrate: 18240 kb/s
+    Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, top first), 1440x1080 [SAR 4:3 DAR 16:9], 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc (default)
+    Stream #0:1(eng): Audio: pcm_s16le, 48000 Hz, 2 channels, s16, 1536 kb/s (default)

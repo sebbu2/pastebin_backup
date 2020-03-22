@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace MSIExport
+{
+    class MyTimer : IDisposable
+    {
+        Stopwatch timer;
+        Action<TimeSpan> value;
+        public MyTimer(Action<TimeSpan> val)
+        {
+            value = val;
+            timer = new Stopwatch();
+            timer.Start();
+        }
+        public void Dispose()
+        {
+            timer.Stop();
+            value(timer.Elapsed);
+        }
+    }
+	public static void main(string[] args)
+	{
+		TimeSpan duration = new TimeSpan();
+		using (MyTimer mt = new MyTimer(x => duration = x))
+		{
+			Thread.Sleep(5000);
+		}
+		Console.WriteLine("duration : {0}", duration);
+	}
+}

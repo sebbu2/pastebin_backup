@@ -1,0 +1,74 @@
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-66 linux-headers-4.15.0-66-generic
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  linux-headers-4.15.0-70 linux-headers-4.15.0-70-generic
+The following packages will be upgraded:
+  linux-headers-generic
+1 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 12.2 MB of archives.
+After this operation, 89.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-headers-4.15.0-70 all 4.15.0-70.79 [11.0 MB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-headers-4.15.0-70-generic amd64 4.15.0-70.79 [1187 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-headers-generic amd64 4.15.0.70.72 [2340 B]
+Fetched 12.2 MB in 5s (2516 kB/s)
+Selecting previously unselected package linux-headers-4.15.0-70.
+(Reading database ... 101480 files and directories currently installed.)
+Preparing to unpack .../linux-headers-4.15.0-70_4.15.0-70.79_all.deb ...
+Unpacking linux-headers-4.15.0-70 (4.15.0-70.79) ...
+Selecting previously unselected package linux-headers-4.15.0-70-generic.
+Preparing to unpack .../linux-headers-4.15.0-70-generic_4.15.0-70.79_amd64.deb ...
+Unpacking linux-headers-4.15.0-70-generic (4.15.0-70.79) ...
+Preparing to unpack .../linux-headers-generic_4.15.0.70.72_amd64.deb ...
+Unpacking linux-headers-generic (4.15.0.70.72) over (4.15.0.66.68) ...
+Setting up linux-headers-4.15.0-70 (4.15.0-70.79) ...
+Setting up linux-headers-4.15.0-70-generic (4.15.0-70.79) ...
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 4.15.0-70-generic
+
+Kernel preparation unnecessary for this kernel.  Skipping...
+
+Building module:
+cleaning build area...(bad exit status: 2)
+make -j8 KERNELRELEASE=4.15.0-70-generic KVERSION=4.15.0-70-generic.....
+cleaning build area...(bad exit status: 2)
+
+DKMS: build completed.
+
+bbswitch.ko:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/4.15.0-70-generic/updates/dkms/
+
+depmod...
+
+DKMS: install completed.
+
+Kernel preparation unnecessary for this kernel.  Skipping...
+
+Building module:
+cleaning build area...(bad exit status: 2)
+(./configure --disable-linux-syscall-probing --with-linux-kernel-packaging --with-linux-kernel-headers=/lib/modules/4.15.0-70-generic/build && make && mv src/libafs/MODLOAD-*/openafs.ko .)................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+cleaning build area...
+
+DKMS: build completed.
+
+openafs.ko:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/4.15.0-70-generic/updates/dkms/
+
+depmod...
+
+DKMS: install completed.
+   ...done.
+Setting up linux-headers-generic (4.15.0.70.72) ...

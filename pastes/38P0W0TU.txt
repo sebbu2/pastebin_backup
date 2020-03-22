@@ -1,0 +1,6 @@
+78c556208fbecb576ec3913b41e7ad31 *libjson-glib-1.0.dll
+47b0a46774a6d937ff5f0d233d093519 *libprotobuf-c-1.dll
+16e5eb0818002ebbed4fae75431aced6 *plugins/libfacebook.dll
+1ec13d77797a53b23a0a3b97ae23412f *plugins/libskypeweb-debug.dll
+2732ff3c40525587f8d3acddf38125f3 *plugins/libhangouts.dll
+de2309e6468264091b83ace921f2cc13 *plugins/libyahoo-plusplus.dll

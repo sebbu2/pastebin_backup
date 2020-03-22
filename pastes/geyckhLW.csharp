@@ -1,0 +1,113 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using Microsoft.Deployment.WindowsInstaller;
+using Microsoft.Deployment.WindowsInstaller.Linq;
+using Microsoft.Deployment.WindowsInstaller.Linq.Entities;
+using Microsoft.Deployment.WindowsInstaller.Package;
+
+namespace MSI_Mgmt
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Installer.SetInternalUI(InstallUIOptions.Silent);
+            Console.WriteLine("List Installed Applications\n");
+            IOrderedEnumerable<ProductInstallation> ap = ProductInstallation.AllProducts.OrderBy(pi => pi.Publisher)
+                .ThenBy(pi => pi.ProductName)
+                .ThenBy(pi => pi.Features.Where(f => f.FeatureName == "ProductFeature").Select(f => f.FeatureName).SingleOrDefault())
+                .ThenBy(pi => pi.ProductVersion);
+            foreach (ProductInstallation pi in ap.ToArray())
+            {
+                //break;
+                /*if (pi.Publisher == "Microsoft Corporation") continue;
+                if (pi.Publisher == "Microsoft Corporations") continue;
+                if (pi.Publisher == "Microsoft") continue;
+                if (pi.Publisher == "Microsoft Garage") continue;
+                if (pi.Publisher == ".NET Foundation") continue;
+                if (pi.Publisher == "Adobe Systems Incorporated") continue;
+                if (pi.Publisher == "Adobe Systems, Inc") continue;
+                if (pi.Publisher == "Apple Inc.") continue;
+                if (pi.Publisher == "CyberLink Corp.") continue;
+                if (pi.Publisher == "Dell Products, LP") continue;
+                if (pi.Publisher == "Dell") continue;
+                if (pi.Publisher == "Dell Inc.") continue;
+                if (pi.Publisher == "Intel") continue;
+                if (pi.Publisher == "INTEL") continue;
+                if (pi.Publisher == "Intel Corporation") continue;
+                if (pi.Publisher == "Google") continue;
+                if (pi.Publisher == "Google Inc") continue;
+                if (pi.Publisher == "Google LLC") continue;
+                if (pi.Publisher == "Google, Inc.") continue;
+                if (pi.Publisher == "Oracle Corporation") continue;
+                if (pi.Publisher == "Plex") continue;
+                if (pi.Publisher == "Plex, Inc.") continue;
+                if (pi.Publisher == "Python Software Foundation") continue;
+                if (pi.Publisher == "MariaDB Corporation Ab") continue;
+                if (pi.Publisher == "The Document Foundation") continue;
+
+                if (pi.Publisher == "LULU Software Limited") continue;
+                if (pi.Publisher == "pdfforge GmbH") continue;//*/
+                //if (String.IsNullOrEmpty(pi.Publisher) && String.IsNullOrEmpty(pi.ProductName) && pi.ProductVersion == null) continue;
+                foreach(FeatureInstallation fi in pi.Features) {
+                    Console.WriteLine("{0} = {1} - ({2})", fi.FeatureName, fi.State.ToString(), fi.Usage.UseCount);
+                }
+                //break;
+                Session s = null;
+                String p = pi.LocalPackage;
+                String f = "";
+                String u = "";
+                if (pi.LocalPackage != null && pi.LocalPackage.Length>0)
+                {
+                    try
+                    {
+                        s = Installer.OpenPackage(p, true);
+                    }
+                    catch(InstallerException e)
+                    {
+                        p = pi.LocalPackage.ToLower().Replace("c:\\windows\\installer\\", "D:\\Installer-Backup\\");
+                        s = Installer.OpenPackage(p, true);
+                    }
+                    u = s.GetProductProperty("UpgradeCode");
+                    f = s.Features.Where(fs => fs.Name == "ProductFeature").Select(fs => fs.Title).SingleOrDefault();
+                    foreach (FeatureInfo fi in s.Features)
+                    {
+                        Console.WriteLine("@ {0} = {1} ({2} - {3}) - {4} - {5}", fi.Name, fi.Title, fi.CurrentState, fi.RequestState, fi.Attributes.ToString(), fi.Description);
+                    }
+                    s.Close();
+                }
+                try
+                {
+                    if(String.IsNullOrEmpty(f)) f = pi.Features.Where(fs => fs.FeatureName == "ProductFeature").Single().GetHashCode().ToString();
+                }
+                catch(Exception e)
+                {
+                    f = "";
+                }
+                Console.WriteLine("{0} - {1} - {2} - {3} - {4} ({5})", pi.Publisher, pi.ProductName, f, pi.AdvertisedLanguage, pi.ProductVersion, pi.IsInstalled);
+                Console.WriteLine("{0} {1} {2}", pi.ProductCode, pi.AdvertisedPackageCode, u);
+                Console.WriteLine("{0}", p);
+                Console.ReadLine();
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("List Installed Patches\n");
+
+            foreach (PatchInstallation pi in PatchInstallation.AllPatches)
+            {
+                Console.WriteLine("{0} - {1} - {2} - {3} - {4} -- {5} - {6}", pi.LocalPackage, pi.ProductCode, pi.PatchCode, pi.DisplayName, pi.IsInstalled,
+                    pi.SourceList.PackageName, pi.SourceList.LastUsedSource);
+                //pi.SourceList.MediaPackagePath, "");
+                //String.Join("@", pi.SourceList.MediaList.Select(md => md.VolumeLabel).ToArray())
+                Console.WriteLine();
+            }
+
+            
+            //Thread.Sleep(10000);
+            Console.ReadLine();
+        }
+    }
+}

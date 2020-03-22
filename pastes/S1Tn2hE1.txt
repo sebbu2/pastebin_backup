@@ -1,0 +1,414 @@
+No display name to create specified, trying :9
+Got connection from 
+000:<: am lsb-first want 11:0 authorising with 'MIT-MAGIC-COOKIE-1' of length 16
+000:>: Success, version is 11:0 vendor='The Cygwin/X Project' release=12004000 resource-id=0x00200000 resource-mask=0x001fffff motion-buffer-size=256 max-request-len=65535 image-byte-order=LSBFirst(0x00) bitmap-bit-order=LeastSignificant(0x00) scanline-unit=32 scanline-pad=32 min-keycode=0x08 max-keycode=0x00 pixmap-formats={depth=1 bits/pixel=1 scanline-pad=32},{depth=4 bits/pixel=8 scanline-pad=32},{depth=8 bits/pixel=8 scanline-pad=32},{depth=15 bits/pixel=16 scanline-pad=32},{depth=16 bits/pixel=16 scanline-pad=32},{depth=24 bits/pixel=32 scanline-pad=32},{depth=32 bits/pixel=32 scanline-pad=32}; roots={root=0x00000314 default-colormap=0x00000020 white-pixel=0x00ffffff black-pixel=0x00000000 input-mask=0 width[pixel]=1920 height[pixel]=1080 width[mm]=406 height[mm]=229 min-installed-maps=1 max-installed-maps=1 root=0x00000021 backing-stores=WhenMapped(0x01) save-unders=false(0x00) root-depth=24 allowed depths={depth=24 visuals={id=0x00000021 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000207 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000208 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000209 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000020a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000020b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000020c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000020d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000020e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000020f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000210 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000211 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000212 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000213 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000214 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000215 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000216 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000217 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000218 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000219 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000021a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000021b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000021c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000021d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000021e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000021f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000220 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000221 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000222 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000223 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000224 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000225 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000226 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000227 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000228 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000229 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000022a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000022b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000022c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000022d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000022e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000022f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000230 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000231 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000232 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000233 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000234 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000235 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000236 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000237 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000238 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000239 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000023a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000023b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000023c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000023d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000023e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000023f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000240 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000241 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000242 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000243 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000244 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000245 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000246 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000247 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000248 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000249 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000024a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000024b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000024c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000024d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000024e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000024f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000250 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000251 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000252 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000253 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000254 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000255 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000256 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000257 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000258 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000259 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000025a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000025b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000025c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000025d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000025e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000025f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000260 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000261 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000262 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000263 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000264 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000265 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000266 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000267 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000268 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000269 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000026a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000026b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000026c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000026d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000026e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000026f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000270 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000271 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000272 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000273 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000274 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000275 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000276 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000277 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000278 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000279 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000027a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000027b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000027c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000027d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000027e class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000027f class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000280 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000281 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000282 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000283 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000284 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000285 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000286 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000287 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000288 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000289 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000028a class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000028b class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000028c class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000028d class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000028e class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000028f class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000290 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000291 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000292 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000293 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000294 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000295 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000296 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000297 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000298 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000299 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000029a class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000029b class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000029c class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000029d class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000029e class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000029f class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a0 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a1 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a2 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a3 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a4 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a5 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a6 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a7 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a8 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002a9 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002aa class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ab class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ac class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ad class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ae class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002af class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b0 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b1 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b2 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b3 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b4 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b5 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b6 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b7 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b8 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002b9 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ba class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002bb class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002bc class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002bd class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002be class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002bf class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c0 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c1 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c2 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c3 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c4 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c5 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c6 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c7 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c8 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002c9 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ca class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002cb class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002cc class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002cd class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ce class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002cf class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d0 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d1 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d2 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d3 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d4 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d5 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d6 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d7 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d8 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002d9 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002da class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002db class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002dc class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002dd class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002de class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002df class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e0 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e1 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e2 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e3 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e4 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e5 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e6 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e7 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e8 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002e9 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ea class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002eb class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ec class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ed class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ee class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ef class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f0 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f1 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f2 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f3 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f4 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f5 class=DirectColor(0x05) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff};},{depth=1 visuals=;},{depth=4 visuals=;},{depth=8 visuals=;},{depth=15 visuals=;},{depth=16 visuals=;},{depth=32 visuals={id=0x00000044 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f6 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f7 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f8 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002f9 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002fa class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002fb class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002fc class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002fd class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002fe class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x000002ff class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000300 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000301 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000302 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000303 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000304 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000305 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000306 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000307 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000308 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000309 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000030a class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000030b class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000030c class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000030d class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000030e class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x0000030f class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000310 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000311 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff},{id=0x00000312 class=TrueColor(0x04) bits/rgb-value=8 colormap-entries=256 red-mask=0x00ff0000 green-mask=0x0000ff00 blue-mask=0x000000ff};};};
+000:<:0001: 16: Request(98): QueryExtension name='MIT-SHM'
+000:<:0002: 24: Request(16): InternAtom only-if-exists=false(0x00) name='WM_DELETE_WINDOW'
+000:>:0001:32: Reply to QueryExtension: present=true(0x01) major-opcode=130 first-event=65 first-error=128
+000:>:0002:32: Reply to InternAtom: atom=0xec("WM_DELETE_WINDOW")
+000:<:0003: 36: Request(1): CreateWindow depth=0x00 window=0x00200000 parent=0x00000314 x=0 y=0 width=1280 height=720 border-width=0 class=CopyFromParent(0x0000) visual=CopyFromParent(0x00000000) value-list={event-mask=Exposure,FocusChange}
+000:<:0004: 16: Request(55): CreateGC cid=0x00200001 drawable=0x00200000 values={}
+000:<:0005:  8: Request(8): MapWindow window=0x00200000
+000:<:0006: 16: MIT-SHM-Request(130,1): Attach shmseg=0x00200002 shmid=0x00000025 readonly=false(0x00)
+000:>:0006: Event Expose(12) window=0x00200000 x=0 y=0 width=1280 height=720 count=0x0000
+000:<:0007: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:<:0008: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0006:Error 10=Access: major=130, minor=1, bad=2097152
+000:>:0007:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:>:0008:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0009: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0009:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:000a: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:000a:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:000b: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:000b:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:000c: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:000c:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:000d: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:000d:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:000e: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:000e:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:000f: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:000f:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0010: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0010:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0011: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0011:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0012: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0012:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0013: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0013:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0014: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0014:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0015: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0015:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0016: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0016:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0017: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0017:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0018: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0018:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0019: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0019:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:001a: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:001a:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:001b: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:001b:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:001c: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:001c:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:001d: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:001d:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:001e: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:001e:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:001f: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:001f:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0020: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0020:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0021: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0021:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0022: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0022:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0023: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0023:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0024: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0024:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0025: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0025:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0026: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0026:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0027: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0027:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0028: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0028:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0029: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0029:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:002a: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:002a:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:002b: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:002b:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:002c: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:002c:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:002d: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:002d:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:002e: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:002e:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:002f: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:002f:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0030: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0030:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0031: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0031:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+display_var = :9
+BEFORE: (unix) (0) (0)
+1: unix
+2: 9
+3: 0
+AFTER: (unix) (9) (0)
+Unable to open /dev/input, so no user input available
+The X server sent an error.
+Code 10
+Sequence Number: 6
+Major Opcode: 130
+Minor Opcode: 1
+The X server sent an error.
+Code 128
+Sequence Number: 7
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 8
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 9
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 10
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 11
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 12
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 13
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 14
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 15
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 16
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 17
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 18
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 19
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 20
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 21
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 22
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 23
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 24
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 25
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 26
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 27
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 28
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 29
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 30
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 31
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 32
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 33
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 34
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 35
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 36
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 37
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 38
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 39
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 40
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 41
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 42
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 43
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 44
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 45
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 46
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 47
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 48
+Major Opcode: 130
+Minor Opcode: 3
+The X server sent an error.
+Code 128
+Sequence Number: 000:<:0032: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0032:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0033: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0033:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0034: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0034:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0035: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0035:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0036: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0036:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0037: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0037:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0038: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0038:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0039: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0039:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:003a: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:003a:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:003b: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:003b:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:003c: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:003c:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:003d: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:003d:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:003e: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:003e:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:003f: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:003f:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0040: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0040:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0041: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0041:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0042: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0042:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0043: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0043:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0044: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0044:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0045: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0045:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0046: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0046:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0047: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0047:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0048: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0048:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0049: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0049:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:004a: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:004a:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:004b: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:004b:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:004c: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:004c:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:004d: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:004d:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:004e: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:004e:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:004f: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:004f:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0050: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0050:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0051: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0051:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0052: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0052:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0053: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0053:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0054: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0054:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0055: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0055:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0056: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0056:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0057: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0057:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0058: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0058:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:0059: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:0059:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:005a: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:005a:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:005b: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:005b:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:005c: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:005c:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:005d: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:005d:Error 128=BadShmSeg: major=130, minor=3, bad=2097154
+000:<:005e: 40: MIT-SHM-Request(130,3): PutImage drawable=0x00200000 gc=0x00200001 total-width=1280 total-height=720 src-x=0 src-y=0 src-width=1280 src-height=720 dst-x=0 dst-y=0 depth=24 format=ZPixmap(0x02) send-event=false(0x00) shmseg=0x00200002 offset=0x00000000
+000:>:005e:Error 128=BadShmSeg: major=130, minor=3, bad=2097154

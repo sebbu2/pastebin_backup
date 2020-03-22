@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Microsoft.People" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>LIGHTUNPLATED,UNPLATED</AlternateForm>
+			<Contrast>BLACK,WHITE</Contrast>
+			<DeviceFamily>COLORFULUNPLATED</DeviceFamily>
+			<Language>EN-US,EN-GB</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,20,24,30,32,36,40,48,60,64,72,80,96</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Common.Utilities">
+[...]
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+[...]
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.People.NativeComponents">
+[...]
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.People.PeoplePicker">
+[...]
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.People.Relevance">
+[...]
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="PeopleLibrary">
+[...]
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="AppListName" uri="ms-resource://Microsoft.People/Resources/AppListName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>People</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN-GB" isDefault="true" type="String">
+					<Value>People</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AppManifest_AppDescription" uri="ms-resource://Microsoft.People/Resources/AppManifest_AppDescription">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>People</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN-GB" isDefault="true" type="String">
+					<Value>People</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AppStoreName" uri="ms-resource://Microsoft.People/Resources/AppStoreName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Microsoft People</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN-GB" isDefault="true" type="String">
+					<Value>Microsoft People</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="StoreRatingPromotion">
+	</ResourceMap>
+</PriInfo>

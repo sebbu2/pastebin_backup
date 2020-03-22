@@ -1,0 +1,57 @@
+The following is a text-chat interview with L3pht, one of ******'s Security Team Members.
+
+Interviewer-D_g45, aka Admin
+
+Admin: So, tell us about yourself.
+L3pht: I am an out-of-the-closet pedophile. I also work as a security consultant to an IT company, irl. There are thousands of course so I still am anonymous.
+
+Admin: So what exactly do you do on the job?
+
+L3pht: I go into corporate databases and secure Windows Operating Systems to be tamperproof. Sometimes, I also help the corporations securely
+delete files, harden security, and do other things as well. It gets a bit technical and less graphical. :)
+
+Admin: Are there any tips that you can give the Freenet pedo community?
+
+L3pht: Sure. The first thing, never trust Freenet to be entirely secure. Deep down somewhere, the US Gov't or another Fed Dept have already exploited some
+unknown hole. Happens all the time, especially with Fuck-ro-soft. 
+
+Admin: You mean, Microsoft?
+
+L3pht: Yeah. They have more problems than solutions, especially with Windows XP backdoors. I hear that they denied the local US police with backdoors in 
+Vista. I dunno if that still makes me feel safer. 
+
+Admin: So, how does a home Windows user go about securing their 'rig' from law enforcement officials?
+
+L3pht: Home user? Well, for one thing, they should get PeerGuardian2 as a start. That blocks some law enforcement ip addresses. A good trusted firewall
+like Norton Internet Security to block malicious attacks. Of course, there are RSA firewalls that can be used, but not for personal use.
+
+Admin: Why some ip addresses and not all?
+
+L3pht: Simple. If I was Lawerence Osbourne of the FBI CyberTask Force and I wanted a suspected pedo address, it would make sense for me to use my home 
+connection that isn't associated with the Agency to track this guy down. PG2 will block my Agency ips but not my home ip, which makes me look like a normal
+user.
+
+Admin: What else can we learn?
+
+L3pht: Encrypting an entire hard-disk goes a long way in terms of security. Get Vista Ultimate. It has BitLocker which encrypts your entire hard-disk. 
+Or better yet, PGP Desktop. Ever hear about the ChoicePoint scandal? Some idiot forgot to secure his hard-drive and now hackers stole a ton of personal info 
+off the hard-disk. It was the biggest data breach in a very long time. In a way, that incident gave rise to the company I work for. I recommend AES 256 bit 
+encryption.
+
+Admin: What else?
+
+L3pht: Wire your front door with a hidden camera. You can get one from homesecuritystore.com or another place. When you see the feds show up, destroy all of
+your childporn or you will be finished.
+
+Admin: What are the best ways to "destroy it all"?
+
+L3pht: For CD's, microwave them for as long as you can. Nuke your computer hard-drive with this little program. Use the DBAN (google it) prgm to wipe your 
+hard-drive using a floppy or throw some magnets on it while there is power on. Take camera cards and throw them in a fireplace or drop them in the bleach
+container and quickly add ammonia (don't breathe it in and seal it). USB sticks, rip a 9-volt battery from your alarm clock with the wires. Then without 
+touching metal, touch the pins on the USB stick with both wires. Instant corruption.
+
+Admin: Wow. You do your homework. I know the last parts you got from the Anarchist Cookbook, but overall, you did a good job outlying strategies to better
+protect and secure yourself from the Gov't. The front door camera is too extreme. Just always have a backup plan or a secret safe with all other childporn
+info on it secured leaving out your hard-drive. Remember, it's survival of the fittest in this world and watchout, they will be asking your children about
+your activities and possibly test the females for oddities. One last piece of advice. Don't post their faces on the web or else they will use that as evidence.
+Wait about 20 years to post those.

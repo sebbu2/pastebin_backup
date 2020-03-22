@@ -2,7 +2,7 @@
 <user_name>sebbu</user_name>
 <user_format_short>text</user_format_short>
 <user_expiration>N</user_expiration>
-<user_avatar_url>http://pastebin.com/i/guest.gif</user_avatar_url>
+<user_avatar_url>https://pastebin.com/i/guest.png</user_avatar_url>
 <user_private>0</user_private>
 <user_website></user_website>
 <user_email>zsbe17fr@yahoo.fr</user_email>

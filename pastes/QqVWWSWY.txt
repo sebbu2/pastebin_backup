@@ -1,0 +1,7 @@
+#-----------------------------------------------------------------------------
+# <device>         <mount>              <type>     <options>    <freq> <pass>
+#-----------------------------------------------------------------------------
+/dev/md0           /                    ext3       defaults,noatime,nodiratime      0      0
+proc               /proc                proc       defaults          0      0
+/dev/md1           swap                 swap       defaults          0      0
+/dev/c/c           /c                   ext4       defaults,acl,user_xattr,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv1,noatime,nodiratime      0      2

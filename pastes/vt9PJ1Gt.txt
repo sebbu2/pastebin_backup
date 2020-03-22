@@ -1,0 +1,27 @@
+      1 discord: 1 unhandled mentions in channel announcements
+     26 discord: 1 unhandled mentions in channel game-news
+     26 discord: 3 unhandled mentions in channel server-news
+     25 discord: error code 4001
+    211 discord: Fetching url https
+ 100688 discord: got frame data
+    199 discord: Got response
+     15 discord: No author in message processed(17
+    432 discord: No author in message processed(18
+    233 discord: No author in message processed(19
+    184 discord: No author in message processed(20
+   3921 discord: sending frame
+      2 discord: Unhandled message type 'CHANNEL_PINS_UPDATE'
+      3 discord: Unhandled message type 'GUILD_INTEGRATIONS_UPDATE'
+     86 discord: Unhandled message type 'GUILD_MEMBER_ADD'
+     38 discord: Unhandled message type 'GUILD_MEMBER_REMOVE'
+     74 discord: Unhandled message type 'MESSAGE_ACK'
+    201 discord: Unhandled message type 'MESSAGE_DELETE'
+    804 discord: Unhandled message type 'MESSAGE_REACTION_ADD'
+    110 discord: Unhandled message type 'MESSAGE_REACTION_REMOVE'
+     77 discord: Unhandled message type 'MESSAGE_REACTION_REMOVE_ALL'
+     31 discord: Unhandled message type 'SESSIONS_REPLACE'
+      2 discord: Unhandled message type 'USER_SETTINGS_UPDATE'
+    653 discord: Unhandled message type 'VOICE_STATE_UPDATE'
+     25 discord: websocket closed
+     98 discord: With postdata {"status"
+    103 discord: With postdata {"token"

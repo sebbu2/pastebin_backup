@@ -1,0 +1,13 @@
+http://dequis.org/libyahoo-plusplus.dll
+https://dl.voidium.net/pidgin/libfacebook.dll
+https://github.com/dequis/purple-facebook/releases/download/downloads/libjson-glib-1.0.dll
+https://github-cloud.s3.amazonaws.com/releases/37465249/6229c360-1b0d-11e5-9a0f-d87207d0da4b.dll?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20161010%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20161010T183213Z&X-Amz-Expires=300&X-Amz-Signature=ce81ebce80d62172204df5de3960d7737d8d585a7477995ff2a1edfc59563192&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibjson-glib-1.0.dll&response-content-type=application%2Foctet-stream
+https://bitbucket.org/EionRobb/purple-hangouts/raw/00e28b78203058594df72fd1aaa98bf4b7dd6f7f/libprotobuf-c-1.dll
+http://eion.robbmob.com/libhangouts.dll
+http://eion.robbmob.com/libskypeweb-debug.dll
+
+http://eion.robbmob.com/libskypeweb.dll
+https://github.com/EionRobb/skype4pidgin/releases/download/1.2.1/libskypeweb.dll
+https://github-cloud.s3.amazonaws.com/releases/32111896/75fe9960-5da6-11e6-82b5-c3321de5967f.dll?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20161010%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20161010T183346Z&X-Amz-Expires=300&X-Amz-Signature=195ed925f208280d91da14e6f5ccd3656e61badfd05cc5eebe3664bdf9b0ddad&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibskypeweb.dll&response-content-type=application%2Foctet-stream
+https://raw.githubusercontent.com/EionRobb/skype4pidgin/master/skypeweb/libjson-glib-1.0.dll
+https://github.com/EionRobb/skype4pidgin/raw/master/skypeweb/libjson-glib-1.0.dll

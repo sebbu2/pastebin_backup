@@ -1,0 +1,117 @@
+
+
+Try {
+	$CsvOutPath = '.\MsiList.csv'
+	$SearchPath = '.\'
+
+	Function local:InvokeMember
+	{
+		Param ( [PSObject]$Target, [String]$Name, $MyArgs = @() )
+		
+		Return ($Target).GetType().InvokeMember(
+			$Name, [System.Reflection.BindingFlags]::InvokeMethod,
+				$NULL, ($Target), $MyArgs )
+		# https://docs.microsoft.com/en-us/dotnet/api/system.type.invokemember?view=netframework-4.8#System_Type_InvokeMember_System_String_System_Reflection_BindingFlags_System_Reflection_Binder_System_Object_System_Object___
+	}
+
+	Function local:GetProperty
+	{
+		Param ( [PSObject]$Target, [String]$Name, $MyArgs = @() )
+		
+		Return ($Target).GetType().InvokeMember(
+			$Name, [System.Reflection.BindingFlags]::GetProperty,
+				$NULL, ($Target), $MyArgs )
+		# https://docs.microsoft.com/en-us/dotnet/api/system.type.invokemember?view=netframework-4.8#System_Type_InvokeMember_System_String_System_Reflection_BindingFlags_System_Reflection_Binder_System_Object_System_Object___
+	}
+
+	[System.Collections.ArrayList]$Result = New-Object -TypeName System.Collections.ArrayList(0)
+
+	$Inst = New-Object -ComObject WindowsInstaller.Installer
+
+	gci -Path $SearchPath -Filter *.msi -Recurse -Force -ErrorAction SilentlyContinue | % {
+
+		[hashtable]$cur = @{'path'=($_.FullName)}
+
+		$MsiDataBase = InvokeMember $Inst 'OpenDatabase' $_.FullName, 0
+		# ^ https://docs.microsoft.com/en-us/windows/win32/msi/installer-opendatabase
+		# ^ https://docs.microsoft.com/en-us/windows/win32/msi/database-object
+
+		('ProductCode','ProductName','ProductVersion','Manufacturer') | % {
+
+			[String]$Query = ('SELECT Value FROM Property WHERE Property = ''{0}''' -f $_)
+		
+			$View = InvokeMember $MsiDataBase 'OpenView' $Query
+			# ^ https://docs.microsoft.com/en-us/windows/win32/msi/database-openview
+			# ^ https://docs.microsoft.com/en-us/windows/win32/msi/view-object
+
+			InvokeMember $View 'Execute'
+			# ^ https://docs.microsoft.com/en-us/windows/win32/msi/view-execute
+
+			$Record = InvokeMember $View 'Fetch'
+			# ^ https://docs.microsoft.com/en-us/windows/win32/msi/view-fetch
+			# ^ https://docs.microsoft.com/en-us/windows/win32/msi/record-object
+
+			$Value = GetProperty $Record 'StringData' 1
+			# https://docs.microsoft.com/en-us/windows/win32/msi/record-stringdata
+			$cur[$_] = $Value
+			
+			InvokeMember $View 'Close'
+			# ^ https://docs.microsoft.com/en-us/windows/win32/msi/view-close
+
+			$View = $NULL
+
+			if ( ([String]$_ -eq 'ProductName') ) {
+				if ( ([String]$Value -eq '. .') -or ([String]$Value -eq '. . .') -or ([String]$Value -eq '') ) {
+					[String]$Query = 'SELECT Title FROM Feature WHERE Feature = ''ProductFeature'''
+					$View = InvokeMember $MsiDataBase 'OpenView' $Query
+					InvokeMember $View 'Execute'
+					$Record = InvokeMember $View 'Fetch'
+					$Value = GetProperty $Record 'StringData' 1
+					$cur[$_] = $Value
+					InvokeMember $View 'Close'
+					$View = $NULL
+				}
+			}
+		} # ~ attrs
+
+		# echo ("{0}" -f $cur['ProductCode'])
+		$res = Test-Path ("HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0}" -f $cur['ProductCode'])
+		if ($res -eq "True") {
+			$cur['Installed'] = 1
+		}
+		else {
+			$res = Test-Path ("HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{0}" -f $cur['ProductCode'])
+			if ($res -eq "True") {
+				$cur['Installed'] = 1
+			}
+			else {
+				$cur['Installed'] = 0
+			}
+		}
+
+		InvokeMember $MsiDataBase 'Commit'
+		# ^ https://docs.microsoft.com/en-us/windows/win32/msi/database-commit
+		$MsiDataBase = $NULL
+
+		$Result.Add( $cur ) | Out-Null
+	} # ~ gci
+
+
+	if ( $Result.Count -ne 0 )
+	{
+		$Result |
+			Sort-Object -Property @{ e={$_.'path'} } |
+			Select -Property `
+				@{ n='Path'; e={$_.'path'} },
+				@{ n='Company'; e={$_.'Manufacturer'} },
+				@{ n='Product Name'; e={$_.'ProductName'} },
+				@{ n='Product Version'; e={$_.'ProductVersion'} },
+				@{ n='Product Code'; e={$_.'ProductCode'} },
+				@{ n='Installed'; e={$_.'Installed'} } |
+			Export-Csv -Delimiter ';' -NoTypeInformation -Encoding UTF8 -Path $CsvOutPath
+	}
+}
+Finally {
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($Inst) | Out-Null
+    [System.GC]::Collect()
+}

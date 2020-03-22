@@ -1,0 +1,579 @@
+[0]39A0.357C::10/28/2017-18:24:12.149 [agent]Non-AoAc machine.  Aoac operations will be ignored.
+[0]39A0.357C::10/28/2017-18:24:12.149 [agent]WU client version 10.0.15063.674
+[0]39A0.357C::10/28/2017-18:24:12.149 [susenginelib]SleepStudyTracker: Machine is non-AOAC. Sleep study tracker disabled.
+[0]39A0.357C::10/28/2017-18:24:12.149 [agent]Base directory: C:\WINDOWS\SoftwareDistribution
+[0]39A0.357C::10/28/2017-18:24:12.150 [store]Datastore directory: C:\WINDOWS\SoftwareDistribution\DataStore\DataStore.edb
+[0]39A0.357C::10/28/2017-18:24:12.151 [store]JetEnableMultiInstance succeeded - applicable param count: 5, applied param count: 5
+[0]39A0.357C::10/28/2017-18:24:12.212 [susenginelib]UpdateNetworkState Ipv6, cNetworkInterfaces = 3.
+[0]39A0.357C::10/28/2017-18:24:12.212 [susenginelib]UpdateNetworkState Ipv4, cNetworkInterfaces = 1.
+[0]39A0.357C::10/28/2017-18:24:12.213 [agent]Network state: Connected
+[0]39A0.357C::10/28/2017-18:24:12.645 [regutil]LoadHistoryEventFromRegistry completed, hr = 8024000C
+[0]39A0.357C::10/28/2017-18:24:12.645 [susenginelib]UpdateNetworkState Ipv6, cNetworkInterfaces = 3.
+[0]39A0.357C::10/28/2017-18:24:12.645 [susenginelib]UpdateNetworkState Ipv4, cNetworkInterfaces = 1.
+[0]39A0.357C::10/28/2017-18:24:12.645 [agent]Power status changed
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]Initializing global settings cache
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]WSUS server: NULL
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]WSUS status server: NULL
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]Alternate Download Server: NULL
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]Fill Empty Content Urls: No
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]Target group: (Unassigned Computers)
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]Windows Update access disabled: No
+[0]39A0.357C::10/28/2017-18:24:12.647 [agent]    Timer: 29A863E7-8609-4D1E-B7CD-5668F857F1DB, Expires 2017-10-28 22:01:33, not idle-only, not network-only
+[0]39A0.357C::10/28/2017-18:24:12.652 [reporting]CWERReporter::Init succeeded
+[0]39A0.357C::10/28/2017-18:24:12.652 [agent]Initializing Windows Update Agent
+[0]39A0.357C::10/28/2017-18:24:12.652 [agent]Found 1 persisted download calls to restore
+Unknown( 215): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.357C::10/28/2017-18:24:12.705 [agent]Regulation: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - Loaded sequence number 65535 for regulation category PerUpdate.
+[0]39A0.357C::10/28/2017-18:24:12.705 [agent]Regulation: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - Loaded sequence number 65535 for regulation category Low.
+[0]39A0.357C::10/28/2017-18:24:12.705 [agent]Regulation: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - Loaded sequence number 65535 for regulation category Normal.
+[0]39A0.357C::10/28/2017-18:24:12.705 [agent]Regulation: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - Loaded sequence number 65535 for regulation category High.
+[0]39A0.357C::10/28/2017-18:24:12.708 [agent]Successfully loaded 1 persisted download calls.
+[0]39A0.357C::10/28/2017-18:24:12.835 [agent]CPersistentTimeoutScheduler | GetTimer, returned hr = 0x00000000
+Unknown( 36): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 38): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 40): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 15): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 16): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 17): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 18): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 20): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 21): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 22): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 24): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 26): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 28): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 30): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 32): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 41): GUID=170ed831-c5f4-3588-0368-fd4d857997b7 (No Format Information found).
+Unknown( 136): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 182): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 44): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:13.088 [agent]WU operation (DL.UpdateOrchestrator) started; operation # 2; does<NULL> use network; is not at background priority<NULL>
+Unknown( 42): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+Unknown( 28): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+Unknown( 163): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 171): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 73): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 74): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 172): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 85): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 86): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3AD8::10/28/2017-18:24:13.193 [client]Validating signature for C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\DesktopDeployment.cab with dwProvFlags 0x00000080:
+[0]39A0.3AD8::10/28/2017-18:24:13.241 [client] Microsoft signed: Yes
+[0]39A0.3AD8::10/28/2017-18:24:13.287 [helper]Using the update's service stack dll file 'C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\Metadata\UpdateAgent.dll'
+[0]39A0.2574::10/28/2017-18:24:29.280 [agent]DO job initialized, JobId = {E03288D4-7599-40D8-8D74-5277EC120F76}
+[0]39A0.2574::10/28/2017-18:24:29.287 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/e6338950-f335-47c1-833f-fefdf1dd4224?P1=1508872259&P2=301&P3=2&P4=MTJnc%2bDh6VAmm1r59JyDkvqJgMplXmotgPvByl1sbVo%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.289 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/bb83807b-8d66-42e9-933a-1c3d07efa68f?P1=1508891939&P2=301&P3=2&P4=yxUBc2KonNZmR5V86zX1hogNG2aEq8LxTv6mv%2fnXJm4%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Client-Features-Package_psf.rng (2498 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.290 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a6b8cba9-0056-4f3d-a621-f334be8cf5a8?P1=1508880559&P2=301&P3=2&P4=V01IkUHSZc5f%2bwjrPb9q22OSVEwgZ1ezisMAxQVG5GQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Client-Features-Package_rs2_release.15063.0.170317-1834_psf.rng (1083 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.292 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/934997ed-1cb6-4899-8aa7-8ac125cabfd5?P1=1508877899&P2=301&P3=2&P4=jYTdTJSqYuDXf8Ia%2bwNR%2f2%2baTtvMjNhakd0juxeDw%2bE%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Client-Features-WOW64-Package_psf.rng (1109 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.293 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/8e8a3ef4-dc22-4b0e-a78c-d88089909872?P1=1508876279&P2=301&P3=2&P4=sjteNopoe%2bxA%2b3W3sc3Zkh7Wym4B2Mhy%2ftpLo95JaSw%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Client-Features-WOW64-Package_rs2_release.15063.0.170317-1834_psf.rng (684 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.295 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6d2fa2d1-1069-43a2-a6f7-5f0966ed4da5?P1=1508872699&P2=301&P3=2&P4=hGCyZUAXhSvHalxkQuJ992%2bA%2bHgqwuvbd0aBmtAsf%2fI%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64fre_Client_fr-fr_lp.esd (full file).
+[0]39A0.2574::10/28/2017-18:24:29.296 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/45c0df26-2336-479d-8ec2-05fe917232b8?P1=1508882739&P2=301&P3=2&P4=OpjHLS9usDKCLGfgFyLPFhVKtmwbldRexmYdnncWpDQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionPack-Core-Package_psf.rng (1541 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.297 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/2b6d3220-7326-4b22-8ebb-613c40ff2f91?P1=1508877619&P2=301&P3=2&P4=r3plz0PurkRE%2bGVU3ZJZo%2fWZrtHkHVyfhL5W9ivKoN0%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionPack-Core-Package_rs2_release.15063.0.170317-1834_psf.rng (478 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.298 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/bdad1756-9032-4fa8-9edf-6010c28c45a0?P1=1508873839&P2=301&P3=2&P4=kOZHgTsx7izB9Hr5iKQ0RQZYjK6lmTtgpZjvf60TwsQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionPack-Core-WOW64-Package_psf.rng (13 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.299 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/69e50865-b50d-4e52-b824-d05dd4b034dc?P1=1508872199&P2=301&P3=2&P4=lhIzpP9xS0s6aTbU%2fMJrzVSZzj%2f%2bPZFbvC3HybmRavk%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionPack-Core-WOW64-Package_rs2_release.15063.0.170317-1834_psf.rng (7 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.300 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/db2483d9-fe7b-45dd-84f7-20cc5f680550?P1=1508872219&P2=301&P3=2&P4=SAwBe8uVkEzJHIhhEDUbxFIeqS68Lte2L4uqUaS3J40%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionSpecific-Core-Package_psf.rng (8 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.302 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/81e08741-21c6-4ebc-aaa2-25949bd29d2a?P1=1508872199&P2=301&P3=2&P4=6t4BqOSLxHfysY7oB765ov3Dj8Wtf82DuYAz2YcobAE%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionSpecific-Core-Package_rs2_release.15063.0.170317-1834_psf.rng (6 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.302 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9ca631ca-5933-4333-a7cc-d1b879bc5060?P1=1508872199&P2=301&P3=2&P4=1VaRfZeFg%2fyhiNRV5tn3BLxqgE6N5O0a%2fjMC1i2cONQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-EditionSpecific-Core-WOW64-Package_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.303 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9735d5cd-b1b3-45f2-844b-21da78b13943?P1=1508872239&P2=301&P3=2&P4=A8lN5MRnKYzSE6CZBO70CPWet%2fxELBta6yPFLv%2fJcZE%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Foundation-Package_psf.rng (6 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.304 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9bbcae51-a79c-41cb-bcdd-f793f9989c13?P1=1508872199&P2=301&P3=2&P4=3M045AOI3IM8urV2jieXdKRlKr4CFNB%2fqOzZeeJfFRQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Foundation-Package_rs2_release.15063.0.170317-1834_psf.rng (3 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.305 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/3178731e-f3f5-4c5f-9da5-abaa8e1d7057?P1=1508872379&P2=301&P3=2&P4=vhpc79fQf2N2%2fErUuXCguC04PqdtTPOz27RgeApn5XQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Holographic-Desktop-Analog-Package_psf.rng (3 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.306 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/e42834df-3381-41e9-8fb6-36fc281e8612?P1=1508872339&P2=301&P3=2&P4=B3Wh3IrLduSJ58cVZdDy7fwFEQc1%2fwHeeJ2%2bOVTwYZw%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Holographic-Desktop-Analog-Package_rs2_release.15063.0.170317-1834_psf.rng (4 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.307 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f9253d66-899f-4cd5-8808-e0c8d33ad784?P1=1508872279&P2=301&P3=2&P4=M%2ful7xiIc1A4WvYZOJsCUCN7KUzChm4L2r7v9hn9fno%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Holographic-Desktop-Merged-Package_psf.rng (26 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.308 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f245da69-6d48-4c46-8ef8-c676938ba02a?P1=1508872199&P2=301&P3=2&P4=0Bt92ajcwToNvjMOcZlBjLzhlbI6PN6JgjpMWFoor50%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Holographic-Desktop-Merged-Package_rs2_release.15063.0.170317-1834_psf.rng (6 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.309 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/3938366b-7908-4b08-a2b3-040a2e8d4c3c?P1=1508872179&P2=301&P3=2&P4=SMadUv9c4xfBSf8wkOIM2htwybMzVNcu8mPgJkCWvH0%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Holographic-Desktop-Merged-WOW64-Package_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.310 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/64d4bca6-8bd6-44c6-9491-352e453faf8c?P1=1508872179&P2=301&P3=2&P4=VwKAxOmNwneRDozW6jfmDjnjj8O9HUS3fS9OOFbIuC4%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-Holographic-Desktop-Merged-WOW64-Package_rs2_release.15063.0.170317-1834_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.311 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/df7846dc-ea73-4b2d-87f0-31469608aee0?P1=1508872179&P2=301&P3=2&P4=Do1mP0SoG%2faPEIaCB64e6LFct2sGq0O50Mye3M9tYA8%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-InternetExplorer-Optional-Package_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.312 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/54cae683-d73d-4c41-92db-96f345266325?P1=1508872399&P2=301&P3=2&P4=OTSYZZzil1H2sJLlyyOdpS%2bKv5U4DS5KLynaNurMBwA%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package_psf.rng (3 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.313 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a943324c-e78e-47a5-9166-8e07e4aa8614?P1=1508872179&P2=301&P3=2&P4=ddZXZRUp82Adn7oqJ06zhrQwRzmbyvWPYJhXyfqPluM%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package_rs2_release.15063.0.170317-1834_psf.rng (2 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.314 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/37d99693-605f-4313-b071-2b20e3548298?P1=1508872239&P2=301&P3=2&P4=KzdC3kFKuUHhBAHeMQF%2fPvmkF6RNwHycdoTfSNb3lbI%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.315 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/d8f1d3d1-a2b3-48f3-92c6-b86610586d78?P1=1508872179&P2=301&P3=2&P4=e%2blg%2buYLtldv2ZnxxI8o5W4TPoEDu5jcCy0tb2wI3hI%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.317 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/417d7029-0ca5-461e-a859-307f4e857393?P1=1508872999&P2=301&P3=2&P4=Wj%2fxsxcxLJStxpQoJGjISikxisfEwgCEuU5GF3AH3RU%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package_psf.rng (7 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.318 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/46af6f90-b8d8-478d-bf2b-ca312e6ab8c0?P1=1508872299&P2=301&P3=2&P4=MHH6otLUfLJfVeUto8OwLR02PLsWOr2Gx7wTbwSElLQ%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package_rs2_release.15063.0.170317-1834_psf.rng (3 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.319 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/2f316179-75ba-41c3-895f-21b3a910a7a1?P1=1508872859&P2=301&P3=2&P4=km68AmZDreMMWNUkoKka%2bWNU9vxuf%2fvAt9c4o02XPEA%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package_psf.rng (9 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.320 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a25eed6b-ae93-4075-bbba-f1946a307e81?P1=1508872259&P2=301&P3=2&P4=fNFQLHURrpTxbXgzwC46vL1OleNmxiQCj0Kz2GtMs4I%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package_rs2_release.15063.0.170317-1834_psf.rng (3 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.321 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/d5b3cbf4-0d95-4321-8ad5-dd893c8ceb44?P1=1508872659&P2=301&P3=2&P4=%2bl6JUtUKtoMBSaNGfx5%2fN3mKmBbquKBNQFIR8ic3hZo%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-MediaPlayer-Package_psf.rng (31 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.322 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/33c144ba-a6ea-449b-9812-1dc1fa9e8c49?P1=1508872399&P2=301&P3=2&P4=FWTl8tTYcL392VYSP285dtHYBZ6hctaf8V%2fB2kIEeNw%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-MediaPlayer-Package_rs2_release.15063.0.170317-1834_psf.rng (8 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.322 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4827e6fa-5bac-4a58-871a-414a557ac3e0?P1=1508872179&P2=301&P3=2&P4=S0SSrBDhfsB18KZO5BG9h00zF%2f8CCYlGce32WeMdHXA%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-QuickAssist-Package_psf.rng (8 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.323 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a2c2f646-364a-488a-ace6-102ef0575620?P1=1508872179&P2=301&P3=2&P4=HSpSsFPCPwyjgJeiK6%2fv5hzcMHJLhhtCrEnhrFsmMdw%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-QuickAssist-Package_rs2_release.15063.0.170317-1834_psf.rng (3 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.324 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab338efb-00b2-4ad8-87e1-1997315fb449?P1=1508872819&P2=301&P3=2&P4=SWNetw%2fljw0YxwjE1TqhnJjE%2buYKIAGeLY6F%2bvjnQOE%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-RegulatedPackages-Package_psf.rng (68 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.325 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/51ec6235-f5a3-47b6-95a7-970c73962448?P1=1508872519&P2=301&P3=2&P4=9bsTv5DnvL7pugGXjAuiBCBSIwsCZgo6EF73iNxn7qA%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-RegulatedPackages-Package_rs2_release.15063.0.170317-1834_psf.rng (29 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.326 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/236cc8c7-720b-4ffa-8370-4a0075881dc7?P1=1508872659&P2=301&P3=2&P4=haolSeTwDnBTisjGbSCs0Y38G6A0L98H69Pa3gL%2f5Rc%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-RegulatedPackages-WOW64-Package_psf.rng (27 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.327 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1a0fb794-19e1-43cb-9d7a-3a9453b27735?P1=1508872379&P2=301&P3=2&P4=GUmsplnNF6cQLJv1Ns5USK2F1hW8jGekH5410s2RJ2Q%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\amd64_Microsoft-Windows-RegulatedPackages-WOW64-Package_rs2_release.15063.0.170317-1834_psf.rng (17 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.328 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/3979e948-f55d-4f97-b753-052cd01f99b8?P1=1508878719&P2=301&P3=2&P4=DIBT9wPQzPtNhATKxqDRFBYv4lYo2h5b%2fRSEV1XC9D4%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\AMD64_Microsoft.ModernApps.Client.All_psf.rng (598 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.329 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/23370ba7-412c-47eb-9617-fd6c7b789e89?P1=1508876279&P2=301&P3=2&P4=XBp4RAD%2b6eTS03V64urhO0yXbrYrALkHr36kKxc4%2byw%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\AMD64_Microsoft.ModernApps.Client.All_rs2_release.15063.0.170317-1834_psf.rng (133 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.330 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/dfd0215f-cfed-4067-9f81-379de55dc5e9?P1=1508872739&P2=301&P3=2&P4=dTmGD24xwIOIz8m7uwqfpK6xH%2f%2bkirx0uqcAaTtCuSc%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\AMD64_Microsoft.ModernApps.Client.core_psf.rng (122 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.331 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a8d45bdc-bc3e-4378-b5cf-efc101ba84cd?P1=1508872599&P2=301&P3=2&P4=Q7t3%2bBnW74TCfiSoIkpsGS%2fojyJQw04QaOnxvLDOdjc%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\AMD64_Microsoft.ModernApps.Client.core_rs2_release.15063.0.170317-1834_psf.rng (1 subranges).
+[0]39A0.2574::10/28/2017-18:24:29.332 [agent]Downloading from http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/fb5073df-1826-4455-a2ea-51fa7a549ba6?P1=1508882439&P2=301&P3=2&P4=I0TH9cmklyG56rUuJ5oTdxS4qEx0eYYplGlFEx%2fhFrk%3d to C:\WINDOWS\SoftwareDistribution\Download\f875fbb4cab0384277a81aa667874b95\Core_fr-fr.esd (full file).
+[0]39A0.2574::10/28/2017-18:24:29.332 [agent]Created download job E03288D4-7599-40D8-8D74-5277EC120F76; memory stream: No.
+Unknown( 138): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 66): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 182): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 44): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.288 [agent]WU operation (DL.UpdateOrchestrator, operation # 2) stopped; does<NULL> use network; is not at background priority<NULL>
+Unknown( 43): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.288 [agent]WU operation (DL.UpdateOrchestrator) started; operation # 3; does<NULL> use network; is not at background priority<NULL>
+Unknown( 42): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+Unknown( 28): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.293 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 289): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.341 [agent]DynamicDownloadDataFetcher: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - added new entry for Update {58DDBB00-947E-420A-B296-A2451AE6AC0B}.2
+[0]39A0.2574::10/28/2017-18:24:34.341 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:34.373 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.418 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.464 [agent]DynamicDownloadDataFetcher Refresh Svc: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+[0]39A0.2574::10/28/2017-18:24:34.464 [agent]Fetching dynamic data from service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 for 1 updates.
+[0]39A0.3830::10/28/2017-18:24:34.465 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.484 [agent]DeviceAttributes: BranchReadinessLevel=CB;ISVM=0;GStatus_RS3=2;CurrentBranch=rs2_release;OEMModel=Inspiron 7559;FlightRing=Retail;AttrDataVer=25;InstallLanguage=fr-FR;OSUILocale=fr-FR;InstallationType=Client;FirmwareVersion=1.2.2;OSSkuId=101;App=WU;OEMName_Uncleaned=Dell Inc.;InstallDate=1492118125;AppVer=10.0.15063.674;UpgEx_RS3=Green;OSArchitecture=AMD64;UpdateManagementGroup=0;IsFlightingEnabled=0;IsDeviceRetailDemo=0;AcrobatReaderVer=17.12.20098.44270;TelemetryLevel=3;OSRollbackCount=2;WuClientVer=10.0.15063.674;Bios=2017;Steam=URL:steam protocol;OSRollbackBuild=10.0.16299.15;Free=8to16;OSVersion=10.0.15063.674;DeviceFamily=Windows.Desktop;
+[0]39A0.2574::10/28/2017-18:24:34.484 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData) started; operation # 4; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:34.502 [endpointproviders]Got 8B24B027-1DEE-BABB-9A95-3517DFB9C552 redir SecuredClient/Server URL: "https://fe3.delivery.mp.microsoft.com/ClientWebService/client.asmx/secured"
+[0]39A0.2574::10/28/2017-18:24:34.502 [agent]Endpoint token being requested with no category data.
+Unknown( 28): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.523 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 32): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.571 [endpointproviders]Got service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 plugin SecuredClient/Server auth token of type 0x00000001
+[0]39A0.2574::10/28/2017-18:24:34.571 [webserviceinfra]Auto proxy settings for this web service call.
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.577 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.628 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.677 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.727 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:34.776 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.809 [agent]GetExtendedUpdateInfo2 returned, hr=0x00000000, FileLocations=0, FileDecryptionData=0
+[0]39A0.2574::10/28/2017-18:24:34.810 [agent]DynamicDownloadDataFetcher: GetExtendedUpdateInfo2 succeeded but no file locations were returned by server. Client is not authorized to download content, converting to hr=80246019
+[0]39A0.2574::10/28/2017-18:24:34.810 [agent]DynamicDownloadDataFetcher - Failed to get extended update info2 for chunk: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:34.810 [agent]FetchAndStoreDynamicData failed: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:34.810 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData, operation # 4) stopped; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:34.810 [agent]DynamicDownloadDataFetcher Refresh complete. 0x00000000
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.825 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl), update is no longer suspended afterward.
+Unknown( 315): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 316): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:34.825 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is no longer suspended afterward.
+Unknown( 66): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:35.080 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 289): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.166 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.166 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:35.198 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.275 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 159): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 44): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.275 [agent]WU operation (DL.UpdateOrchestrator, operation # 3) stopped; does<NULL> use network; is not at background priority<NULL>
+Unknown( 43): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.275 [agent]WU operation (DL.UpdateOrchestrator) started; operation # 5; does<NULL> use network; is not at background priority<NULL>
+Unknown( 42): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+Unknown( 28): GUID=480054f1-42c7-3e76-3963-cf3a2dc375db (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:35.275 [agent]DynamicDownloadDataFetcher: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - added new entry for Update {58DDBB00-947E-420A-B296-A2451AE6AC0B}.2
+[0]39A0.2574::10/28/2017-18:24:35.282 [agent]DynamicDownloadDataFetcher Refresh Svc: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+[0]39A0.2574::10/28/2017-18:24:35.282 [agent]Fetching dynamic data from service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 for 1 updates.
+[0]39A0.3830::10/28/2017-18:24:35.282 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.298 [agent]DeviceAttributes: BranchReadinessLevel=CB;ISVM=0;GStatus_RS3=2;CurrentBranch=rs2_release;OEMModel=Inspiron 7559;FlightRing=Retail;AttrDataVer=25;InstallLanguage=fr-FR;OSUILocale=fr-FR;InstallationType=Client;FirmwareVersion=1.2.2;OSSkuId=101;App=WU;OEMName_Uncleaned=Dell Inc.;InstallDate=1492118125;AppVer=10.0.15063.674;UpgEx_RS3=Green;OSArchitecture=AMD64;UpdateManagementGroup=0;IsFlightingEnabled=0;IsDeviceRetailDemo=0;AcrobatReaderVer=17.12.20098.44270;TelemetryLevel=3;OSRollbackCount=2;WuClientVer=10.0.15063.674;Bios=2017;Steam=URL:steam protocol;OSRollbackBuild=10.0.16299.15;Free=8to16;OSVersion=10.0.15063.674;DeviceFamily=Windows.Desktop;
+[0]39A0.2574::10/28/2017-18:24:35.298 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData) started; operation # 6; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:35.316 [endpointproviders]Got 8B24B027-1DEE-BABB-9A95-3517DFB9C552 redir SecuredClient/Server URL: "https://fe3.delivery.mp.microsoft.com/ClientWebService/client.asmx/secured"
+[0]39A0.2574::10/28/2017-18:24:35.316 [agent]Endpoint token being requested with no category data.
+Unknown( 28): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:35.338 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 32): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.361 [endpointproviders]Got service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 plugin SecuredClient/Server auth token of type 0x00000001
+[0]39A0.2574::10/28/2017-18:24:35.361 [webserviceinfra]Auto proxy settings for this web service call.
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3830::10/28/2017-18:24:35.392 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:35.444 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:35.493 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.544 [agent]GetExtendedUpdateInfo2 returned, hr=0x00000000, FileLocations=0, FileDecryptionData=0
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.544 [agent]DynamicDownloadDataFetcher: GetExtendedUpdateInfo2 succeeded but no file locations were returned by server. Client is not authorized to download content, converting to hr=80246019
+[0]39A0.2574::10/28/2017-18:24:35.544 [agent]DynamicDownloadDataFetcher - Failed to get extended update info2 for chunk: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:35.545 [agent]FetchAndStoreDynamicData failed: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:35.545 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData, operation # 6) stopped; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:35.545 [agent]DynamicDownloadDataFetcher Refresh complete. 0x00000000
+[0]39A0.2574::10/28/2017-18:24:35.545 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl), update is no longer suspended afterward.
+Unknown( 315): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 316): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.545 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is no longer suspended afterward.
+Unknown( 66): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:35.789 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 289): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.877 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.877 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:35.906 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:35.985 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 159): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:35.985 [agent]DynamicDownloadDataFetcher: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - added new entry for Update {58DDBB00-947E-420A-B296-A2451AE6AC0B}.2
+[0]39A0.2574::10/28/2017-18:24:35.992 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:36.023 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.071 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:36.121 [agent]DynamicDownloadDataFetcher Refresh Svc: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+[0]39A0.2574::10/28/2017-18:24:36.121 [agent]Fetching dynamic data from service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 for 1 updates.
+[0]39A0.0818::10/28/2017-18:24:36.124 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:36.137 [agent]DeviceAttributes: BranchReadinessLevel=CB;ISVM=0;GStatus_RS3=2;CurrentBranch=rs2_release;OEMModel=Inspiron 7559;FlightRing=Retail;AttrDataVer=25;InstallLanguage=fr-FR;OSUILocale=fr-FR;InstallationType=Client;FirmwareVersion=1.2.2;OSSkuId=101;App=WU;OEMName_Uncleaned=Dell Inc.;InstallDate=1492118125;AppVer=10.0.15063.674;UpgEx_RS3=Green;OSArchitecture=AMD64;UpdateManagementGroup=0;IsFlightingEnabled=0;IsDeviceRetailDemo=0;AcrobatReaderVer=17.12.20098.44270;TelemetryLevel=3;OSRollbackCount=2;WuClientVer=10.0.15063.674;Bios=2017;Steam=URL:steam protocol;OSRollbackBuild=10.0.16299.15;Free=8to16;OSVersion=10.0.15063.674;DeviceFamily=Windows.Desktop;
+[0]39A0.2574::10/28/2017-18:24:36.137 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData) started; operation # 7; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:36.155 [endpointproviders]Got 8B24B027-1DEE-BABB-9A95-3517DFB9C552 redir SecuredClient/Server URL: "https://fe3.delivery.mp.microsoft.com/ClientWebService/client.asmx/secured"
+[0]39A0.2574::10/28/2017-18:24:36.155 [agent]Endpoint token being requested with no category data.
+Unknown( 28): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.180 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 32): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:36.199 [endpointproviders]Got service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 plugin SecuredClient/Server auth token of type 0x00000001
+[0]39A0.2574::10/28/2017-18:24:36.199 [webserviceinfra]Auto proxy settings for this web service call.
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.234 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.285 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.334 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.383 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.432 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.481 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.531 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.580 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.630 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.680 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.729 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.778 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.828 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.879 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.930 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:36.981 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.032 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.082 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.135 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.185 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.235 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.287 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.337 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.387 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:37.402 [agent]GetExtendedUpdateInfo2 returned, hr=0x00000000, FileLocations=0, FileDecryptionData=0
+[0]39A0.2574::10/28/2017-18:24:37.403 [agent]DynamicDownloadDataFetcher: GetExtendedUpdateInfo2 succeeded but no file locations were returned by server. Client is not authorized to download content, converting to hr=80246019
+[0]39A0.2574::10/28/2017-18:24:37.403 [agent]DynamicDownloadDataFetcher - Failed to get extended update info2 for chunk: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:37.403 [agent]FetchAndStoreDynamicData failed: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:37.403 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData, operation # 7) stopped; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:37.403 [agent]DynamicDownloadDataFetcher Refresh complete. 0x00000000
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:37.437 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl), update is no longer suspended afterward.
+Unknown( 315): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 316): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:37.437 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is no longer suspended afterward.
+Unknown( 66): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.690 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 289): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.743 [agent]DynamicDownloadDataFetcher: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - added new entry for Update {58DDBB00-947E-420A-B296-A2451AE6AC0B}.2
+[0]39A0.2574::10/28/2017-18:24:37.786 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:37.786 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:37.819 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:37.901 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 159): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:37.901 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:37.951 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:37.983 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:38.033 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.084 [agent]DynamicDownloadDataFetcher Refresh Svc: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+[0]39A0.2574::10/28/2017-18:24:38.084 [agent]Fetching dynamic data from service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 for 1 updates.
+[0]39A0.0818::10/28/2017-18:24:38.085 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.101 [agent]DeviceAttributes: BranchReadinessLevel=CB;ISVM=0;GStatus_RS3=2;CurrentBranch=rs2_release;OEMModel=Inspiron 7559;FlightRing=Retail;AttrDataVer=25;InstallLanguage=fr-FR;OSUILocale=fr-FR;InstallationType=Client;FirmwareVersion=1.2.2;OSSkuId=101;App=WU;OEMName_Uncleaned=Dell Inc.;InstallDate=1492118125;AppVer=10.0.15063.674;UpgEx_RS3=Green;OSArchitecture=AMD64;UpdateManagementGroup=0;IsFlightingEnabled=0;IsDeviceRetailDemo=0;AcrobatReaderVer=17.12.20098.44270;TelemetryLevel=3;OSRollbackCount=2;WuClientVer=10.0.15063.674;Bios=2017;Steam=URL:steam protocol;OSRollbackBuild=10.0.16299.15;Free=8to16;OSVersion=10.0.15063.674;DeviceFamily=Windows.Desktop;
+[0]39A0.2574::10/28/2017-18:24:38.101 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData) started; operation # 8; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:38.120 [endpointproviders]Got 8B24B027-1DEE-BABB-9A95-3517DFB9C552 redir SecuredClient/Server URL: "https://fe3.delivery.mp.microsoft.com/ClientWebService/client.asmx/secured"
+[0]39A0.2574::10/28/2017-18:24:38.120 [agent]Endpoint token being requested with no category data.
+Unknown( 28): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:38.141 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 32): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.164 [endpointproviders]Got service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 plugin SecuredClient/Server auth token of type 0x00000001
+[0]39A0.2574::10/28/2017-18:24:38.164 [webserviceinfra]Auto proxy settings for this web service call.
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.0818::10/28/2017-18:24:38.194 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:38.244 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:38.293 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:38.342 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.357 [agent]GetExtendedUpdateInfo2 returned, hr=0x00000000, FileLocations=0, FileDecryptionData=0
+[0]39A0.2574::10/28/2017-18:24:38.358 [agent]DynamicDownloadDataFetcher: GetExtendedUpdateInfo2 succeeded but no file locations were returned by server. Client is not authorized to download content, converting to hr=80246019
+[0]39A0.2574::10/28/2017-18:24:38.358 [agent]DynamicDownloadDataFetcher - Failed to get extended update info2 for chunk: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:38.358 [agent]FetchAndStoreDynamicData failed: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:38.358 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData, operation # 8) stopped; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:38.358 [agent]DynamicDownloadDataFetcher Refresh complete. 0x00000000
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.390 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl), update is no longer suspended afterward.
+Unknown( 315): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 316): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.390 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is no longer suspended afterward.
+Unknown( 66): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:38.646 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 289): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.736 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.736 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:38.766 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.852 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 159): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:38.853 [agent]DynamicDownloadDataFetcher: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - added new entry for Update {58DDBB00-947E-420A-B296-A2451AE6AC0B}.2
+[0]39A0.2574::10/28/2017-18:24:38.859 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:38.893 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:38.943 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:38.993 [agent]DynamicDownloadDataFetcher Refresh Svc: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+[0]39A0.2574::10/28/2017-18:24:38.993 [agent]Fetching dynamic data from service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 for 1 updates.
+[0]39A0.3214::10/28/2017-18:24:38.994 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.009 [agent]DeviceAttributes: BranchReadinessLevel=CB;ISVM=0;GStatus_RS3=2;CurrentBranch=rs2_release;OEMModel=Inspiron 7559;FlightRing=Retail;AttrDataVer=25;InstallLanguage=fr-FR;OSUILocale=fr-FR;InstallationType=Client;FirmwareVersion=1.2.2;OSSkuId=101;App=WU;OEMName_Uncleaned=Dell Inc.;InstallDate=1492118125;AppVer=10.0.15063.674;UpgEx_RS3=Green;OSArchitecture=AMD64;UpdateManagementGroup=0;IsFlightingEnabled=0;IsDeviceRetailDemo=0;AcrobatReaderVer=17.12.20098.44270;TelemetryLevel=3;OSRollbackCount=2;WuClientVer=10.0.15063.674;Bios=2017;Steam=URL:steam protocol;OSRollbackBuild=10.0.16299.15;Free=8to16;OSVersion=10.0.15063.674;DeviceFamily=Windows.Desktop;
+[0]39A0.2574::10/28/2017-18:24:39.009 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData) started; operation # 9; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:39.028 [endpointproviders]Got 8B24B027-1DEE-BABB-9A95-3517DFB9C552 redir SecuredClient/Server URL: "https://fe3.delivery.mp.microsoft.com/ClientWebService/client.asmx/secured"
+[0]39A0.2574::10/28/2017-18:24:39.028 [agent]Endpoint token being requested with no category data.
+Unknown( 28): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.051 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 32): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.073 [endpointproviders]Got service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 plugin SecuredClient/Server auth token of type 0x00000001
+[0]39A0.2574::10/28/2017-18:24:39.073 [webserviceinfra]Auto proxy settings for this web service call.
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.102 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.156 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.208 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.259 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.266 [agent]GetExtendedUpdateInfo2 returned, hr=0x00000000, FileLocations=0, FileDecryptionData=0
+[0]39A0.2574::10/28/2017-18:24:39.267 [agent]DynamicDownloadDataFetcher: GetExtendedUpdateInfo2 succeeded but no file locations were returned by server. Client is not authorized to download content, converting to hr=80246019
+[0]39A0.2574::10/28/2017-18:24:39.267 [agent]DynamicDownloadDataFetcher - Failed to get extended update info2 for chunk: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:39.267 [agent]FetchAndStoreDynamicData failed: 0x80246019
+[0]39A0.2574::10/28/2017-18:24:39.267 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData, operation # 9) stopped; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:39.267 [agent]DynamicDownloadDataFetcher Refresh complete. 0x00000000
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.309 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl), update is no longer suspended afterward.
+Unknown( 315): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 316): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.309 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is no longer suspended afterward.
+Unknown( 66): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.570 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 289): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.620 [agent]DynamicDownloadDataFetcher: {8B24B027-1DEE-BABB-9A95-3517DFB9C552} - added new entry for Update {58DDBB00-947E-420A-B296-A2451AE6AC0B}.2
+[0]39A0.2574::10/28/2017-18:24:39.663 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.663 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:39.695 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.779 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 159): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.780 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.830 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x2000 (NewDownload), update is still suspended afterward.
+[0]39A0.2574::10/28/2017-18:24:39.862 [agent]Attempted to resume update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x18 (Power|Standby), update is still suspended afterward.
+Unknown( 187): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:39.914 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.963 [agent]DynamicDownloadDataFetcher Refresh Svc: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+[0]39A0.2574::10/28/2017-18:24:39.963 [agent]Fetching dynamic data from service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 for 1 updates.
+[0]39A0.3214::10/28/2017-18:24:39.964 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:39.978 [agent]DeviceAttributes: BranchReadinessLevel=CB;ISVM=0;GStatus_RS3=2;CurrentBranch=rs2_release;OEMModel=Inspiron 7559;FlightRing=Retail;AttrDataVer=25;InstallLanguage=fr-FR;OSUILocale=fr-FR;InstallationType=Client;FirmwareVersion=1.2.2;OSSkuId=101;App=WU;OEMName_Uncleaned=Dell Inc.;InstallDate=1492118125;AppVer=10.0.15063.674;UpgEx_RS3=Green;OSArchitecture=AMD64;UpdateManagementGroup=0;IsFlightingEnabled=0;IsDeviceRetailDemo=0;AcrobatReaderVer=17.12.20098.44270;TelemetryLevel=3;OSRollbackCount=2;WuClientVer=10.0.15063.674;Bios=2017;Steam=URL:steam protocol;OSRollbackBuild=10.0.16299.15;Free=8to16;OSVersion=10.0.15063.674;DeviceFamily=Windows.Desktop;
+[0]39A0.2574::10/28/2017-18:24:39.978 [agent]WU operation (CDynamicDownloadDataFetcher::FetchAndStoreDynamicData) started; operation # 10; does<NULL> use network; is<NULL> at background priority<NULL>
+[0]39A0.2574::10/28/2017-18:24:39.996 [endpointproviders]Got 8B24B027-1DEE-BABB-9A95-3517DFB9C552 redir SecuredClient/Server URL: "https://fe3.delivery.mp.microsoft.com/ClientWebService/client.asmx/secured"
+[0]39A0.2574::10/28/2017-18:24:39.996 [agent]Endpoint token being requested with no category data.
+Unknown( 28): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:40.018 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 32): GUID=107f070f-4372-3a30-c1fd-8ce7f568096d (No Format Information found).
+[0]39A0.2574::10/28/2017-18:24:40.041 [endpointproviders]Got service 8B24B027-1DEE-BABB-9A95-3517DFB9C552 plugin SecuredClient/Server auth token of type 0x00000001
+[0]39A0.2574::10/28/2017-18:24:40.041 [webserviceinfra]Auto proxy settings for this web service call.
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:40.073 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:40.126 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:40.175 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:40.228 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+[0]39A0.3214::10/28/2017-18:24:40.276 [agent]Suspended update 58DDBB00-947E-420A-B296-A2451AE6AC0B for reason 0x40000 (DynamicUrl)
+Unknown( 286): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 287): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).
+Unknown( 288): GUID=a6ac2092-8bd5-3de8-bdb3-8bc2e3255440 (No Format Information found).

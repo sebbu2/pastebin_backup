@@ -70,7 +70,7 @@ if(strlen($user_info)==0) {
 }
 
 if(!file_exists('user_pastes.txt')) {
-	$api_results_limit 	= '100';
+	$api_results_limit 	= '1000';
 	$url 			= 'http://pastebin.com/api/api_post.php';
 	$ch 			= curl_init($url);
 

@@ -1,0 +1,9 @@
+$sql='SELECT p2.`titre`, p2.`description`, p2.`moderator`, p3.`sujet`, '.
+'p2.`fid`, p1.`pid`, p4.`uid`, p4.`username`, p4.`avatar` , p4.`grade` , p1.`message`, p4.`signature`, '.
+'p1.`status`, p3.`status` AS `t_status`, p1.`time` AS `timestamp` '.
+'FROM `forums_title` AS p2'.
+' LEFT JOIN `forums_topics` AS p3 ON p2.`fid`=p3.`fid`'.
+' LEFT JOIN `forums` AS p1 ON p1.`tid`=p3.`tid`'.
+' LEFT JOIN `users` AS p4 ON p1.`uid`=p4.`uid`'.
+'WHERE p1.`tid`="'.$id.'" '.
+'ORDER BY p1.`pid` ASC;';
