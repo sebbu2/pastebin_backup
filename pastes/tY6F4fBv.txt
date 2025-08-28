@@ -1,0 +1,48 @@
+Ingénieur Développement Corporate Development
+
+I REPORTING
+
+• Rapporte hiérarchiquement au responsable de son service.
+• Rapporte au chef de projet et au responsable de service au niveau du suivi du travail réalisé dans le
+cadre de chaque projet.
+
+1 RESPONSABILITE PRINCIPALE
+
+• Responsable de la conception et du développement :
+1. d'applications de personnalisation au sens large,
+2. d'applications de paramétrage et d'interfaces homme-machine,
+3. d'outils de contrôle qualité, d'outils de validation, d'outils spécifiques.
+• Responsable de la documentation associée.
+
+! ACTIVITES
+
+En tant que développeur en informatique :
+• Analyse les besoins à partir de demandes formelles ou non,
+• Rédige le dossier d'analyse,
+• Conçoit et propose des solutions innovantes et des architectures logicielles adaptées,
+• Produit l'ensemble des documents requis par le plan qualité de développement,
+• Assure la traçabilité, la maintenance et les évolutions fonctionnelles des produits,
+• Programme et teste tout ou partie des logiciels,
+• Organise des présentations dans le cadre d'un projet, d'une technologie ou d'un produit,
+• Aide les autres membres de la société, du groupe, à résoudre des problèmes techniques,
+• Etudie les documents techniques ou normatifs associés,
+• Respecte la confidentialité des données sensibles manipulées,
+• Respecte les procédures qualité et sécurité du site, du groupe,
+• S'engage à répondre aux besoins de ses clients dans les meilleurs délais,
+• Peut participer à des réunions en clientèle,
+• Peut être amené à faire des déplacements (France, étranger) (installations, formations).
+
+1 COMPETENCES
+
+• Capacité d'analyse et de modélisation.
+• Compétences en programmation C, en programmation objet VB.NET I C# (ou Java).
+• Connaissances en bases de données SQL (SQL SERVER, ORACLE, ACCESS).
+• Anglais lu, écrit, parlé : bon niveau indispensable.
+• Maîtrise des outils bureautiques (WORD, EXCEL, POWERPOINT ... ).
+• Bonnes qualités rédactionnelles.
+
+1 FORMATION & EXPERIENCE REQUISES
+
+• Bac + 4 à Bac + 5 en informatique.
+• Première expérience appréciée.
+• Des connaissances en cryptographie, en bancaire et en cartes à puce constituent un plus.

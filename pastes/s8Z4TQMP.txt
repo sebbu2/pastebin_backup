@@ -1,0 +1,20 @@
+Le processeur n'est actuellement pas pris en charge pour Windows 11.
+En savoir plus sur les  processeurs pris en charge (https://aka.ms/PCHCLearnMoreCPU)
+Processeur : Intel® Core™ i7-6700HQ CPU @ 2.60GHz
+
+Ce PC prend en charge le démarrage sécurisé.
+
+TPM 2.0 activé sur ce PC.
+TPM: TPM 2.0
+
+Il y a au moins 4 Go de mémoire système (RAM).
+Mémoire système: 16GB
+
+La taille du disque système est supérieur ou égale à 64 Go.
+Stockage système : 128 GB
+
+Le processeur a deux cœurs ou plus.
+Noyaux d'un processeur : 4
+
+La vitesse de l'horloge du processeur est de 1 GHz ou plus rapide.
+Vitesse de l'horloge : 2.6 GHz

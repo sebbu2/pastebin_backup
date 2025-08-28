@@ -1,0 +1,1647 @@
+package com.qidian.QDReader.components.api;
+
+import android.text.TextUtils;
+import android.util.SparseArray;
+import com.qidian.QDReader.core.config.AppInfo;
+import com.qidian.QDReader.core.log.QDLog;
+import com.qidian.QDReader.core.utils.DeviceUtils;
+
+public class Urls {
+
+    /* renamed from: a */
+    private static SparseArray<String> f29131a = new SparseArray<>();
+
+    /* renamed from: b */
+    private static int f29132b;
+
+    /* renamed from: c */
+    public static String f29133c = "https://oaapp.webnovel.com";
+
+    /* renamed from: d */
+    public static int f29134d = 1;
+
+    /* renamed from: e */
+    public static String f29135e = "https://oaptlogin.webnovel.com/";
+
+    /* renamed from: f */
+    public static String f29136f = "https://oaidruid.webnovel.com/";
+
+    /* renamed from: g */
+    public static String f29137g = "https://devpay.webnovel.com/ajax/sdk/";
+
+    /* renamed from: h */
+    public static String f29138h = "https://activity.webnovel.com/noah/855041507";
+
+    /* renamed from: i */
+    public static String f29139i = "https://activity.webnovel.com/noah/855292641";
+
+    /* renamed from: a */
+    public static boolean m33444a(int i, String str) {
+        if (i < 61000) {
+            throw new IllegalArgumentException("error param ,tag or url is error!");
+        } else if (TextUtils.isEmpty(str)) {
+            QDLog.m35120e("CoreUrl error ,url is null");
+            return false;
+        } else {
+            try {
+                f29131a.put(i, str);
+                return true;
+            } catch (Exception e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+    }
+
+    /* renamed from: b */
+    private static String m33446b(int i) {
+        if (f29131a.get(61008) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(61008), String.valueOf(i));
+    }
+
+    /* renamed from: c */
+    public static String m33454c(long j, long j2) {
+        return m33433a(j, 180, j2);
+    }
+
+    /* renamed from: d */
+    public static String m33455d() {
+        if (f29131a.get(70063) != null) {
+            return f29131a.get(70063);
+        }
+        return null;
+    }
+
+    /* renamed from: e */
+    public static String m33457e() {
+        if (f29131a.get(61109) != null) {
+            return f29131a.get(61109);
+        }
+        return null;
+    }
+
+    /* renamed from: f */
+    public static String m33458f() {
+        if (f29131a.get(61108) != null) {
+            return f29131a.get(61108);
+        }
+        return null;
+    }
+
+    /* renamed from: g */
+    public static String m33459g() {
+        if (f29131a.get(70041) != null) {
+            return f29131a.get(70041);
+        }
+        return null;
+    }
+
+    /* renamed from: h */
+    public static String m33460h() {
+        if (f29131a.get(70026) != null) {
+            return f29131a.get(70026);
+        }
+        return null;
+    }
+
+    /* renamed from: i */
+    public static String m33461i() {
+        if (f29131a.get(61140) != null) {
+            return String.format(f29131a.get(61140), new Object[0]);
+        }
+        return null;
+    }
+
+    /* renamed from: j */
+    public static String m33462j() {
+        if (f29131a.get(70037) != null) {
+            return f29131a.get(70037);
+        }
+        return null;
+    }
+
+    /* renamed from: k */
+    public static String m33463k() {
+        if (f29131a.get(70034) != null) {
+            return f29131a.get(70034);
+        }
+        return null;
+    }
+
+    /* renamed from: l */
+    public static String m33464l() {
+        if (f29131a.get(70038) != null) {
+            return f29131a.get(70038);
+        }
+        return null;
+    }
+
+    /* renamed from: m */
+    public static String m33465m() {
+        if (f29131a.get(61100) != null) {
+            return f29131a.get(61100);
+        }
+        return null;
+    }
+
+    /* renamed from: n */
+    public static String m33466n() {
+        if (f29131a.get(70043) != null) {
+            return String.format(f29131a.get(70043), new Object[0]);
+        }
+        return null;
+    }
+
+    /* renamed from: o */
+    public static String m33467o() {
+        if (f29131a.get(61111) != null) {
+            return f29131a.get(61111);
+        }
+        return null;
+    }
+
+    /* renamed from: p */
+    public static String m33468p() {
+        return m33446b(f29134d);
+    }
+
+    /* renamed from: q */
+    public static String m33469q() {
+        if (f29131a.get(61014) != null) {
+            return f29131a.get(61014);
+        }
+        return null;
+    }
+
+    /* renamed from: r */
+    public static String m33470r() {
+        if (f29131a.get(61013) != null) {
+            return f29131a.get(61013);
+        }
+        return null;
+    }
+
+    /* renamed from: s */
+    public static String m33471s() {
+        if (f29131a.get(70053) != null) {
+            return String.valueOf(f29131a.get(70053));
+        }
+        return null;
+    }
+
+    /* renamed from: t */
+    public static String m33472t() {
+        if (f29131a.get(70096) != null) {
+            return f29131a.get(70096);
+        }
+        return null;
+    }
+
+    /* renamed from: u */
+    public static String m33473u() {
+        if (f29131a.get(70035) != null) {
+            return f29131a.get(70035);
+        }
+        return null;
+    }
+
+    /* renamed from: v */
+    public static String m33474v() {
+        if (f29131a.get(70039) != null) {
+            return f29131a.get(70039);
+        }
+        return null;
+    }
+
+    /* renamed from: w */
+    public static String m33475w() {
+        if (f29131a.get(70004) != null) {
+            return f29131a.get(70004);
+        }
+        return null;
+    }
+
+    /* renamed from: x */
+    public static String m33476x() {
+        if (f29131a.get(61091) != null) {
+            return f29131a.get(61091);
+        }
+        return null;
+    }
+
+    /* renamed from: y */
+    public static String m33477y() {
+        if (f29131a.get(70036) != null) {
+            return f29131a.get(70036);
+        }
+        return null;
+    }
+
+    /* renamed from: z */
+    public static String m33478z() {
+        if (f29131a.get(61027) != null) {
+            return f29131a.get(61027);
+        }
+        return null;
+    }
+
+    /* renamed from: c */
+    public static String m33453c(long j, int i) {
+        if (f29131a.get(70042) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70042), String.valueOf(j), Integer.valueOf(i));
+    }
+
+    /* renamed from: b */
+    public static String m33449b(long j, int i, long j2) {
+        return m33434a(j, i, "1.webp", j2);
+    }
+
+    /* renamed from: d */
+    public static String m33456d(long j) {
+        if (f29131a.get(70111) == null) {
+            return "";
+        }
+        return String.format(f29131a.get(70111), Long.valueOf(j));
+    }
+
+    /* renamed from: b */
+    public static String m33445b() {
+        if (f29131a.get(61121) != null) {
+            return f29131a.get(61121);
+        }
+        return null;
+    }
+
+    /* renamed from: c */
+    public static String m33452c(long j) {
+        if (f29131a.get(70055) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70055), String.valueOf(j));
+    }
+
+    /* JADX WARNING: Removed duplicated region for block: B:33:0x0109  */
+    /* JADX WARNING: Removed duplicated region for block: B:35:0x010e  */
+    /* renamed from: a */
+    /* Code decompiled incorrectly, please refer to instructions dump. */
+    public static void m33443a(int r25) {
+        /*
+            com.qidian.QDReader.components.api.Urls.f29132b = r25     // Catch:{ Exception -> 0x0cb5 }
+            android.util.SparseArray<java.lang.String> r1 = com.qidian.QDReader.components.api.Urls.f29131a     // Catch:{ Exception -> 0x0cb5 }
+            r1.clear()     // Catch:{ Exception -> 0x0cb5 }
+            int r1 = com.qidian.QDReader.components.api.Urls.f29132b     // Catch:{ Exception -> 0x0cb5 }
+            java.lang.String r2 = "https://preidruid.webnovel.com/"
+            java.lang.String r3 = "https://devapp.webnovel.com"
+            java.lang.String r4 = "https://oadynamic.webnovel.com/"
+            java.lang.String r5 = "https://ptlogin.webnovel.com/"
+            java.lang.String r6 = "https://idruid.webnovel.com/"
+            java.lang.String r7 = "https://preapp.webnovel.com"
+            java.lang.String r8 = "https://app.webnovel.com"
+            r9 = 3
+            r10 = 2
+            r11 = 1
+            java.lang.String r12 = "https://user-pic.webnovel.com/"
+            java.lang.String r13 = "https://oa-user-pic.webnovel.com/"
+            java.lang.String r14 = "https://book-pic.webnovel.com/"
+            java.lang.String r15 = "https://oa-book-pic.webnovel.com/"
+            java.lang.String r16 = ""
+            if (r1 != 0) goto L_0x0044
+            java.lang.String r1 = com.qidian.QDReader.components.api.Urls.f29133c
+            java.lang.String r16 = com.qidian.QDReader.components.api.Urls.f29136f
+            java.lang.String r17 = com.qidian.QDReader.components.api.Urls.f29135e
+            java.lang.String r18 = com.qidian.QDReader.components.api.Urls.f29137g
+            java.lang.String r19 = "https://oam.webnovel.com/"
+            java.lang.String r20 = "https://oabanner.webnovel.com/"
+            r21 = r4
+            r4 = r18
+            r22 = r20
+            r18 = r15
+            r20 = r16
+            r16 = r1
+            r1 = r19
+            r19 = r13
+            goto L_0x00b4
+        L_0x0044:
+            int r1 = com.qidian.QDReader.components.api.Urls.f29132b
+            if (r1 != r11) goto L_0x0061
+            java.lang.String r4 = "https://dynamic.webnovel.com/"
+            java.lang.String r16 = "https://pay.webnovel.com/ajax/sdk/"
+            java.lang.String r1 = "https://m.webnovel.com/"
+            java.lang.String r17 = "https://banner.webnovel.com/"
+            r21 = r4
+            r20 = r6
+            r19 = r12
+            r18 = r14
+            r4 = r16
+            r22 = r17
+            r17 = r5
+            r16 = r8
+            goto L_0x00b4
+        L_0x0061:
+            int r1 = com.qidian.QDReader.components.api.Urls.f29132b
+            if (r1 != r10) goto L_0x0084
+            java.lang.String r1 = "https://preptlogin.webnovel.com/"
+            java.lang.String r4 = "https://dynamic.webnovel.com/"
+            java.lang.String r16 = "https://pay.webnovel.com/ajax/sdk/"
+            java.lang.String r17 = "https://m.webnovel.com/"
+            java.lang.String r18 = "https://banner.webnovel.com/"
+            r20 = r2
+            r21 = r4
+            r19 = r12
+            r4 = r16
+            r22 = r18
+            r16 = r7
+            r18 = r14
+            r24 = r17
+            r17 = r1
+            r1 = r24
+            goto L_0x00b4
+        L_0x0084:
+            int r1 = com.qidian.QDReader.components.api.Urls.f29132b
+            if (r1 != r9) goto L_0x00a5
+            java.lang.String r1 = "https://devidruid.webnovel.com/"
+            java.lang.String r16 = "https://devptlogin.webnovel.com/"
+            java.lang.String r17 = com.qidian.QDReader.components.api.Urls.f29137g
+            java.lang.String r18 = "https://oam.webnovel.com/"
+            java.lang.String r19 = "https://oabanner.webnovel.com/"
+            r20 = r1
+            r21 = r4
+            r4 = r17
+            r1 = r18
+            r22 = r19
+            r19 = r13
+            r18 = r15
+            r17 = r16
+            r16 = r3
+            goto L_0x00b4
+        L_0x00a5:
+            r1 = r16
+            r4 = r1
+            r17 = r4
+            r18 = r17
+            r19 = r18
+            r20 = r19
+            r21 = r20
+            r22 = r21
+        L_0x00b4:
+            com.qidian.QDReader.core.config.a r23 = com.qidian.QDReader.core.config.AppInfo.m34122l()
+            boolean r23 = r23.mo52576C()
+            if (r23 == 0) goto L_0x011e
+            com.qidian.QDReader.core.config.QDConfig r9 = com.qidian.QDReader.core.config.QDConfig.getInstance()
+            java.lang.String r10 = "UserDebugAppHost"
+            java.lang.String r11 = "-1"
+            java.lang.String r9 = r9.GetSetting(r10, r11)
+            int r9 = java.lang.Integer.parseInt(r9)
+            if (r9 != 0) goto L_0x00dd
+            java.lang.String r2 = com.qidian.QDReader.components.api.Urls.f29136f
+            java.lang.String r3 = com.qidian.QDReader.components.api.Urls.f29133c
+        L_0x00d4:
+            r20 = r2
+            r16 = r3
+            r19 = r13
+            r18 = r15
+            goto L_0x00f7
+        L_0x00dd:
+            r10 = 1
+            if (r9 != r10) goto L_0x00e9
+            r20 = r6
+            r16 = r8
+        L_0x00e4:
+            r19 = r12
+            r18 = r14
+            goto L_0x00f7
+        L_0x00e9:
+            r6 = 2
+            if (r9 != r6) goto L_0x00f1
+            r20 = r2
+            r16 = r7
+            goto L_0x00e4
+        L_0x00f1:
+            r2 = 3
+            if (r9 != r2) goto L_0x00f7
+            java.lang.String r2 = "https://devidruid.webnovel.com/"
+            goto L_0x00d4
+        L_0x00f7:
+            com.qidian.QDReader.core.config.QDConfig r2 = com.qidian.QDReader.core.config.QDConfig.getInstance()
+            java.lang.String r3 = "UserDebugLoginHost"
+            java.lang.String r6 = "-1"
+            java.lang.String r2 = r2.GetSetting(r3, r6)
+            int r2 = java.lang.Integer.parseInt(r2)
+            if (r2 != 0) goto L_0x010e
+            java.lang.String r5 = com.qidian.QDReader.components.api.Urls.f29135e
+        L_0x010b:
+            r2 = r16
+            goto L_0x0122
+        L_0x010e:
+            r3 = 1
+            if (r2 != r3) goto L_0x0112
+            goto L_0x010b
+        L_0x0112:
+            r3 = 2
+            if (r2 != r3) goto L_0x0118
+            java.lang.String r5 = "https://preptlogin.webnovel.com/"
+            goto L_0x010b
+        L_0x0118:
+            r3 = 3
+            if (r2 != r3) goto L_0x011e
+            java.lang.String r5 = "https://devptlogin.webnovel.com/"
+            goto L_0x010b
+        L_0x011e:
+            r2 = r16
+            r5 = r17
+        L_0x0122:
+            r3 = r18
+            r6 = r19
+            r7 = r20
+            r8 = 61008(0xee50, float:8.549E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r10 = "/views/page/invite/index.html?pkgId=%1$s"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 61013(0xee55, float:8.5497E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r1)
+            java.lang.String r10 = "help/terms_of_service?hideHeader=1"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 61014(0xee56, float:8.5499E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r1)
+            java.lang.String r10 = "help/privacy_policy?hideHeader=1"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 61022(0xee5e, float:8.551E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r10 = "/views/page/badges/index.html?pkgid=1"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 61100(0xeeac, float:8.562E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r10 = "/views/page/giftcard/index.html"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 61111(0xeeb7, float:8.5635E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r10 = "/views/page/helpcenter/index.html?pkgId=1"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 61121(0xeec1, float:8.5649E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r10 = "/views/page/helpcenter/detail.html?pkgid=1&id=11"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 70095(0x111cf, float:9.8224E-41)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r10 = "/views/page/signin/rules.html?pkgid=1&lang=%1$s"
+            r9.append(r10)
+            java.lang.String r9 = r9.toString()
+            m33444a(r8, r9)
+            r8 = 80001(0x13881, float:1.12105E-40)
+            java.lang.StringBuilder r9 = new java.lang.StringBuilder
+            r9.<init>()
+            r9.append(r2)
+            java.lang.String r2 = "/views/page/payments/codacash.html?appId=%1$s&areaId=%2$s&channelCode=%3$s&country=%4$s&itemId=%5$s&amount=%6$s&currency=%7$s&goodsId=%8$s"
+            r9.append(r2)
+            java.lang.String r2 = r9.toString()
+            m33444a(r8, r2)
+            r2 = 61077(0xee95, float:8.5587E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/google"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 61078(0xee96, float:8.5589E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/twitter"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 61079(0xee97, float:8.559E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/facebook"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70037(0x11195, float:9.8143E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/emaillogin"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70109(0x111dd, float:9.8244E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/line"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70034(0x11192, float:9.8139E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/doregister"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70035(0x11193, float:9.814E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/resendregemail"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70036(0x11194, float:9.8141E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/confirm"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70038(0x11196, float:9.8144E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/resetPwsMail"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70039(0x11197, float:9.8146E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/sendtrustemail"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70040(0x11198, float:9.8147E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/resendtrustemail"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 70041(0x11199, float:9.8148E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r9 = "sdk/checktrust"
+            r8.append(r9)
+            java.lang.String r8 = r8.toString()
+            m33444a(r2, r8)
+            r2 = 61141(0xeed5, float:8.5677E-41)
+            java.lang.StringBuilder r8 = new java.lang.StringBuilder
+            r8.<init>()
+            r8.append(r5)
+            java.lang.String r5 = "sdk/getAccessToken"
+            r8.append(r5)
+            java.lang.String r5 = r8.toString()
+            m33444a(r2, r5)
+            r2 = 70031(0x1118f, float:9.8134E-41)
+            java.lang.StringBuilder r5 = new java.lang.StringBuilder
+            r5.<init>()
+            r5.append(r4)
+            java.lang.String r8 = "order"
+            r5.append(r8)
+            java.lang.String r5 = r5.toString()
+            m33444a(r2, r5)
+            r2 = 70032(0x11190, float:9.8136E-41)
+            java.lang.StringBuilder r5 = new java.lang.StringBuilder
+            r5.<init>()
+            r5.append(r4)
+            java.lang.String r4 = "notify"
+            r5.append(r4)
+            java.lang.String r4 = r5.toString()
+            m33444a(r2, r4)
+            r2 = 70007(0x11177, float:9.8101E-41)
+            java.lang.StringBuilder r4 = new java.lang.StringBuilder
+            r4.<init>()
+            r5 = r21
+            r4.append(r5)
+            java.lang.String r8 = "book/%1$s"
+            r4.append(r8)
+            java.lang.String r4 = r4.toString()
+            m33444a(r2, r4)
+            r2 = 700052(0xaae94, float:9.80982E-40)
+            java.lang.StringBuilder r4 = new java.lang.StringBuilder
+            r4.<init>()
+            r4.append(r5)
+            java.lang.String r8 = "comic/%1$s"
+            r4.append(r8)
+            java.lang.String r4 = r4.toString()
+            m33444a(r2, r4)
+            r2 = 61037(0xee6d, float:8.5531E-41)
+            java.lang.StringBuilder r4 = new java.lang.StringBuilder
+            r4.<init>()
+            r4.append(r3)
+            java.lang.String r3 = "bookcover/%1$s/%2$s?BookCoverId=%3$s"
+            r4.append(r3)
+            java.lang.String r3 = r4.toString()
+            m33444a(r2, r3)
+            r2 = 61059(0xee83, float:8.5562E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r6)
+            java.lang.String r4 = "userheadimg/%1$s/%2$s?coverId=%3$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61067(0xee8b, float:8.5573E-41)
+            java.lang.String r3 = "https://webbanner.webnovel.com/rechargeGearImg/%1$d.jpg"
+            m33444a(r2, r3)
+            r2 = 61023(0xee5f, float:8.5511E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/client/get-android-update"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61027(0xee63, float:8.5517E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/set-head-image"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61029(0xee65, float:8.552E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/add-history-with-type"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61030(0xee66, float:8.5521E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/del-history?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61031(0xee67, float:8.5523E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/del-batch-history"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61032(0xee68, float:8.5524E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/get-history?pageIndex=%1$d&pageSize=%2$d"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61033(0xee69, float:8.5525E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/batch-add-history"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61048(0xee78, float:8.5546E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/report-fbtoken"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61051(0xee7b, float:8.555E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/activity/get-book-config"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61058(0xee82, float:8.556E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/set-user-info"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61060(0xee84, float:8.5563E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/power/get-power-info?pageIndex=%1$d&pageSize=%2$d&bookId=%3$s&bookType=%4$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61061(0xee85, float:8.5565E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/power/vote"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61071(0xee8f, float:8.5579E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/activity/get-bookpool-advs?types=%1$s&platformids=%2$s&advnum=%3$d"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61073(0xee91, float:8.5582E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/get-book-notification?bookIds=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61074(0xee92, float:8.5583E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/set-book-notification?nFlag=%1$d&bookId=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61075(0xee93, float:8.5584E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/report"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61080(0xee98, float:8.5591E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/client/get-conf"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61133(0xeecd, float:8.5666E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/client/report-device"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61090(0xeea2, float:8.5605E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/login-validate"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61091(0xeea3, float:8.5607E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/get"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61094(0xeea6, float:8.5611E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/add-suggestion"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61095(0xeea7, float:8.5612E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/set-user-name"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61101(0xeead, float:8.5621E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/client/get-marketingInfo?Type=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61108(0xeeb4, float:8.563E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-case/synchronize"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61109(0xeeb5, float:8.5632E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-case/report-operation-time"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61112(0xeeb8, float:8.5636E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/get-edminfos"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61113(0xeeb9, float:8.5638E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/set-edminfos"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61115(0xeebb, float:8.564E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/gift/get-book-gift-status?bookId=%1$s&bookType=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61116(0xeebc, float:8.5642E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/gift/get-gift-list?bookId=%1$s&bookType=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61117(0xeebd, float:8.5643E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/gift/donate?giftId=%1$s&amount=%2$d&totalPrice=%3$d&chapterId=%4$s&transactionId=%5$s&bookId=%6$s&bookType=%7$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61118(0xeebe, float:8.5645E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/gift/get-roll-donate-record?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61119(0xeebf, float:8.5646E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/gift/get-donate-uuid"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61122(0xeec2, float:8.565E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/get-comic?comicId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61131(0xeecb, float:8.5663E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/get-transition-page?comicId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61134(0xeece, float:8.5667E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/get-book?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61135(0xeecf, float:8.5668E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/get-book-extended?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61136(0xeed0, float:8.567E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-review/get-reviews?bookId=%1$s&sortCondition=%2$s&pageIndex=%3$s&pageSize=%4$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61138(0xeed2, float:8.5673E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/report"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61137(0xeed1, float:8.5671E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-review/like"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61139(0xeed3, float:8.5674E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/expect-ticket/vote"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70000(0x11170, float:9.8091E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/get-chapters?bookId=%1$s&maxUpdateTime=%2$s&maxIndex=%3$s&sign=%4$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70001(0x11171, float:9.8092E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/get-init-chapters?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70003(0x11173, float:9.8095E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/get-chapter?bookId=%1$s&chapterId=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70004(0x11174, float:9.8096E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/unlock-chapter"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70006(0x11176, float:9.81E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book/get-chapter-extended?bookId=%1$s&chapterId=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70024(0x11188, float:9.8125E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/get-chapters?comicId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70026(0x1118a, float:9.8127E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/unlock-chapter"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70027(0x1118b, float:9.8129E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/get-chapter?comicId=%1$s&chapterId=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70028(0x1118c, float:9.813E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/get-chapter-byindex?comicId=%1$s&index=%2$d"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70030(0x1118e, float:9.8133E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/recharge/get-monthpay-detail"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70029(0x1118d, float:9.8132E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/recharge/get-monthpay-info"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70033(0x11191, float:9.8137E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/marketing/get?position=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70042(0x1119a, float:9.815E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/limit-free/get-infos?bookId=%1$s&bookType=%2$d"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70043(0x1119b, float:9.8151E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/tracking/get-google-deep-link"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70045(0x1119d, float:9.8154E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/readingTime"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70051(0x111a3, float:9.8162E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/comic/get-comic-detail?comicId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70053(0x111a5, float:9.8165E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/operation/get-home-popup"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70054(0x111a6, float:9.8167E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/message/switch"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70055(0x111a7, float:9.8168E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/get-review-num?chapterId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70056(0x111a8, float:9.817E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/privilege/get-list?bookId=%1$s&bookType=0"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70057(0x111a9, float:9.8171E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/privilege/purchase"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70058(0x111aa, float:9.8172E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/privilege/get-user-list?lastTime=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70065(0x111b1, float:9.8182E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/get-review-list?chapterId=%1$s&paragraphId=%2$s&lastTime=%3$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70066(0x111b2, float:9.8183E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/get-review-replys?chapterId=%1$s&paragraphId=%2$s&reviewId=%3$s&lastTime=%4$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70067(0x111b3, float:9.8185E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/add"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70068(0x111b4, float:9.8186E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/like"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70069(0x111b5, float:9.8188E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/report"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70070(0x111b6, float:9.8189E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/delete"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70071(0x111b7, float:9.819E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/paragraph-review/get-review-detail?chapterId=%1$s&paragraphId=%2$s&replyId=%3$s&lastTime=%4$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70063(0x111af, float:9.8179E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-case/get?position=10001"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70064(0x111b0, float:9.818E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/boon/claim-task-reward"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70072(0x111b8, float:9.8192E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/publish-book/get-publish-book?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70074(0x111ba, float:9.8195E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/edit-name"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70075(0x111bb, float:9.8196E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/delete"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70077(0x111bd, float:9.8199E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/add-book"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70078(0x111be, float:9.82E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/detail?collectionId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70079(0x111bf, float:9.8202E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/del-book"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70080(0x111c0, float:9.8203E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/verify-books-in-collection"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70081(0x111c1, float:9.8204E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/add"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70082(0x111c2, float:9.8206E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/list?bookId=%1$s&bookType=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70083(0x111c3, float:9.8207E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-collection/add-book"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70084(0x111c4, float:9.8209E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/user/get-profile-status"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70088(0x111c8, float:9.8214E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/message/get-switch"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70086(0x111c6, float:9.8211E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/publish-book/unlock-publish-book"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70087(0x111c7, float:9.8213E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/publish-book/get-publish-book-url?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70085(0x111c5, float:9.821E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/publish-book/get-publish-price?bookId=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70089(0x111c9, float:9.8216E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/publish-book/report"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70090(0x111ca, float:9.8217E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r5)
+            java.lang.String r4 = "epub/%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70096(0x111d0, float:9.8225E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/recommend/get-recommend-list"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70101(0x111d5, float:9.8232E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/tag/get-book-tag-list?bookId=%1$s&bookType=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70102(0x111d6, float:9.8234E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/tag/support-tag?tagId=%1$s&supportOp=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70103(0x111d7, float:9.8235E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/reading/last-page?itemId=%1$s&itemType=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70104(0x111d8, float:9.8237E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "go/api/share/get-book-page?bookId=%1$s&bookType=%2$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61140(0xeed4, float:8.5675E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "go/api/iso/get-country"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70105(0x111d9, float:9.8238E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-case/claim-all-task-rewards"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70106(0x111da, float:9.824E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "app/api/book-case/get-recommend-list"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 61142(0xeed6, float:8.5678E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "go/api/webData/post-web-data"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 70110(0x111de, float:9.8245E-41)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r7)
+            java.lang.String r4 = "go/api/user/get-cash-flow?pageIndex=%1$s"
+            r3.append(r4)
+            java.lang.String r3 = r3.toString()
+            m33444a(r2, r3)
+            r2 = 80002(0x13882, float:1.12107E-40)
+            java.lang.StringBuilder r3 = new java.lang.StringBuilder
+            r3.<init>()
+            r3.append(r1)
+            java.lang.String r1 = "book/%1$s"
+            r3.append(r1)
+            java.lang.String r1 = r3.toString()
+            m33444a(r2, r1)
+            r1 = 70111(0x111df, float:9.8246E-41)
+            java.lang.StringBuilder r2 = new java.lang.StringBuilder
+            r2.<init>()
+            r3 = r22
+            r2.append(r3)
+            java.lang.String r3 = "recommend/%1$s"
+            r2.append(r3)
+            java.lang.String r2 = r2.toString()
+            m33444a(r1, r2)
+            goto L_0x0cba
+        L_0x0cb5:
+            r0 = move-exception
+            r1 = r0
+            com.qidian.QDReader.core.log.QDLog.exception(r1)
+        L_0x0cba:
+            return
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.qidian.QDReader.components.api.Urls.m33443a(int):void");
+    }
+
+    /* renamed from: b */
+    public static String m33447b(long j) {
+        if (f29131a.get(61122) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(61122), String.valueOf(j));
+    }
+
+    /* renamed from: c */
+    public static String m33451c() {
+        if (f29131a.get(70106) != null) {
+            return String.format(f29131a.get(70106), new Object[0]);
+        }
+        return null;
+    }
+
+    /* renamed from: b */
+    public static String m33450b(long j, long j2) {
+        if (f29131a.get(70027) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70027), String.valueOf(j), String.valueOf(j2));
+    }
+
+    /* renamed from: b */
+    public static String m33448b(long j, int i) {
+        if (f29131a.get(70028) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70028), String.valueOf(j), Integer.valueOf(i));
+    }
+
+    /* renamed from: a */
+    public static String m33429a() {
+        if (f29131a.get(61023) != null) {
+            return f29131a.get(61023);
+        }
+        return null;
+    }
+
+    /* renamed from: a */
+    public static String m33433a(long j, int i, long j2) {
+        if (f29131a.get(61037) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(61037), String.valueOf(j), i + ".webp", String.valueOf(j2));
+    }
+
+    @Deprecated
+    /* renamed from: a */
+    public static String m33436a(long j, long j2, float f) {
+        float f2;
+        if (DeviceUtils.m35265d() > 600) {
+            f2 = 600.0f * f;
+        } else {
+            f2 = ((float) DeviceUtils.m35265d()) * f;
+        }
+        int i = (int) f2;
+        if (f == 0.5f) {
+            i = 180;
+        }
+        String a = m33433a(j, i, j2);
+        QDLog.m35119d("Qidian", "书籍详情封面URL : " + a);
+        return a;
+    }
+
+    /* renamed from: a */
+    public static String m33437a(long j, long j2, int i, String str) {
+        if (f29131a.get(70000) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70000), String.valueOf(j), String.valueOf(j2), String.valueOf(i), str);
+    }
+
+    /* renamed from: a */
+    public static String m33430a(int i, int i2) {
+        if (f29131a.get(61032) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(61032), Integer.valueOf(i), Integer.valueOf(i2));
+    }
+
+    /* renamed from: a */
+    public static String m33440a(String str, long j) {
+        return m33441a(str, j, 144);
+    }
+
+    /* renamed from: a */
+    public static String m33441a(String str, long j, int i) {
+        return str + i + ".png?updateTime=" + j;
+    }
+
+    /* renamed from: a */
+    private static String m33434a(long j, int i, String str, long j2) {
+        if (f29131a.get(61059) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(61059), j + "-" + i, str, String.valueOf(j2));
+    }
+
+    /* renamed from: a */
+    public static String m33438a(long j, long j2, boolean z) {
+        if (f29131a.get(70003) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70003), String.valueOf(j), String.valueOf(j2));
+    }
+
+    /* renamed from: a */
+    public static String m33432a(long j, int i) {
+        if (f29131a.get(61116) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(61116), String.valueOf(j), String.valueOf(i));
+    }
+
+    /* renamed from: a */
+    public static String m33431a(long j) {
+        if (f29131a.get(70024) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70024), String.valueOf(j));
+    }
+
+    /* renamed from: a */
+    public static String m33435a(long j, long j2) {
+        if (f29131a.get(70006) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70006), String.valueOf(j), String.valueOf(j2));
+    }
+
+    /* renamed from: a */
+    public static String m33439a(String str) {
+        if (f29131a.get(70095) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(70095), str);
+    }
+
+    /* renamed from: a */
+    public static String m33442a(String str, String str2, String str3, String str4, String str5, String str6) {
+        if (f29131a.get(80001) == null) {
+            return null;
+        }
+        return String.format(f29131a.get(80001), Integer.valueOf(AppInfo.m34122l().mo52582b()), Integer.valueOf(AppInfo.m34122l().mo52589d()), str, str2, str3, str4, str5, str6);
+    }
+}

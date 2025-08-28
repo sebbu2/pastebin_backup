@@ -1,0 +1,9 @@
+@echo off
+winget list
+call scoop list
+choco list
+rem nuget
+call npm list -g
+go-global-update -n
+cargo install --list | grep "^\w"
+rem conda

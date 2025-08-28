@@ -1,0 +1,121 @@
+26|Gui.log 13/09/20 22:36:15 - INFO [ jd.gui.swing.jdgui.JDGui$34(edtRun) ] -> Reset frame to 
+{
+  "extendedState" : "ICONIFIED",
+  "width" : 1024,
+  "height" : 728,
+  "x" : 448,
+  "visible" : false,
+  "y" : 151,
+  "silentShutdown" : false,
+  "screenID" : "\\Display0",
+  "locationSet" : true,
+  "focus" : false,
+  "active" : false
+}
+26|Log.L.log 13/09/20 22:36:15 - SEVERE [ Log.L.log ] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:94):
+java.lang.NullPointerException
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.rotateInsets(Unknown Source)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.getTabAreaInsets(Unknown Source)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout.calculateSize(Unknown Source)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout.preferredLayoutSize(Unknown Source)
+	at java.awt.Container.preferredSize(Unknown Source)
+	at java.awt.Container.getPreferredSize(Unknown Source)
+	at javax.swing.JComponent.getPreferredSize(Unknown Source)
+	at net.miginfocom.swing.SwingComponentWrapper.getMinimumWidth(Unknown Source)
+	at net.miginfocom.layout.Grid$CompWrap.getSize(Unknown Source)
+	at net.miginfocom.layout.Grid$CompWrap.<init>(Unknown Source)
+	at net.miginfocom.layout.Grid$CompWrap.<init>(Unknown Source)
+	at net.miginfocom.layout.Grid.<init>(Unknown Source)
+	at net.miginfocom.swing.MigLayout.checkCache(Unknown Source)
+	at net.miginfocom.swing.MigLayout.layoutContainer(Unknown Source)
+	at java.awt.Container.layout(Unknown Source)
+	at java.awt.Container.doLayout(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validate(Unknown Source)
+	at java.awt.Container.validateUnconditionally(Unknown Source)
+	at java.awt.Window.show(Unknown Source)
+	at java.awt.Component.show(Unknown Source)
+	at java.awt.Component.setVisible(Unknown Source)
+	at java.awt.Window.setVisible(Unknown Source)
+	at org.appwork.swing.ExtJFrame.setVisible(ExtJFrame.java:81)
+	at jd.gui.swing.jdgui.JDownloaderMainFrame.setVisible(JDownloaderMainFrame.java:271)
+	at org.appwork.utils.swing.windowmanager.WindowsWindowManager.setVisibleInternal(WindowsWindowManager.java:675)
+	at org.appwork.utils.swing.windowmanager.WindowsWindowManager.setVisible(WindowsWindowManager.java:372)
+	at jd.gui.swing.jdgui.JDGui$34.edtRun(JDGui.java:1528)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:119)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:154)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:139)
+	at jd.gui.swing.jdgui.JDGui.setWindowToTray(JDGui.java:1595)
+	at org.jdownloader.gui.jdtrayicon.TrayExtension.mousePressed(TrayExtension.java:354)
+	at org.jdownloader.gui.jdtrayicon.TrayMouseAdapter.mousePressed(TrayMouseAdapter.java:184)
+	at java.awt.TrayIcon.processMouseEvent(Unknown Source)
+	at java.awt.TrayIcon.processEvent(Unknown Source)
+	at java.awt.TrayIcon.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+
+THREAD: 24
+24|UncaughtExceptionHandler.log 13/09/20 23:03:03 - SEVERE [ jd.SecondLevelLaunch$4(uncaughtException) ] -> Uncaught Exception in: 24=AWT-EventQueue-0|null
+24|UncaughtExceptionHandler.log 13/09/20 23:03:03 - SEVERE [ UncaughtExceptionHandler.log ] -> Exception thrown at jd.SecondLevelLaunch$4.uncaughtException(SecondLevelLaunch.java:429):
+java.lang.NullPointerException
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.rotateInsets(Unknown Source)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.getTabAreaInsets(Unknown Source)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout.calculateSize(Unknown Source)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout.preferredLayoutSize(Unknown Source)
+	at java.awt.Container.preferredSize(Unknown Source)
+	at java.awt.Container.getPreferredSize(Unknown Source)
+	at javax.swing.JComponent.getPreferredSize(Unknown Source)
+	at net.miginfocom.swing.SwingComponentWrapper.getMinimumWidth(Unknown Source)
+	at net.miginfocom.layout.Grid$CompWrap.getSize(Unknown Source)
+	at net.miginfocom.layout.Grid$CompWrap.<init>(Unknown Source)
+	at net.miginfocom.layout.Grid$CompWrap.<init>(Unknown Source)
+	at net.miginfocom.layout.Grid.<init>(Unknown Source)
+	at net.miginfocom.swing.MigLayout.checkCache(Unknown Source)
+	at net.miginfocom.swing.MigLayout.layoutContainer(Unknown Source)
+	at java.awt.Container.layout(Unknown Source)
+	at java.awt.Container.doLayout(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validateTree(Unknown Source)
+	at java.awt.Container.validate(Unknown Source)
+	at javax.swing.RepaintManager$3.run(Unknown Source)
+	at javax.swing.RepaintManager$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at javax.swing.RepaintManager.validateInvalidComponents(Unknown Source)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+

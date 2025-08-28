@@ -3,7 +3,7 @@
 
 ##    tmx_converter.py - Extract walkmap, warp, and spawn information from maps.
 ##
-##    Copyright © 2012 Ben Longbons <b.r.longbons@gmail.com>
+##    Copyright Â© 2012 Ben Longbons <b.r.longbons@gmail.com>
 ##
 ##    This file is part of The Mana World
 ##

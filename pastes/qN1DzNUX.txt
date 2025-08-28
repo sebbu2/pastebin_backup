@@ -1,0 +1,57 @@
+THREAD: 87
+87|org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log 14/09/20 00:01:25 - INFO [ org.jdownloader.plugins.controller.PluginScannerNIO(scan) ] -> @PluginController(NIO): scan took 1140ms for 837
+87|org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log 14/09/20 00:01:26 - INFO [ org.jdownloader.plugins.controller.crawler.CrawlerPluginController(init) ] -> @CrawlerPluginController: update took 1466ms for 1328|LastModified:1600034351213
+87|org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log 14/09/20 00:01:26 - INFO [ org.jdownloader.plugins.controller.crawler.CrawlerPluginController(init) ] -> @CrawlerPluginController: init took 1486ms for 1328
+
+THREAD: 90
+90|javcl.com_jd.plugins.decrypter.JavCL 14/09/20 00:01:26 - INFO [ jd.controlling.linkcrawler.LinkCrawler(crawl) ] -> Crawling: https://javcl.com/3-days-of-endless-sex-covered-with-sweat-and-orgasm-juice-after-the-end-of-abstinence-momonogi-kana
+90|javcl.com_jd.plugins.decrypter.JavCL 14/09/20 00:01:39 - FINEST [ jd.http.Browser(openRequestConnection) ] -> 
+Caller: jd.plugins.decrypter.JavCL.decryptIt(JavCL.java:27)
+jd.plugins.PluginForDecrypt.decryptIt(PluginForDecrypt.java:324)
+jd.plugins.PluginForDecrypt.decryptLink(PluginForDecrypt.java:398)
+jd.controlling.linkcrawler.LinkCrawler.crawl(LinkCrawler.java:3502)
+jd.controlling.linkcollector.LinkCollectorCrawler.crawl(LinkCollectorCrawler.java:33)
+jd.controlling.linkcrawler.LinkCrawler$13.crawling(LinkCrawler.java:1608)
+jd.controlling.linkcrawler.LinkCrawlerRunnable.run_now(LinkCrawlerRunnable.java:118)
+jd.controlling.linkcrawler.LinkCrawlerRunnable.run(LinkCrawlerRunnable.java:49)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+BrowserID:1|BrowserParentID:-1|RequestID:1|URL:https://javcl.com/3-days-of-endless-sex-covered-with-sweat-and-orgasm-juice-after-the-end-of-abstinence-momonogi-kana
+----------------Request Information-------------
+URL: https://javcl.com/3-days-of-endless-sex-covered-with-sweat-and-orgasm-juice-after-the-end-of-abstinence-momonogi-kana
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+ConnectIP: javcl.com/104.26.9.246:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /3-days-of-endless-sex-covered-with-sweat-and-orgasm-juice-after-the-end-of-abstinence-momonogi-kana HTTP/1.1
+Host: javcl.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+
+----------------Response Information------------
+Connection-Time: 1228ms
+Request-Time: 193ms
+----------------Response------------------------
+HTTP/1.1 503 Service Temporarily Unavailable
+Date: Sun, 13 Sep 2020 22:01:38 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: __cfduid=df2c6f07f576b7dc9104ec51e08c322e01600034498; expires=Tue, 13-Oct-20 22:01:38 GMT; path=/; domain=.javcl.com; HttpOnly; SameSite=Lax; Secure
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+cf-request-id: 052b16001a00001772c002f200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5d2525e02fc51772-FRA
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+------------------------------------------------
+
+

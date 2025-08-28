@@ -1,0 +1,27 @@
+@echo off
+echo winget 1
+winget upgrade --include-unknown
+echo winget 2
+winget upgrade --include-unknown --all
+echo scoop 1
+call scoop update
+echo scoop 2
+call scoop update "*"
+echo choco 1
+sudo choco upgrade chocolatey
+echo choco 2
+sudo choco upgrade all
+echo nuget
+nuget update -self
+echo npm (node)
+call npm update
+echo go
+go-global-update
+echo cargo
+cargo install-update --all
+echo yarn (node)
+call yarn upgrade-interactive
+echo conda 1
+conda update -n base conda
+echo conda 2
+conda update --all

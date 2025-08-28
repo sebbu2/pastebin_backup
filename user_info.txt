@@ -1,11 +1,11 @@
 <user>
-<user_name>sebbu</user_name>
-<user_format_short>text</user_format_short>
-<user_expiration>N</user_expiration>
-<user_avatar_url>https://pastebin.com/i/guest.png</user_avatar_url>
-<user_private>0</user_private>
-<user_website></user_website>
-<user_email>zsbe17fr@yahoo.fr</user_email>
-<user_location>France</user_location>
-<user_account_type>0</user_account_type>
+	<user_name>sebbu</user_name>
+	<user_format_short>text</user_format_short>
+	<user_expiration>N</user_expiration>
+	<user_avatar_url>/cache/img/14/7/16/3879.jpg</user_avatar_url>
+	<user_private>0</user_private>
+	<user_website>https://sebbu.fr/</user_website>
+	<user_email>zsbe17fr@yahoo.fr</user_email>
+	<user_location>Dijon, France</user_location>
+	<user_account_type>0</user_account_type>
 </user>

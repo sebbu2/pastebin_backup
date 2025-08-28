@@ -1,0 +1,14 @@
+{
+    "name": "game",
+    "main": "www/index.html",
+    "js-flags": "--expose-gc",
+    "window": {
+        "title": "game",
+        "toolbar": false,
+        "width": 816,
+        "height": 624,
+        "icon": "www/icon/icon.png"
+    },
+    "dom_storage_quota": 100
+}
+	

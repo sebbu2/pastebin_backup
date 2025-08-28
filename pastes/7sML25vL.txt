@@ -1,0 +1,19 @@
+# Output filename
+-o "%(uploader)s - %(title)s_%(id)s.%(ext)s"
+# no modification time
+--no-mtime
+# fix bad SSL checks
+--no-check-certificate
+# additional
+-f 'bestvideo[ext=mp4][height<=1080][vcodec!^=av01]+bestaudio[ext=m4a]/bestvideo[ext=webm][height<=1080][vcodec^=vp9][vcodec!*=vp9.2]+bestaudio[ext=webm]/bestvideo+bestaudio/1080p/best/720p/480p/360p/240p/144p/0'
+# extra dl
+--write-description
+--write-thumbnail
+--write-all-thumbnails
+--write-sub
+--write-auto-sub
+--sub-lang en,fr
+--sub-format "ass/srt/best"
+--write-info-json
+--add-metadata
+

@@ -40,7 +40,7 @@ void generation_suivante_VN(int **tab1, int **tab2, int n, int m, int B[9], int 
 	/*TODO*/
 
 /*4.1*/
-/*3 états*/
+/*3 Ã©tats*/
 	/*TODO*/
 
 /*4.2*/

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profiles version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.serviio.org/xsd/profiles/v/2.0/Profiles.xsd">
+	<Profile id="8" name="LG TV / player" extendsProfileId="1">
+		<Detection>
+			<HttpHeaders>
+				<friendlyName.dlna.org>LG.*</friendlyName.dlna.org>
+			</HttpHeaders>
+		</Detection>
+		<!-- ResourceTransportProtocolHandler>org.serviio.upnp.protocol.http.transport.LGProtocolHandler</ResourceTransportProtocolHandler -->
+		<MediaFormatProfiles>
+			<MediaFormatProfile mime-type="video/mp4" name="">AVI</MediaFormatProfile>
+		</MediaFormatProfiles>		
+		<!-- 
+		Transcoding doesn't seem to work and some files can be played natively: 
+		http://forum.serviio.org/viewtopic.php?f=12&t=3914#p26273
+		<Transcoding>
+			<Video targetContainer="mpegts" targetACodec="ac3">
+				<Matches container="matroska" aCodec="dca" />
+			</Video>
+			<Video targetContainer="mpegts" targetVCodec="mpeg2video" targetACodec="ac3" >
+				<Matches container="flv" />
+				<Matches container="asf" vCodec="wmv2"/>
+				<Matches container="rm" />
+				<Matches container="wtv" />
+			</Video>
+		</Transcoding>-->
+		<Transcoding>
+			<!--<Video targetContainer="mpegts" targetACodec="ac3">
+				<Matches container="matroska" aCodec="dca" />
+			</Video>//-->
+			<Video targetContainer="mpegts" targetVCodec="mpeg2video" targetACodec="ac3" >
+				<Matches container="flv" />
+				<Matches container="3gp" />
+				<Matches container="asf" vCodec="msmpeg4"/>
+				<!--<Matches container="asf" />-->
+				<Matches container="rm" />
+				<Matches container="wtv" />
+				<Matches container="matroska" vCodec="vp6"/>
+				<Matches container="matroska" vCodec="vp8"/>
+				<Matches container="matroska" vCodec="vp9"/>
+				<Matches container="*" vCodec="h265"/>
+			</Video>
+			<!--<Video targetContainer="mpegts" targetACodec="ac3" >
+				<Matches container="asf"/>
+			</Video>-->
+			<Audio targetContainer="mp3" aSamplerate="48000">
+				<Matches container="ogg" codec="opus"/>
+				<Matches container="ogg" codec="vorbis"/>
+				<Matches container="asf"/>
+			</Audio>
+			<Audio targetContainer="lpcm">
+				<Matches container="flac" />
+				<Matches container="wv" />
+				<Matches container="mpc" />
+				<Matches container="ape" />
+			</Audio>
+		</Transcoding>
+		<GenericTranscoding>
+			<Video targetContainer="mpegts" targetVCodec="mpeg2video" targetACodec="ac3" />
+		</GenericTranscoding>
+		<MultipleAudioTrackAware>false</MultipleAudioTrackAware>
+	</Profile>
+</Profiles>

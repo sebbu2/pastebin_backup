@@ -1,0 +1,18 @@
+PHP 8.0.0 stats (doc vs reflections) [NOT PERFECT[LY CORRECT] YET]
+
+309 functions passed
+551 functions with only differences in arguments (type, name or default value)
+14 missing
+0 without documentation
+28 with several declaration (will be fixed later, number will be lower)
+59 with no return type
+161 with a different return type (excluding none)
+4 with a different number of parameters
+754 total functions (might not be complete)
+
+798 arguments passed
+367 arguments with different names
+316 without types
+75 args with different type (excluding none)
+77 args with different default value (includes all functions call (ini_get(), *_default_parameters()) & binary OR 
+1501 total arguments

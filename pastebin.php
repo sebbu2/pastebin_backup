@@ -4,7 +4,7 @@ $api_user_name		= urlencode($api_user_name);
 $api_user_password	= urlencode($api_user_password);
 
 if(!file_exists('user_key.txt')) {
-	$url			= 'http://pastebin.com/api/api_login.php';
+	$url			= 'https://pastebin.com/api/api_login.php';
 	$ch			= curl_init($url);
 
 	curl_setopt($ch, CURLOPT_POST, true);
@@ -38,7 +38,7 @@ if(strlen($api_user_key)==0) {
 }
 
 if(!file_exists('user_info.txt')) {
-	$url 			= 'http://pastebin.com/api/api_post.php';
+	$url 			= 'https://pastebin.com/api/api_post.php';
 	$ch 			= curl_init($url);
 
 	curl_setopt($ch, CURLOPT_POST, true);
@@ -71,7 +71,7 @@ if(strlen($user_info)==0) {
 
 if(!file_exists('user_pastes.txt')) {
 	$api_results_limit 	= '1000';
-	$url 			= 'http://pastebin.com/api/api_post.php';
+	$url 			= 'https://pastebin.com/api/api_post.php';
 	$ch 			= curl_init($url);
 
 	curl_setopt($ch, CURLOPT_POST, true);
@@ -160,14 +160,14 @@ foreach($pastes as $i=>$paste) {
 	if(in_array($paste,$pastes_skip)) continue;
 	$filename='pastes/'.$paste.'.'.$format[$i];
 	if(!file_exists($filename)) {
-		$data=file_get_contents('http://pastebin.com/raw.php?i='.$paste);
+		$data=file_get_contents('https://pastebin.com/raw/'.$paste);
 		var_dump($paste); var_dump($data);
 		file_put_contents($filename, $data);
 	}
 	else {
 		$data=file_get_contents($filename);
 		if(strlen($data)==0) {
-			$data=file_get_contents('http://pastebin.com/raw.php?i='.$paste);
+			$data=file_get_contents('https://pastebin.com/raw/'.$paste);
 			var_dump($paste);var_dump($data);
 			file_put_contents($filename, $data);
 		}

@@ -1,0 +1,20 @@
+RPG Maker:
+
+C:\Users\sebbu\AppData\Local\User Data\Default\Lust Doll Plus
+C:\Users\sebbu\AppData\Local\College Life\User Data\Default
+C:\Users\sebbu\AppData\Local\User Data
+	treasure of nadia
+	the genesis order
+C:\Users\sebbu\AppData\S&L\Local\User Data
+
+RenPy :
+
+C:\Users\sebbu\AppData\Roaming\Renpy
+
+NWJS :
+
+C:\Users\sebbu\AppData\Local\*\User Data\Default\Local Storage\leveldb
+
+Godot :
+
+C:\Users\sebbu\AppData\Roaming\Godot\app_userdata

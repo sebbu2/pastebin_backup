@@ -1,0 +1,19 @@
+chattr / lsattr (e2fsprogs) :
++A	no atime modification
++a	only append
++c	(automatically) compressed/decompressed
++C	no copy-on-write
++d	no backups (for dump)
++g	has compression errors
++e	use extents
++I	directory uses hashed trees
++h	use fs blocksize instead of sectors (file is larger than 2TB?)
++i	immutable
++j	journalized (data = ordered or writeback)
++s	securely delete (zeroes on deletion)
++S	synchronized to disk
++T	directory on top of hierarchy : no relation with subdirs
++t	no partial blocks at end of file
++u	saved on deletion (allows undeletion)
++X	compressed data can be accessed directly
++Z	compressed file is dirty

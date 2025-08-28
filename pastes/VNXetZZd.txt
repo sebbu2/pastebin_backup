@@ -1,0 +1,87 @@
+sebbu@DESKTOP-GME1T73 /cygdrive/c/Program Files (x86)/Steam/steamapps/common/Skyrim Special Edition/Data
+$   cat vortex.deployment.json | jq -r '.files[].source' | awk '!x[$0]++'
+All in one Address Library (Anniversary Edition)-32444-10-1705569120
+JContainers SE-16495-4-2-8-1702201774
+PapyrusUtil AE SE - Scripting Utility Functions-13048-4-6-1705639805
+Papyrus Extender-22854-5-6-1-1690313666
+RaceMenu Anniversary Edition v0-4-19-15-19080-0-4-19-15-1702148175
+SOS - Racemenu Plugin
+Modified Overlay Meshes-19080-0-0-1-1673216693
+AddItemMenu - NG-71409-1-4-1663769145
+BodySlide and Outfit Studio - v5.6.3-201-5-6-3-1693153421
+Naked Mage Edited esp
+LetsGetNaked SSE v1.2-18933-1-2
+Nude World Order-18999-2-1570053826
+Nude Spells Redone-12352-2-6-1681158552
+FNIS Behavior SE 7_6-3038-7-6-1582048023
+FNIS Behavior SE 7_6 XXL-3038-7-6-1582110624
+FNIS Creature Pack SE 7.6-3038-7-6-1582049490
+FNIS Spells SE 7.0-3038-7-0
+powerofthree's Tweaks-51073-1-8-1-1695858240
+Keyword Item Distributor-55728-3-0-4-1693294098
+Base Object Swapper-60805-2-6-1-1693305757
+ConsoleUtilSSE-24858-1-4-0-1665802090
+ConsoleUtilSSE NG-76649-1-5-0-1702650471
+CrashLogger-59818-1-12-0-1702635902
+Fuz Ro D'oh-15109-2-5-1706039953
+iWant Widgets-36457-1-31-1666985636
+MCM Helper-53000-1-5-0-1702843613
+MergeMapper-74689-1-5-0-1683883576
+MfgFix-11669-1-6-1-1664520342
+MfgFix-MCM-ae-11669-1-6-0-1639994478
+RaceCompatibilty All-In-One Scripted Installer-2853-2-16-1682448886
+RaceMenu High Heels Fixes-18045-1-3-1552859840
+Skyrim SE Free FPS-51229-1-47-1673958898
+Skyrim - Utility Mod 3.3.3 AE
+SLAL_SE
+Spell Perk Item Distributor-36869-6-7-6-1702776081
+SMIM SE 2-08-659-2-08
+UIExtensions v1-2-0-17561-1-2-0
+SexLabFrameworkAE_v166b
+ZazAnimationPackV7.0[2017-05-16]
+UnforgivingSkyrim1_2_2
+Devious Devices [SE][AE][VR] 5.2
+Deviously Cursed Loot SE 9.0
+Complete Alchemy and Cooking Overhaul-19924-2-1-2-1701881216
+Captured Dreams v4.15 SSE Part 1
+Captured Dreams
+Laura's Bondage Shop v3.43 SSE version - by tznvlw
+Alternate Start - Live Another Life-272-4-2-1-1702620391
+Unofficial Skyrim Special Edition Patch-266-4-3-0a-1702019266
+UD patching kit 1.7
+Patched SE SL TOOLS Updated
+SkyUI_5_2_SE-12604-5-2SE
+XP32 Maximum Skeleton Special Extended-1988-5-05-1702078689
+VR Address Library-58101-0-111-0-1702885205
+Cerinian convert-22691-0-0-1586892103
+Dealing with Daedra-40494-9-03-1707629858
+Nether's Follower Framework - Universal Installer-55653-2-8-5-1693178047
+TheNewGentleman-104215-1-2-0-1701901246
+Kreiste's Christmas Fantasy Outfit - Main File-80572-2-0-1702627936
+Faster HDT-SMP-57339-2-2-1-1707481148
+SkyrimSSE 1.5.97.0-59818-2023-11-18-1700369302
+BEES-1_2-106441-1-2-1702155399
+OSL Aroused FOMOD 2.5.1
+Devious Devices NG v0.2.9
+Devious Devices - Equip 6.3.3 AE
+Schlongs_of_Skyrim_AE - v1.1.4
+CD device removal DDv4 update v2
+Captured Dreams v4.15 SSE Part 2 (2048k)
+Captured Dreams V4.15 SSE Part 3 - Catsuit Mesh and Bodyslide data(CBBE)
+Captured Dreams v4.15 SSE Part 5 - Misc Optional files
+Unforgiving Devices 2.1.1
+TreasureHunterWhoreSkseSE
+DeviousInterests_v0924
+Devious Chastity Piercing SE v6
+DeviousMimicClothes-4.1.1
+2087877338_DeviouslyPink0.5Beta3
+Devious Followers Redux v0.1.9
+Devious Lore SE-AE 3.0.2
+Deviously Enchanted Chests SE-LE 3.20
+deviouslyaccessible9_1
+MoreNastyCrittersSE_v15_4
+Creature Framework 1.1.0-pre2A-SE
+SexLabMatchMaker.Rev7
+DwSD_1
+SexLabArousedSSELoose-29
+SL Defeat SSE

@@ -11,14 +11,14 @@ my $num_args = $#ARGV;
 ++$num_args;
 print 'args=',$num_args,"\n";
 if ($num_args != 1) {
-  print "\nUsage: ",$0," filename\n";
-  exit;
+	print "\nUsage: ",$0," filename\n";
+	exit;
 }
 #print $ARGV[1];
 print "Thanks, you gave me $num_args command-line arguments:\n";
 my $argnum;
 foreach $argnum (0 .. $#ARGV) {
-  print "\t$ARGV[$argnum]\n";
+	print "\t$ARGV[$argnum]\n";
 }
 #exit;
 

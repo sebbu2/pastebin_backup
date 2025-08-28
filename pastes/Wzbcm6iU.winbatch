@@ -1,0 +1,13 @@
+@echo off
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters" /v DisabledComponents /t REG_DWORD /d 0 /f
+
+netsh interface IPV6 set global randomizeidentifier=disabled
+netsh interface IPV6 set privacy state=disable
+netsh interface ipv6 6to4 set state state=disabled
+netsh interface ipv6 isatap set state state=disabled
+netsh interface ipv6 set teredo disable
+
+netsh interface ipv6 show prefixpolicies
+rem order (2nd parameter) of ::ffff:0:0/96 should be after ::1/128 and ::/0 but before 2002::/16, 2001::/32, fc00::/7, fec0::/10, 3ffe::/16, ::/96, as for the label, i haven't changed it
+netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 25 4
+netsh interface ipv6 show prefixpolicies

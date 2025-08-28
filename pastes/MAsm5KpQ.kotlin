@@ -1,0 +1,721 @@
+package com.qidian.QDReader.networkapi;
+
+import com.qidian.QDReader.components.data_parse.BookCollectionDetailDataParser;
+import com.qidian.QDReader.components.data_parse.BuyChapterDataParser;
+import com.qidian.QDReader.components.data_parse.CheckInParser;
+import com.qidian.QDReader.components.data_parse.CheckInStatusParser;
+import com.qidian.QDReader.components.data_parse.InboxAuthorCategoryDetailParser;
+import com.qidian.QDReader.components.data_parse.InboxAuthorCategoryListParser;
+import com.qidian.QDReader.components.data_parse.LogCheckInAwardAdParser;
+import com.qidian.QDReader.components.data_parse.MemberShipCardDetailParser;
+import com.qidian.QDReader.components.data_parse.MembershipPositionDataParser;
+import com.qidian.QDReader.components.data_parse.PrefrenceParser;
+import com.qidian.QDReader.components.data_parse.RecommendBookListDataParser;
+import com.qidian.QDReader.components.data_parse.SearchAssociateDataParser;
+import com.qidian.QDReader.components.data_parse.SearchPopularDataParser;
+import com.qidian.QDReader.components.data_parse.SearchResultDataParser;
+import com.qidian.QDReader.components.data_parse.VerifyBookInCollectionParser;
+import com.qidian.QDReader.components.entity.AchievementHomeDataBean;
+import com.qidian.QDReader.components.entity.ActivityListItem;
+import com.qidian.QDReader.components.entity.AllowCommentItem;
+import com.qidian.QDReader.components.entity.BadgeDetailItem;
+import com.qidian.QDReader.components.entity.BatchPurchaseListItem;
+import com.qidian.QDReader.components.entity.BatchPurchaseResultBean;
+import com.qidian.QDReader.components.entity.BookAdsBean;
+import com.qidian.QDReader.components.entity.BookCollectionListBean;
+import com.qidian.QDReader.components.entity.BookCommentDetailItem;
+import com.qidian.QDReader.components.entity.BookConfigBean;
+import com.qidian.QDReader.components.entity.BookDetailsExtItem;
+import com.qidian.QDReader.components.entity.BookDetailsItem;
+import com.qidian.QDReader.components.entity.BookGiftStatusBean;
+import com.qidian.QDReader.components.entity.BookLastPageBean;
+import com.qidian.QDReader.components.entity.BookPrivilegeInfoItem;
+import com.qidian.QDReader.components.entity.BookReviewInfoListItem;
+import com.qidian.QDReader.components.entity.BookTagListBean;
+import com.qidian.QDReader.components.entity.CategoryConfigBean;
+import com.qidian.QDReader.components.entity.ChapterInfoBean;
+import com.qidian.QDReader.components.entity.ChapterListItem;
+import com.qidian.QDReader.components.entity.ChapterSubReplyList;
+import com.qidian.QDReader.components.entity.ChargeChannelsBean;
+import com.qidian.QDReader.components.entity.CloudConfigBean;
+import com.qidian.QDReader.components.entity.CocosGameBean;
+import com.qidian.QDReader.components.entity.CollectedBadgeItem;
+import com.qidian.QDReader.components.entity.ComicBulletItem;
+import com.qidian.QDReader.components.entity.ComicChapterInfoBean;
+import com.qidian.QDReader.components.entity.ComicDetailItem;
+import com.qidian.QDReader.components.entity.ComicEndReadBean;
+import com.qidian.QDReader.components.entity.CommentResponse;
+import com.qidian.QDReader.components.entity.CouponNumBean;
+import com.qidian.QDReader.components.entity.CustomPage;
+import com.qidian.QDReader.components.entity.EndReadBean;
+import com.qidian.QDReader.components.entity.GainBoonRespBean;
+import com.qidian.QDReader.components.entity.GiftItem;
+import com.qidian.QDReader.components.entity.GiftUUID;
+import com.qidian.QDReader.components.entity.HistoryItem;
+import com.qidian.QDReader.components.entity.InboxFollowingMessageItem;
+import com.qidian.QDReader.components.entity.InboxMessageItem;
+import com.qidian.QDReader.components.entity.InboxNotificationsItem;
+import com.qidian.QDReader.components.entity.InboxSystemItem;
+import com.qidian.QDReader.components.entity.LandingPageDailyDataBean;
+import com.qidian.QDReader.components.entity.LandingPageDataBean;
+import com.qidian.QDReader.components.entity.LibraryReadingTimeItem;
+import com.qidian.QDReader.components.entity.LoginUserInfoBean;
+import com.qidian.QDReader.components.entity.NewUserTaskBean;
+import com.qidian.QDReader.components.entity.OperatingPositionItem;
+import com.qidian.QDReader.components.entity.ParagraphReviewDetailBean;
+import com.qidian.QDReader.components.entity.ParagraphReviewListBean;
+import com.qidian.QDReader.components.entity.ParagraphSubReplyListBean;
+import com.qidian.QDReader.components.entity.PowerStoneInfoBean;
+import com.qidian.QDReader.components.entity.ProfileStatusItem;
+import com.qidian.QDReader.components.entity.PublishDetailItem;
+import com.qidian.QDReader.components.entity.PurchaseExitGuideTaskInfo;
+import com.qidian.QDReader.components.entity.PurchaseHistoryBean;
+import com.qidian.QDReader.components.entity.RankListBean;
+import com.qidian.QDReader.components.entity.ReadingProgressBean;
+import com.qidian.QDReader.components.entity.ReportAdWatchBean;
+import com.qidian.QDReader.components.entity.ReportReadBean;
+import com.qidian.QDReader.components.entity.RollDonateRecordItem;
+import com.qidian.QDReader.components.entity.ShareInfoBean;
+import com.qidian.QDReader.components.entity.SwitchStatus;
+import com.qidian.QDReader.components.entity.TagListBean;
+import com.qidian.QDReader.components.entity.TransitionInfoBean;
+import com.qidian.QDReader.components.entity.UnCollectedBadgeItem;
+import com.qidian.QDReader.components.entity.UploadFileBean;
+import com.qidian.QDReader.components.entity.UserCancelData;
+import com.qidian.QDReader.components.entity.UserInfoItem;
+import com.qidian.QDReader.components.entity.UserPrivilegeData;
+import com.qidian.QDReader.components.entity.VerifyCaptchaRespBean;
+import com.qidian.QDReader.components.entity.VoteItem;
+import com.qidian.QDReader.components.entity.WaitInfoBean;
+import com.qidian.QDReader.components.entity.WatchChapterAdBean;
+import com.qidian.QDReader.components.entity.qdepub.EpubPriceBean;
+import com.qidian.reader.Int.retrofit.rthttp.C9534d;
+import com.qidian.reader.Int.retrofit.rthttp.bean.CommonResponseBean;
+import com.qidian.reader.Int.retrofit.rthttp.bean.ResponseBean;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
+import org.json.JSONObject;
+import p517io.reactivex.AbstractC10739q;
+import retrofit2.p622b.Body;
+import retrofit2.p622b.Field;
+import retrofit2.p622b.FieldMap;
+import retrofit2.p622b.FormUrlEncoded;
+import retrofit2.p622b.GET;
+import retrofit2.p622b.Multipart;
+import retrofit2.p622b.POST;
+import retrofit2.p622b.Part;
+import retrofit2.p622b.PartMap;
+import retrofit2.p622b.Query;
+import retrofit2.p622b.QueryMap;
+import retrofit2.p622b.Url;
+
+public interface NetworkApi {
+    @FormUrlEncoded
+    @POST("go/api/book-review/add")
+    AbstractC10739q<ResponseBean<CommentResponse>> addBookReview(@Field("bookId") Long l, @Field("bookType") Integer num, @Field("content") String str, @Field("cdScore") String str2, @Field("wbScore") String str3, @Field("usScore") String str4, @Field("tqScore") String str5, @Field("sdScore") String str6, @Field("score") String str7, @Field("imageUrl") String str8, @Field("height") Integer num2, @Field("width") Integer num3, @Field("isSpoiler") String str9);
+
+    @FormUrlEncoded
+    @POST("go/api/book-review/add-reply")
+    AbstractC10739q<ResponseBean<CommentResponse>> addBookReviewComment(@Field("bookId") Long l, @Field("reviewId") String str, @Field("content") String str2, @Field("imageUrl") String str3, @Field("height") Integer num, @Field("width") Integer num2);
+
+    @FormUrlEncoded
+    @POST("app/api/book-collection/add-book")
+    AbstractC10739q<ResponseBean<Object>> addBookToCollection(@Field("collectionId") String str, @Field("bookId") String str2, @Field("bookType") String str3);
+
+    @FormUrlEncoded
+    @POST("app/api/bullet/add")
+    AbstractC10739q<ResponseBean<Object>> addBullet(@Field("bookId") long j, @Field("chapterId") long j2, @Field("content") String str, @Field("pageId") long j3);
+
+    @GET("app/api/chapter-review/add-chapter-rate")
+    AbstractC10739q<ResponseBean<Object>> addChapterRate(@Query("bookId") long j, @Query("chapterId") long j2, @Query("score") String str);
+
+    @FormUrlEncoded
+    @POST("go/api/chapter-review/add-review")
+    AbstractC10739q<ResponseBean<CommentResponse>> addChapterReview(@Field("bookId") Long l, @Field("chapterId") Long l2, @Field("paragraphId") String str, @Field("content") String str2, @Field("reviewId") String str3, @Field("imageUrl") String str4, @Field("height") Integer num, @Field("width") Integer num2);
+
+    @FormUrlEncoded
+    @POST("app/api/paragraph-review/add")
+    AbstractC10739q<ResponseBean<CommentResponse>> addParagraphReview(@Field("bookId") Long l, @Field("chapterId") Long l2, @Field("paragraphId") String str, @Field("content") String str2, @Field("replyToId") String str3, @Field("imageUrl") String str4, @Field("height") Integer num, @Field("width") Integer num2);
+
+    @GET("app/api/reading/add-progress")
+    AbstractC10739q<ResponseBean<Object>> addReadingProgress(@Query("bookId") long j, @Query("chapterId") long j2, @Query("chapterOffset") String str, @Query("chapterIndex") String str2, @Query("bookType") String str3);
+
+    @FormUrlEncoded
+    @POST("app/api/user/add-suggestion")
+    AbstractC10739q<ResponseBean<Object>> addSuggestion(@Field("suggestion") String str);
+
+    @FormUrlEncoded
+    @POST("go/api/user/cancel-user")
+    AbstractC10739q<ResponseBean<Object>> cancelUser(@Field("verifyCode") String str);
+
+    @FormUrlEncoded
+    @POST("go/api/chapter-review/like-review")
+    AbstractC10739q<ResponseBean<Object>> chapterCommentLike(@Field("opType") int i, @Field("reviewId") long j);
+
+    @FormUrlEncoded
+    @POST("app/api/sign/check-in")
+    AbstractC10739q<ResponseBean<CheckInParser>> checkIn(@Field("time") long j);
+
+    @FormUrlEncoded
+    @POST("sdk/checkstatus")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> checkstatus(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("sdk/checktrust")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> checktrust(@FieldMap Map<String, Object> map);
+
+    @POST("app/api/book-case/claim-all-task-rewards")
+    AbstractC10739q<ResponseBean<Object>> claimAllTaskRewards();
+
+    @FormUrlEncoded
+    @POST("app/api/boon/claim-task-reward")
+    AbstractC10739q<ResponseBean<Object>> claimTaskReward(@Field("taskId") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/book-review/like")
+    AbstractC10739q<ResponseBean<Object>> commentLike(@Field("opType") int i, @Field("reviewId") long j);
+
+    @FormUrlEncoded
+    @POST("sdk/confirm")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> confirmLogin(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("app/api/book-collection/add")
+    AbstractC10739q<ResponseBean<Object>> createNewBookCollection(@Field("name") String str, @Field("bookId") long j, @Field("bookType") int i);
+
+    @GET("app/api/reading/del-batch-history")
+    AbstractC10739q<ResponseBean<Object>> delBatchHistory();
+
+    @FormUrlEncoded
+    @POST("app/api/book-collection/delete")
+    AbstractC10739q<ResponseBean<Object>> deleteBookCollection(@Field("collectionId") long j);
+
+    @FormUrlEncoded
+    @POST("app/api/book-collection/del-book")
+    AbstractC10739q<ResponseBean<Object>> deleteBookFromBookCollection(@Field("collectionId") long j, @Field("bookId") long j2, @Field("bookType") int i);
+
+    @FormUrlEncoded
+    @POST("go/api/book-review/remove")
+    AbstractC10739q<ResponseBean<Object>> deleteBookReview(@Field("reviewId") String str);
+
+    @FormUrlEncoded
+    @POST("go/api/chapter-review/delete-review")
+    AbstractC10739q<ResponseBean<Object>> deleteChapterReview(@Field("reviewId") String str);
+
+    @GET("app/api/reading/del-history")
+    AbstractC10739q<ResponseBean<Object>> deleteHistory(@Query("bookId") long j);
+
+    @FormUrlEncoded
+    @POST("app/api/paragraph-review/delete")
+    AbstractC10739q<ResponseBean<Object>> deleteParagraphReply(@Field("chapterId") String str, @Field("reviewId") String str2);
+
+    @FormUrlEncoded
+    @POST("app/api/paragraph-review/delete")
+    AbstractC10739q<ResponseBean<Object>> deleteParagraphReview(@Field("chapterId") String str, @Field("reviewId") String str2);
+
+    @FormUrlEncoded
+    @POST("sdk/doregister")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> doregister(@FieldMap Map<String, Object> map);
+
+    @POST("app/api/sign/earn-gift")
+    AbstractC10739q<ResponseBean<CheckInParser>> earnGift();
+
+    @FormUrlEncoded
+    @POST("sdk/emaillogin")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> emailloginLogin(@FieldMap Map<String, Object> map);
+
+    @GET("app/api/book/end-read")
+    AbstractC10739q<ResponseBean<EndReadBean>> endRead(@Query("bookId") long j);
+
+    @FormUrlEncoded
+    @POST("go/api/book-review/essence")
+    AbstractC10739q<ResponseBean<Object>> essenceBookReview(@Field("bookId") String str, @Field("reviewId") String str2, @Field("opType") String str3);
+
+    @FormUrlEncoded
+    @POST("sdk/facebook")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> facebookLogin(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("go/api/farming/report-read")
+    AbstractC10739q<ResponseBean<ReportReadBean>> farmingReportRead(@Field("bookId") long j, @Field("readDurationMin") int i);
+
+    @FormUrlEncoded
+    @POST("app/api/user/first-add-bind-email")
+    AbstractC10739q<JSONObject> firstAddBindEmail(@Field("email") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/boon/gain")
+    AbstractC10739q<ResponseBean<GainBoonRespBean>> gainBoon(@Field("boonId") String str, @Field("remark") String str2);
+
+    @GET
+    AbstractC10739q<String> get(@Url String str, @QueryMap Map<String, Object> map);
+
+    @GET("go/api/achievement/index")
+    AbstractC10739q<ResponseBean<AchievementHomeDataBean>> getAchievement();
+
+    @GET("go/api/achievement/send-badge")
+    AbstractC10739q<ResponseBean<AchievementHomeDataBean>> getAchievementBadge();
+
+    @GET("go/api/achievement/send-discount")
+    AbstractC10739q<ResponseBean<AchievementHomeDataBean>> getAchievementDiscount(@Query("bookId") long j, @Query("bookType") int i);
+
+    @GET("go/api/act/get-act-center")
+    AbstractC10739q<ResponseBean<ActivityListItem>> getActList();
+
+    @GET("app/api/book-review/get-review-permission")
+    AbstractC10739q<ResponseBean<AllowCommentItem>> getAllowComment(@Query("bookId") long j, @Query("bookType") int i);
+
+    @GET("app/api/message/get-author-message")
+    AbstractC10739q<ResponseBean<InboxAuthorCategoryDetailParser>> getAuthorMessage(@Query("categoryId") String str, @Query("lastId") String str2);
+
+    @GET("app/api/message/get-author-message-category")
+    AbstractC10739q<ResponseBean<InboxAuthorCategoryListParser>> getAuthorMessageCategory();
+
+    @GET("go/api/badge/detail")
+    AbstractC10739q<ResponseBean<BadgeDetailItem>> getBadgeDetail(@Query("badgeId") long j);
+
+    @GET("go/api/book/get-batch-subscribe-grade")
+    AbstractC10739q<ResponseBean<BatchPurchaseListItem>> getBatchPurchaseGradeList(@Query("bookId") long j, @Query("bookType") int i, @Query("chapterId") long j2);
+
+    @GET("go/api/adv/get-book-adv")
+    AbstractC10739q<ResponseBean<BookAdsBean>> getBookAdv(@Query("bookId") long j, @Query("bookType") int i);
+
+    @GET("app/api/book-case/get")
+    AbstractC10739q<ResponseBean<LibraryReadingTimeItem>> getBookCaseInfo(@Query("position") int i);
+
+    @GET("/go/api/chapter-review/get-review-list")
+    AbstractC10739q<ResponseBean<ChapterListItem>> getBookChapterCommentList(@Query("bookId") long j, @Query("chapterId") long j2, @Query("pageIndex") int i, @Query("orderType") int i2, @Query("replyId") long j3, @Query("lastReviewId") long j4);
+
+    @GET("app/api/book-collection/detail")
+    AbstractC10739q<ResponseBean<BookCollectionDetailDataParser>> getBookCollectionDetail(@Query("collectionId") String str, @Query("pageIndex") int i);
+
+    @GET("app/api/book-collection/list")
+    AbstractC10739q<ResponseBean<BookCollectionListBean>> getBookCollectionList(@Query("bookId") long j, @Query("bookType") int i);
+
+    @FormUrlEncoded
+    @POST("app/api/activity/get-book-config")
+    AbstractC10739q<ResponseBean<BookConfigBean>> getBookConfig(@Field("bookid") long j, @Field("businessline") String str);
+
+    @GET("app/api/book/get-book")
+    AbstractC10739q<ResponseBean<BookDetailsItem>> getBookDetail(@Query("bookId") String str);
+
+    @GET("app/api/book/get-book-extended")
+    AbstractC10739q<ResponseBean<BookDetailsExtItem>> getBookDetailExtra(@Query("bookId") long j);
+
+    @GET("app/api/book-review/get-reviews")
+    AbstractC10739q<ResponseBean<BookReviewInfoListItem>> getBookDetailReviews(@Query("bookId") long j, @Query("sortCondition") long j2, @Query("pageIndex") long j3, @Query("pageSize") long j4);
+
+    @GET("app/api/gift/get-gift-list")
+    AbstractC10739q<ResponseBean<List<GiftItem>>> getBookGiftList(@Query("bookId") String str, @Query("bookType") String str2);
+
+    @GET("app/api/gift/get-book-gift-status")
+    AbstractC10739q<ResponseBean<BookGiftStatusBean>> getBookGiftStatus(@Query("bookId") String str, @Query("bookType") String str2);
+
+    @GET("app/api/user/get-book-notification")
+    AbstractC10739q<JSONObject> getBookNotification(@Query("bookIds") String str);
+
+    @GET("app/api/activity/get-bookpool-advs")
+    AbstractC10739q<JSONObject> getBookPoolAdvs(@Query("platformids") String str, @Query("types") String str2, @Query("advnum") String str3);
+
+    @GET("/go/api/book-review/detail")
+    AbstractC10739q<ResponseBean<BookCommentDetailItem>> getBookReviewDetail(@Query("bookId") long j, @Query("reviewId") long j2, @Query("pageIndex") int i, @Query("replyId") long j3, @Query("lastReviewId") long j4);
+
+    @GET("app/api/tag/get-book-tag-list")
+    AbstractC10739q<ResponseBean<BookTagListBean>> getBookTagList(@Query("bookId") long j, @Query("bookType") int i);
+
+    @GET("app/api/boon/info")
+    AbstractC10739q<JSONObject> getBoonInfo(@Query("boonId") String str);
+
+    @GET("app/api/bullet/get")
+    AbstractC10739q<ResponseBean<ComicBulletItem>> getBullet(@Query("bookId") long j, @Query("chapterId") long j2, @Query("pageId") long j3, @Query("pageSize") int i, @Query("pageIndex") int i2);
+
+    @GET("go/api/user/get-cancel-user-data")
+    AbstractC10739q<ResponseBean<UserCancelData>> getCancelUserData();
+
+    @GET("app/api/category/get-category-config")
+    AbstractC10739q<ResponseBean<CategoryConfigBean>> getCategoryConfig();
+
+    @GET("go/api/chapter-review/get-review-replys")
+    AbstractC10739q<ResponseBean<ChapterSubReplyList>> getChapterCommentSubReplyList(@Query("bookId") long j, @Query("chapterId") long j2, @Query("reviewId") long j3, @Query("lastReviewId") long j4);
+
+    @GET("/go/api/recharge/get-channels")
+    AbstractC10739q<ResponseBean<ChargeChannelsBean>> getChargeChannel(@Query("wayType") int i, @Query("channel") String str, @Query("amount") int i2);
+
+    @GET("/go/api/recharge/get-gear-by-channel")
+    AbstractC10739q<ResponseBean<ChargeChannelsBean>> getChargeGearByChannel(@Query("wayType") int i, @Query("channel") String str, @Query("amount") int i2);
+
+    @GET("app/api/sign/get-check-in-award-records")
+    AbstractC10739q<ResponseBean<CheckInStatusParser>> getCheckInAwardRecords();
+
+    @FormUrlEncoded
+    @POST("sdk/getAccessToken")
+    AbstractC10739q<CommonResponseBean<CocosGameBean>> getCocosAccessToken(@FieldMap Map<String, Object> map);
+
+    @GET("go/api/badge/collectList")
+    AbstractC10739q<ResponseBean<CollectedBadgeItem>> getCollectedBadgeList();
+
+    @GET("app/api/comic/get-chapter")
+    AbstractC10739q<ResponseBean<ComicChapterInfoBean>> getComicChapter(@Query("comicId") long j, @Query("chapterId") long j2);
+
+    @GET("app/api/comic/get-comic-detail")
+    AbstractC10739q<ResponseBean<ComicDetailItem>> getComicDetail(@Query("comicId") String str);
+
+    @GET("go/api/comic/get-popup-list")
+    AbstractC10739q<ResponseBean<ComicEndReadBean>> getComicEndRead(@Query("comicId") long j);
+
+    @GET("app/api/client/get-conf")
+    AbstractC10739q<JSONObject> getConfig();
+
+    @GET("app/api/client/get-conf")
+    AbstractC10739q<ResponseBean<CloudConfigBean>> getConfigData();
+
+    @GET("app/api/coupons/get-coupons-on-book")
+    AbstractC10739q<ResponseBean<CouponNumBean>> getCouponsOnBook(@Query("itemId") long j, @Query("itemType") int i);
+
+    @GET("go/api/customPage/get-bookcity")
+    AbstractC10739q<ResponseBean<CustomPage>> getCustomPage(@Query("sex") int i);
+
+    @GET("go/api/farming/get-balance")
+    AbstractC10739q<ResponseBean<ReportAdWatchBean>> getFarmingBalance();
+
+    @GET("app/api/gift/get-roll-donate-record")
+    AbstractC10739q<ResponseBean<List<RollDonateRecordItem>>> getGiftDonateRecord(@Query("bookId") String str);
+
+    @GET("app/api/gift/get-donate-uuid")
+    AbstractC10739q<ResponseBean<GiftUUID>> getGiftUUID();
+
+    @GET("app/api/boon/get-guide-task")
+    AbstractC10739q<ResponseBean<PurchaseExitGuideTaskInfo>> getGuideTask();
+
+    @GET("go/api/customPage/status")
+    AbstractC10739q<ResponseBean<CustomPage>> getHasLandingPageData(@Query("bookId") long j, @Query("sex") int i, @Query("source") int i2);
+
+    @GET("app/api/reading/get-history")
+    AbstractC10739q<ResponseBean<ArrayList<HistoryItem>>> getHistory(@Query("pageIndex") int i, @Query("pageSize") int i2);
+
+    @GET("app/api/message/get-following")
+    AbstractC10739q<ResponseBean<InboxFollowingMessageItem>> getInboxFollowingMessageList(@Query("lastId") String str);
+
+    @GET("app/api/message/list")
+    AbstractC10739q<ResponseBean<InboxMessageItem>> getInboxMessageList(@Query("lastId") String str);
+
+    @GET("app/api/message/get-notification")
+    AbstractC10739q<ResponseBean<InboxNotificationsItem>> getInboxNotificationList(@Query("lastId") String str);
+
+    @GET("app/api/message/get-system-notification")
+    AbstractC10739q<ResponseBean<InboxSystemItem>> getInboxSystemNotificationList(@Query("lastId") String str);
+
+    @GET("go/api/customPage/get")
+    AbstractC10739q<ResponseBean<LandingPageDataBean>> getLandingPageData(@Query("bookId") long j, @Query("bookType") int i, @Query("regTime") long j2, @Query("sex") int i2, @Query("source") int i3, @Query("categoryIds") String str);
+
+    @GET("go/api/book-case/daily-list")
+    AbstractC10739q<ResponseBean<LandingPageDailyDataBean>> getLandingPageDataFromDailyGuide();
+
+    @GET("app/api/reading/last-page")
+    AbstractC10739q<ResponseBean<BookLastPageBean>> getLastPage(@Query("itemId") long j, @Query("itemType") int i);
+
+    @FormUrlEncoded
+    @POST("app/api/user/login-validate")
+    AbstractC10739q<JSONObject> getLoginValidate(@FieldMap Map<String, Object> map);
+
+    @POST("go/api/membership/get-bonus")
+    AbstractC10739q<ResponseBean<Object>> getMembershipBonus(@Query("bonusType") int i);
+
+    @GET("go/api/membership/get-detail")
+    AbstractC10739q<ResponseBean<MemberShipCardDetailParser>> getMembershipCardDetail();
+
+    @GET("go/api/membership/get-position")
+    AbstractC10739q<ResponseBean<MembershipPositionDataParser>> getMembershipPosition();
+
+    @GET("go/api/act/new-user-task")
+    AbstractC10739q<ResponseBean<NewUserTaskBean>> getNewUserTask();
+
+    @GET("app/api/message/get-switch")
+    AbstractC10739q<ResponseBean<SwitchStatus>> getNotificationStatus();
+
+    @GET("app/api/book/get-chapter")
+    AbstractC10739q<ResponseBean<ChapterInfoBean>> getNovelChapter(@Query("bookId") long j, @Query("chapterId") long j2);
+
+    @GET("app/api/paragraph-review/get-review-detail")
+    AbstractC10739q<ResponseBean<ParagraphReviewDetailBean>> getParagraphDetail(@Query("chapterId") String str, @Query("paragraphId") String str2, @Query("replyId") String str3, @Query("lastTime") String str4);
+
+    @GET("app/api/paragraph-review/get-review-list")
+    AbstractC10739q<ResponseBean<ParagraphReviewListBean>> getParagraphReviewList(@Query("chapterId") String str, @Query("paragraphId") String str2, @Query("lastTime") String str3);
+
+    @GET("app/api/paragraph-review/get-review-replys")
+    AbstractC10739q<ResponseBean<ParagraphSubReplyListBean>> getParagraphReviewReply(@Query("chapterId") String str, @Query("paragraphId") String str2, @Query("reviewId") String str3, @Query("lastTime") String str4);
+
+    @GET("app/api/power/get-power-info")
+    AbstractC10739q<ResponseBean<PowerStoneInfoBean>> getPowerStone(@Query("pageIndex") int i, @Query("pageSize") int i2, @Query("bookId") long j, @Query("bookType") int i3);
+
+    @GET("app/api/privilege/get-list")
+    AbstractC10739q<ResponseBean<BookPrivilegeInfoItem>> getPrivilageList(@Query("bookId") long j, @Query("bookType") int i);
+
+    @GET("app/api/user/get-profile-status")
+    AbstractC10739q<ResponseBean<ProfileStatusItem>> getProfileStatus(@Query("time") String str, @Query("couponTime") String str2, @Query("actTime") String str3);
+
+    @GET("app/api/reading/get-progress")
+    AbstractC10739q<ResponseBean<ReadingProgressBean>> getProgress(@Query("bookId") long j, @Query("itemType") int i);
+
+    @GET("app/api/publish-book/get-publish-price")
+    AbstractC10739q<ResponseBean<EpubPriceBean>> getPublicBookPrice(@Query("bookId") long j);
+
+    @GET("app/api/publish-book/get-publish-book-url")
+    AbstractC10739q<ResponseBean<PublishDetailItem>> getPublishBookLiteInfo(@Query("bookId") long j);
+
+    @GET("app/api/publish-book/get-publish-book")
+    AbstractC10739q<ResponseBean<PublishDetailItem>> getPublishDetail(@Query("bookId") long j);
+
+    @GET("go/api/user/get-cash-flow")
+    AbstractC10739q<ResponseBean<PurchaseHistoryBean>> getPurchaseHistory(@Query("pageIndex") int i);
+
+    @GET("app/api/category/get-rank-list")
+    AbstractC10739q<ResponseBean<RankListBean>> getRankList(@Query("listType") int i, @Query("type") int i2, @Query("rankId") String str, @Query("timeType") int i3, @Query("language") String str2, @Query("pageIndex") int i4, @Query("sourceType") int i5, @Query("sex") int i6);
+
+    @GET("app/api/recommend/get-recommend-list")
+    AbstractC10739q<ResponseBean<RecommendBookListDataParser>> getRecommendList(@Query("pageIndex") String str, @Query("type") String str2, @Query("bookId") String str3, @Query("bookType") String str4);
+
+    @GET("go/api/share/get-share-info")
+    AbstractC10739q<ResponseBean<ShareInfoBean>> getShareInfo(@Query("shareType") String str, @Query("bookId") long j, @Query("bookType") int i, @Query("commentId") long j2, @Query("chapterId") long j3);
+
+    @GET("/go/api/tag/get-tag-list")
+    AbstractC10739q<ResponseBean<TagListBean>> getTagList(@Query("pageIndex") int i, @Query("orderBy") int i2);
+
+    @GET("app/api/book/transition-page")
+    AbstractC10739q<ResponseBean<TransitionInfoBean>> getTransitionPage(@Query("bookId") long j);
+
+    @GET("go/api/badge/uncollectList")
+    AbstractC10739q<ResponseBean<UnCollectedBadgeItem>> getUnCollectedBadgeList();
+
+    @GET("app/api/client/get-marketingInfo")
+    AbstractC10739q<ResponseBean<OperatingPositionItem>> getUserAdInfo(@Query("Type") String str);
+
+    @GET("app/api/user/get")
+    AbstractC10739q<ResponseBean<UserInfoItem>> getUserInfo();
+
+    @GET("app/api/user/get-preference")
+    AbstractC10739q<ResponseBean<PrefrenceParser>> getUserPreference();
+
+    @GET("app/api/privilege/get-user-list")
+    AbstractC10739q<ResponseBean<UserPrivilegeData>> getUserPrivilegeList(@Query("lastTime") long j);
+
+    @GET("app/api/gift/donate")
+    AbstractC10739q<ResponseBean<Object>> giftDonate(@Query("giftId") String str, @Query("amount") String str2, @Query("totalPrice") String str3, @Query("chapterId") String str4, @Query("transactionId") String str5, @Query("bookId") String str6, @Query("bookType") String str7);
+
+    @FormUrlEncoded
+    @POST("sdk/google")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> googleLogin(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("app/api/paragraph-review/like")
+    AbstractC10739q<ResponseBean<Object>> likeParagraphReply(@Field("type") String str, @Field("chapterId") String str2, @Field("reviewId") String str3);
+
+    @FormUrlEncoded
+    @POST("sdk/line")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> lineLogin(@FieldMap Map<String, Object> map);
+
+    @GET("/app/api/sign/log-check-in-watch-ad")
+    AbstractC10739q<ResponseBean<LogCheckInAwardAdParser>> logCheckInAwardAd();
+
+    @FormUrlEncoded
+    @POST("app/api/user/modify-mail")
+    AbstractC10739q<ResponseBean<Object>> modifyEmail(@Field("email") String str, @Field("verifyCode") String str2);
+
+    @GET("app/api/search/popular")
+    AbstractC10739q<ResponseBean<SearchPopularDataParser>> popularSearch();
+
+    @FormUrlEncoded
+    @POST
+    AbstractC10739q<String> post(@Url String str, @FieldMap Map<String, String> map);
+
+    @POST
+    AbstractC10739q<String> postBody(@Url String str, @Body RequestBody requestBody);
+
+    @FormUrlEncoded
+    @POST("app/api/reading/add-history-with-type")
+    AbstractC10739q<ResponseBean<Object>> postHistory(@Field("addHistory") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/privilege/purchase")
+    AbstractC10739q<ResponseBean<Object>> purchasePrivilege(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("go/api/comic/purchase-read-coupon")
+    AbstractC10739q<ResponseBean<Object>> purchaseReadCoupon(@Field("configId") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/book-collection/edit-name")
+    AbstractC10739q<ResponseBean<Object>> renameBookCollection(@Field("collectionId") long j, @Field("name") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/paragraph-review/add")
+    AbstractC10739q<ResponseBean<Object>> replyParagraphComment(@Field("bookId") String str, @Field("chapterId") String str2, @Field("paragraphId") String str3, @Field("content") String str4, @Field("replyToId") String str5);
+
+    @FormUrlEncoded
+    @POST("go/api/farming/report-ad-watch")
+    AbstractC10739q<ResponseBean<ReportAdWatchBean>> reportAdWatch(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("app/api/book/report")
+    AbstractC10739q<ResponseBean<Object>> reportBook(@Field("bookId") long j, @Field("reason") int i, @Field("description") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/client/report-device")
+    AbstractC10739q<ResponseBean<Object>> reportDevice(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("app/api/user/report-fbtoken")
+    AbstractC10739q<ResponseBean<Object>> reportFBToken(@Field("token") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/user/problem-feedback")
+    AbstractC10739q<ResponseBean<Object>> reportIssue(@Field("bookId") long j, @Field("chapterId") long j2, @Field("code") long j3);
+
+    @FormUrlEncoded
+    @POST("app/api/paragraph-review/report")
+    AbstractC10739q<ResponseBean<Object>> reportParagraphReply(@Field("reportType") String str, @Field("bookId") String str2, @Field("chapterId") String str3, @Field("reviewId") String str4, @Field("reason") String str5);
+
+    @FormUrlEncoded
+    @POST("app/api/publish-book/report")
+    AbstractC10739q<ResponseBean<Object>> reportPublishBook(@Field("addReport") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/reading/report")
+    AbstractC10739q<ResponseBean<Object>> reportReadingTime(@Field("readingInfos") String str);
+
+    @FormUrlEncoded
+    @POST("go/api/book-review/report")
+    AbstractC10739q<ResponseBean<Object>> reportReview(@Field("reviewId") String str, @Field("bookId") String str2, @Field("chapterId") String str3, @Field("type") String str4, @Field("reviewType") String str5);
+
+    @FormUrlEncoded
+    @POST("sdk/resendregemail")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> resendregemail(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("sdk/resendtrustemail")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> resendtrustemail(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("sdk/resetPwsMail")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> resetPwsMail(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("app/api/sign/reward-check-in-watch-ad")
+    AbstractC10739q<ResponseBean<CheckInParser>> rewardCheckInWatchAd(@Field("token") String str);
+
+    @GET("app/api/search/auto-complete")
+    AbstractC10739q<ResponseBean<SearchAssociateDataParser>> searchAutoComplete(@Query("keyword") String str, @Query("types") String str2, @Query("collectionId") String str3);
+
+    @GET("app/api/search/result")
+    AbstractC10739q<ResponseBean<SearchResultDataParser>> searchResult(@Query("type") int i, @Query("keyword") String str, @Query("pageIndex") int i2, @Query("collectionId") String str2, @Query("orderBy") int i3, @Query("chapterNum") String str3, @Query("sourceType") String str4, @Query("translateMode") String str5, @Query("bookStatus") String str6);
+
+    @FormUrlEncoded
+    @POST("go/api/search/submit-content")
+    AbstractC10739q<ResponseBean<Object>> searchSubmitContent(@Field("content") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/user/send-captcha-n-email")
+    AbstractC10739q<JSONObject> sendCaptcha2NewEmail(@Field("email") String str, @Field("token") String str2);
+
+    @FormUrlEncoded
+    @POST("app/api/user/send-captcha-o-email")
+    AbstractC10739q<JSONObject> sendCaptcha2OldEmail(@Field("email") String str);
+
+    @FormUrlEncoded
+    @POST("/sdk/sendtrustemail")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> sendtrustemail(@FieldMap Map<String, Object> map);
+
+    @GET("app/api/user/set-book-notification")
+    AbstractC10739q<JSONObject> setBookNotification(@Query("bookId") long j, @Query("nFlag") int i);
+
+    @FormUrlEncoded
+    @POST("app/api/user/set-edminfos")
+    AbstractC10739q<ResponseBean<UserInfoItem>> setEDMInfos(@Field("InfoId") long j, @Field("Status") int i);
+
+    @FormUrlEncoded
+    @POST("app/api/message/switch")
+    AbstractC10739q<ResponseBean<Object>> setNotificationSwitch(@Field("type") String str, @Field("status") String str2);
+
+    @FormUrlEncoded
+    @POST("app/api/tag/support-tag")
+    AbstractC10739q<ResponseBean<Object>> setTagState(@Field("bookId") long j, @Field("tagId") long j2, @Field("supportOp") int i);
+
+    @FormUrlEncoded
+    @POST("go/api/book-review/set-top")
+    AbstractC10739q<ResponseBean<Object>> setTopBookReview(@Field("bookId") String str, @Field("reviewId") String str2, @Field("opType") String str3);
+
+    @FormUrlEncoded
+    @POST("app/api/user/set-user-info")
+    AbstractC10739q<JSONObject> setUserInfo(@Field("userName") String str, @Field("gender") String str2, @Field("country") String str3, @Field("desc") String str4);
+
+    @FormUrlEncoded
+    @POST("app/api/user/set-user-name")
+    AbstractC10739q<ResponseBean<Object>> setUserName(@Field("userName") String str);
+
+    @FormUrlEncoded
+    @POST("app/api/user/set-preference")
+    AbstractC10739q<ResponseBean<Object>> setUserPreference(@Field("preferenceInfos") String str);
+
+    @GET("go/api/waitpay/start-wait")
+    AbstractC10739q<ResponseBean<WaitInfoBean>> startWaitPay(@Query("bookId") long j, @Query("bookType") int i, @Query("chapterId") long j2);
+
+    @FormUrlEncoded
+    @POST("sdk/twitter")
+    AbstractC10739q<CommonResponseBean<LoginUserInfoBean>> twitterLogin(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("go/api/book/unlock-batch-chapters")
+    AbstractC10739q<ResponseBean<BatchPurchaseResultBean>> unlockBatchChapters(@Field("bookId") long j, @Field("bookType") int i, @Field("chapterId") long j2, @Field("chapterCount") int i2, @Query("price") int i3);
+
+    @FormUrlEncoded
+    @POST("app/api/book/unlock-chapter")
+    AbstractC10739q<ResponseBean<BuyChapterDataParser>> unlockChapter(@FieldMap Map<String, Object> map);
+
+    @FormUrlEncoded
+    @POST("app/api/publish-book/unlock-publish-book")
+    AbstractC10739q<ResponseBean<Object>> unlockPublishBook(@Field("bookId") long j, @Field("unlockType") int i, @Field("price") int i2);
+
+    @FormUrlEncoded
+    @POST("go/api/badge/unwear")
+    AbstractC10739q<ResponseBean<Object>> unwearBadge(@Field("badgeId") long j, @Field("badgeGrade") int i);
+
+    @POST("go/api/act/update-task-status")
+    AbstractC10739q<ResponseBean<Object>> updateTaskStatus();
+
+    @POST("utils/upload-image")
+    AbstractC10739q<ResponseBean<UploadFileBean>> uploadFile(@PartMap Map<String, C9534d> map);
+
+    @POST("go/api/utils/upload-image")
+    @Multipart
+    AbstractC10739q<ResponseBean<UploadFileBean>> uploadFile(@Part MultipartBody.Part part);
+
+    @POST("/go/api/webData/post-web-data")
+    @Multipart
+    AbstractC10739q<JSONObject> uploadNetworkInfo(@Part("type") RequestBody requestBody, @Part MultipartBody.Part part);
+
+    @FormUrlEncoded
+    @POST("app/api/book-collection/verify-books-in-collection")
+    AbstractC10739q<ResponseBean<VerifyBookInCollectionParser>> verifyBooksInCollection(@Field("collectionId") long j);
+
+    @FormUrlEncoded
+    @POST("app/api/user/verify-captcha")
+    AbstractC10739q<ResponseBean<VerifyCaptchaRespBean>> verifyCaptcha(@Field("email") String str, @Field("verifyCode") String str2);
+
+    @FormUrlEncoded
+    @POST("app/api/power/vote")
+    AbstractC10739q<ResponseBean<VoteItem>> votePowerStone(@Field("bookId") long j, @Field("amount") int i, @Field("bookType") int i2);
+
+    @FormUrlEncoded
+    @POST("app/api/expect-ticket/vote")
+    AbstractC10739q<ResponseBean<VoteItem>> voteTicket(@Field("bookId") long j);
+
+    @POST("app/api/book/watch-chapter-ad")
+    AbstractC10739q<ResponseBean<WatchChapterAdBean>> watchChpterAd(@Query("bookId") long j, @Query("chapterId") long j2);
+
+    @FormUrlEncoded
+    @POST("/go/api/badge/wear")
+    AbstractC10739q<ResponseBean<Object>> wearBadge(@Field("badgeId") long j, @Field("badgeGrade") int i);
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env pwsh
+# Import-WinModule Microsoft.PowerShell.Management
+$UninstallPath1 = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall'
+$UninstallPath2 = 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
+$UninstallPath3 = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall'
+$UninstallPath4 = 'HKCU:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
+$Uninstalls = (Get-ItemProperty $UninstallPath1\*) + (Get-ItemProperty $UninstallPath2\*) + (Get-ItemProperty $UninstallPath3\*) + (Get-ItemProperty $UninstallPath4\*)
+$Uninstalls | Where-Object { ($_.DisplayName -Like '*java*') -or ($_.DisplayName -Like '*jdk*') } | Select-Object -Property DisplayName, DisplayVersion, PSPath | Sort-Object DisplayName, DisplayVersion | Format-Table -Wrap

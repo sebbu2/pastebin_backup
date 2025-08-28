@@ -1,0 +1,37 @@
+[14:26:18] <Cytrix> i dont really trust most distro  cause i keep thinking like this.. i can download debian, throw on some cool looking splash. desktop and package marnager. and drivers but  how do u know i  did or didnt put in any that can spy, and give me ur password...
+[14:27:27] <gizmore> Cytrix: i chose to be transparent. so nobody can steal anything
+[14:27:33] <gizmore> all open source
+[14:27:38] <gizmore> my newest plan:
+[14:27:44] <gizmore> all open source but my property
+[14:27:47] <Wrac4242> spoken like a true security person, why not install gentoo + bootstrap the installer from scratch and review all source codes going in?
+[14:27:49] <Cytrix> not everybody can read the source
+[14:34:58] <Cytrix> for me i always start at debian netinstall..  install just the base with nothin on it..   and monitor it outbound and inbound  if nothing  suspicious then continue install programs i need..
+[14:35:53] <Wrac4242> what do you use to monitor inbound and outbound traffic?
+[14:36:57] <Cytrix> tcpdump and etc
+[14:38:43] <Wrac4242> ok, how do you know they are safe?
+[14:39:32] <Cytrix> if anything i would be blaming on tcpdump
+[14:39:44] <Cytrix> lol
+[14:40:03] <Cytrix> and never use it again but i been using that forever
+[14:40:26] <Wrac4242> ok, say tcpdump isnt trusted and it sends stuff about your system and ignore it, or say the compiler that it was compiled with was infected and added in something there
+[14:44:23] <Cytrix> lol
+[14:46:45] <Cytrix> it will minimize the risk by far lol   but not 100% trusted
+[14:48:39] <Cytrix> compare to full blow distro?
+[14:51:50] <Wrac4242> fair enough there, personally if you are that paranoid, bootstrap the pure essentials to do a gentoo install, and review the source code it downloads and compiles
+[14:52:22] <Cytrix> yeah i use to compile everything from source
+[14:52:43] <Cytrix> then i got settle in with debian base source  to save time
+[14:53:07] <Cytrix> but that was year years years ago when our pc was damn slow lol
+[14:54:14] <Wrac4242> fair enough
+[16:00:27] <sebbu> Wrac4242, simple : you CAN'T review all source code
+[16:00:47] <sebbu> you probably don't understand firmware, drivers and kernel code
+[16:01:14] <sebbu> you don't want to look through all your compiler source code to verify it generate codes that does exactly what you told it to
+[16:01:42] <sebbu> you don't want to look through the source code of the 100+ packages the minimalist installation would have
+[16:02:11] <sebbu> moreover, you might not trust your own hardware you own
+[16:02:41] <sebbu> aka, you don't have the schematics, manuels and vhdl files of your motherboard, cpu, gpu, ram, network card, screen, etc...
+[16:02:59] <sebbu> you might not have the specs of the protocols like usb or hdmi or something
+[16:03:31] <sebbu> maybe your video driver uses its own implementation of hdmi to hide your password in plain sight through steganography
+[16:03:42] <sebbu> so every time you make a screenshot and share it, there's your password in it
+[16:05:01] <sebbu> you also need to verify whether it's the video driver, or xfree86/xorg/waylang/mesa, or xpra or rdp or something
+[16:05:26] <sebbu> maybe it's the minix you have on your own cpu that does the exfiltration of data
+[16:26:56] <ypsehlig> https://wiki.c2.com/?TheKenThompsonHack
+[18:47:25] <Cytrix> lol every screenshot u take  bam password 😂
+[19:25:55] <sebbu> Cytrix, yeah, it's improbable it's the case, but it *could* happen, and i have no way of verifying it

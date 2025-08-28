@@ -1,0 +1,196 @@
+package com.book.write.net.api;
+
+import com.book.write.banner.bean.WriteBannerList;
+import com.book.write.banner.bean.WriteContestsList;
+import com.book.write.model.ContestId;
+import com.book.write.model.Language;
+import com.book.write.model.WelcomeContest;
+import com.book.write.model.Writer;
+import com.book.write.model.chapter.LatestChapterName;
+import com.book.write.model.novel.ActArticlelimit;
+import com.book.write.model.novel.AuthorThounght;
+import com.book.write.model.novel.ChapterVerLogInfo;
+import com.book.write.model.novel.ChapterVerLogList;
+import com.book.write.model.novel.FineLayoutSwitchBean;
+import com.book.write.model.novel.Novel;
+import com.book.write.model.novel.NovelBookRelationShipInfo;
+import com.book.write.model.novel.NovelBookRoleTypeInfo;
+import com.book.write.model.novel.NovelCategory;
+import com.book.write.model.novel.NovelCheckShortTypeBean;
+import com.book.write.model.novel.NovelContest;
+import com.book.write.model.novel.NovelCountryBean;
+import com.book.write.model.novel.NovelDelBookRoleBean;
+import com.book.write.model.novel.NovelExtraInfo;
+import com.book.write.model.novel.NovelRange;
+import com.book.write.model.novel.NovelRolesInfo;
+import com.book.write.model.novel.NovelShortTypesBean;
+import com.book.write.model.novel.NovelStatsSwitchBean;
+import com.book.write.model.novel.NovelStoryTypeBean;
+import com.book.write.model.novel.NovelSurePubChapterBean;
+import com.book.write.model.novel.NovelTagsBean;
+import com.book.write.model.novel.NovelTopicBean;
+import com.book.write.model.novel.NovelUpdateBookInfo;
+import com.book.write.model.novel.NovelsStatsSwitchBean;
+import com.book.write.model.novel.TopTags;
+import com.book.write.model.volume.Volume;
+import com.book.write.net.Response;
+import com.book.write.net.Result;
+import java.util.HashMap;
+import java.util.List;
+import p517io.reactivex.Flowable;
+import p517io.reactivex.Single;
+import retrofit2.p622b.Field;
+import retrofit2.p622b.FieldMap;
+import retrofit2.p622b.FormUrlEncoded;
+import retrofit2.p622b.GET;
+import retrofit2.p622b.POST;
+import retrofit2.p622b.Path;
+import retrofit2.p622b.Query;
+
+public interface NovelApi {
+    @FormUrlEncoded
+    @POST("/api/novel/changeShorttype")
+    Single<Response> changeShortType(@FieldMap HashMap<String, String> hashMap);
+
+    @GET("/api/author/checkCountry/{areaCode}")
+    Single<Result<NovelCountryBean.ResultBean>> checkCountry(@Path("areaCode") String str);
+
+    @FormUrlEncoded
+    @POST("/api/novel/checkBookTitle")
+    Single<Response> checkNovelName(@Field("title") String str);
+
+    @FormUrlEncoded
+    @POST("/api/novel/create")
+    Single<Response<Novel>> createNovel(@FieldMap HashMap<String, String> hashMap);
+
+    @FormUrlEncoded
+    @POST("/api/volume/create")
+    Single<Response<Volume>> createVolume(@Field("CBID") String str, @Field("name") String str2, @Field("introduction") String str3);
+
+    @FormUrlEncoded
+    @POST("/api/volume/remove")
+    Single<Response> deleteVolume(@Field("CBID") String str, @Field("CVID") String str2);
+
+    @FormUrlEncoded
+    @POST("/api/novel/tagSuggestion")
+    Single<Response<List<NovelTagsBean>>> fetTagSuggestion(@Field("language") String str, @Field("tagFillStr") String str2);
+
+    @GET("/api/pub/getLanguages")
+    Single<Response<List<Language>>> fetchAppLanguage(@Query("contestId") String str);
+
+    @GET("/portal/api/externalsite?service=novelsdashboardservice&action=getAppNovelsDashboard7Switch")
+    Single<Result<NovelsStatsSwitchBean.ResultBean>> fetchAppNovelsSwitch();
+
+    @GET("/api/author/getAuthor")
+    Single<Response<Writer>> fetchAuthorName();
+
+    @GET("/externalsite?service=fanficappservice&action=getBookRelationShipInfo")
+    Single<Result<List<NovelBookRelationShipInfo.ResultBean>>> fetchBookRelationShipInfo();
+
+    @GET("/externalsite?service=fanficappservice&action=getBookRoleTypeInfo")
+    Single<Result<List<NovelBookRoleTypeInfo.ResultBean>>> fetchBookRoleTypeInfo();
+
+    @GET("/api/novel/checkShortType/{CBID}")
+    Single<Response<NovelCheckShortTypeBean.ResultBean>> fetchCheckShortType(@Path("CBID") String str);
+
+    @GET("/externalsite?service=fanficappservice&action=delBookRole&crid=38611620162764852&cbid=6391533100001201")
+    Single<Result<NovelDelBookRoleBean.ResultBean>> fetchDelBookRole(@Query("cbid") String str, @Query("crid") String str2);
+
+    @GET("/api/pub/isfinelayout")
+    Single<Result<FineLayoutSwitchBean>> fetchFineLayoutSwitch();
+
+    @GET("/api/chapter/get-last-chapter/{CBID}")
+    Single<Response<LatestChapterName>> fetchLatestChapterName(@Path("CBID") String str);
+
+    @GET("/api/novel/newestContest")
+    Single<Response<ContestId>> fetchLatestContestId();
+
+    @GET("/api/novel/categorys")
+    Single<Response<List<NovelCategory>>> fetchNovelCategory(@Query("freetype") String str, @Query("sexattr") String str2, @Query("contestId") String str3);
+
+    @GET("/api/novel/getContests")
+    Single<Response<List<NovelContest>>> fetchNovelContest(@Query("categoryId") String str, @Query("language") String str2);
+
+    @GET("/api/novel/getNovel/{CBID}")
+    Single<Response<Novel>> fetchNovelDetail(@Path("CBID") String str);
+
+    @GET("/api/novel/getStaData")
+    Flowable<Response<List<NovelExtraInfo>>> fetchNovelExtraInfo(@Query("page") int i);
+
+    @GET("/api/novel/getlist")
+    Single<Response<List<Novel>>> fetchNovelList(@Query("page") int i);
+
+    @GET("/api/novel/getRange")
+    Single<Response<List<NovelRange>>> fetchNovelRange();
+
+    @GET("/externalsite?service=fanficappservice&action=getNovelRolesInfo")
+    Single<Result<List<NovelRolesInfo.ResultBean>>> fetchNovelRolesInfo(@Query("cbid") String str);
+
+    @GET("/externalsite?service=novelsdashboardservice&action=novelsDashboardSwitch")
+    Single<Result<NovelStatsSwitchBean>> fetchNovelStatsSwitch();
+
+    @GET("/api/volume/list/{CBID}")
+    Single<Response<List<Volume>>> fetchNovelVolume(@Path("CBID") String str);
+
+    @GET("/api/novel/getShortTypes/{CBID}")
+    Single<Result<List<NovelShortTypesBean.ResultBean>>> fetchShortTypes(@Path("CBID") String str);
+
+    @GET("/api/novel/storytype")
+    Single<Result<List<NovelStoryTypeBean.ResultBean>>> fetchStoryType();
+
+    @GET("/externalsite?service=appactarticleservice&action=paginateactarticle")
+    Single<Result<WelcomeContest>> fetchWelcomeContest();
+
+    @FormUrlEncoded
+    @POST("/api/novel/topicSearch")
+    Single<Result<List<NovelTopicBean.ResultBean>>> fetchtopicSearch(@Field("topic") String str);
+
+    @GET("/externalsite?service=appnovelservice&action=getActArticleLimit")
+    Single<Result<ActArticlelimit.ResultBean>> getActArticleLimit(@Query("idx") String str);
+
+    @GET("/api/chapter/getAuthorThounght")
+    Single<Result<List<AuthorThounght.ResultBean>>> getAuthorThounght(@Query("CBID") String str);
+
+    @GET("/externalsite?service=novelsdashboardservice&action=getBannerList")
+    Single<Result<List<WriteBannerList.ResultBean>>> getBannerList();
+
+    @GET("/externalsite?service=appnovelservice&action=getChapterVerLogInfo")
+    Single<Result<ChapterVerLogInfo.ResultBean>> getChapterVerLogInfo(@Query("IDX") String str, @Query("shardingDate") String str2);
+
+    @GET("/externalsite?service=appnovelservice&action=getChapterVerLogList")
+    Single<Result<List<ChapterVerLogList.ResultBean>>> getChapterVerLogList(@Query("CBID") String str, @Query("CCID") String str2);
+
+    @GET("/externalsite?service=appactarticleservice&action=getTopContestList")
+    Single<Result<List<WriteContestsList.ResultBean>>> getTopContestList();
+
+    @GET("/externalsite?service=appnovelservice&action=getTopTags")
+    Single<Result<List<TopTags.ResultBean>>> getTopTags();
+
+    @FormUrlEncoded
+    @POST("/externalsite?service=fanficappservice&action=insertBookRole")
+    Single<Response<NovelUpdateBookInfo.ResultBean>> insertBookRole(@Field("cbid") String str, @Field("roleName") String str2, @Field("description") String str3, @Field("roleType") String str4);
+
+    @FormUrlEncoded
+    @POST("/api/novel/attendContest")
+    Single<Response> joinContest(@Field("CBID") String str, @Field("contestid") String str2);
+
+    @FormUrlEncoded
+    @POST("/api/novel/modify")
+    Single<Response> modifyNovel(@FieldMap HashMap<String, String> hashMap);
+
+    @FormUrlEncoded
+    @POST("/api/volume/modify")
+    Single<Response<Boolean>> modifyVolume(@Field("CBID") String str, @Field("CVID") String str2, @Field("name") String str3, @Field("introduction") String str4);
+
+    @FormUrlEncoded
+    @POST("/api/author/saveCountry")
+    Single<Response> saveCountry(@Field("areaCode") String str);
+
+    @FormUrlEncoded
+    @POST("/api/chapter/surePubChapter")
+    Single<Result<NovelSurePubChapterBean.ResultBean>> surePubChapter(@Field("CBID") String str, @Field("content") String str2, @Field("editorMode") String str3);
+
+    @FormUrlEncoded
+    @POST("/externalsite?service=fanficappservice&action=updateBookRole")
+    Single<Response<NovelUpdateBookInfo.ResultBean>> updateBookRole(@Field("cbid") String str, @Field("crid") String str2, @Field("roleName") String str3, @Field("description") String str4, @Field("roleType") String str5);
+}
